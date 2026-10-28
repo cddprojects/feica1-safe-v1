@@ -171,7 +171,7 @@ PAGES["index.html"] = page(
 <div>
 <span class="eyebrow">Guides to flexible work in Canada</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Job Compass covers the terms used in job postings and the work arrangements behind them, with practical information for comparing options.</p>
+<p class="lede">Clear Canadian guidance for comparing work types, finding relevant postings and checking hours, pay and employment terms before you apply.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
 <p class="hero-note">For current openings, search Job Bank or an employer’s careers page.</p>
 </div>
