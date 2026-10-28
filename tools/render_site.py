@@ -177,13 +177,30 @@ PAGES["index.html"] = page(
 </div>
 <div class="hero-art">
 {HERO_ART}
-<div class="modes">
-<h2 class="sr">Work arrangements</h2>
-<a class="mode" href="remote-work-canada.html"><span class="dot"></span><span><b>Remote work</b><small>Describes where the work is completed.</small></span><span class="tag">Location</span></a>
-<a class="mode" href="online-work-canada.html"><span class="dot"></span><span><b>Online work</b><small>Describes how the work is completed or delivered.</small></span><span class="tag">Delivery</span></a>
-<a class="mode" href="flexible-work-canada.html"><span class="dot"></span><span><b>Part-time and flexible work</b><small>Part-time describes hours; flexible describes choice over schedule or workload.</small></span><span class="tag">Hours</span></a>
 </div>
+</div></section>
+
+<section><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>The terms describe different parts of a job.</h2><p class="lede">A posting may use several of these terms at once. Each one answers a different question about the work.</p></div>
+<div class="types">
+<article class="type reveal"><div><span class="n">01 · Location</span><h3><a href="remote-work-canada.html">Remote work</a></h3></div><div><p>The work is completed away from the employer’s workplace. A remote position may still be limited to a province, territory or time zone. Hybrid work includes required on-site days.</p><p><a href="remote-work-canada.html">About remote work</a></p></div></article>
+<article class="type reveal"><div><span class="n">02 · Delivery</span><h3><a href="online-work-canada.html">Online work</a></h3></div><div><p>The work is completed or delivered over the internet. Online work can be remote, hybrid or on-site, and may include customer support, writing, bookkeeping, tutoring, design or software work.</p><p><a href="online-work-canada.html">About online work</a></p></div></article>
+<article class="type reveal"><div><span class="n">03 · Hours</span><h3><a href="flexible-work-canada.html">Part-time and flexible work</a></h3></div><div><p>Part-time describes the number of hours. Flexible describes some choice over schedule or workload. A part-time job can have fixed hours, and a flexible job can still be full-time.</p><p><a href="flexible-work-canada.html">About flexible work</a></p></div></article>
+<article class="type reveal"><div><span class="n">04 · Relationship</span><h3><a href="services.html">Freelance and additional work</a></h3></div><div><p>Freelance usually describes independent contract work. A second job describes work held alongside another job and may be regular employment or contract work.</p><p><a href="services.html">Compare additional work</a></p></div></article>
 </div>
+</div></section>
+
+<section class="route" id="recruitment"><div class="wrap">
+<div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>Five details that narrow the results.</h2>
+<p class="lede">These details connect the kind of work a reader wants with the filters and terms found in Canadian job postings.</p></div>
+<ol class="stops">
+<li class="stop reveal"><span class="n">1</span><h3>Occupation</h3><p>A job title or occupation produces more relevant results than searching only for “work from home.”</p></li>
+<li class="stop reveal"><span class="n">2</span><h3>Work location</h3><p>Remote, hybrid and on-site labels show where the work is completed and whether attendance is required.</p></li>
+<li class="stop reveal"><span class="n">3</span><h3>Hours and availability</h3><p>Weekly hours, time zone and required availability determine whether the schedule fits.</p></li>
+<li class="stop reveal"><span class="n">4</span><h3>Working relationship</h3><p>Employee and independent-contractor arrangements handle control, expenses, deductions and taxes differently.</p></li>
+<li class="stop reveal"><span class="n">5</span><h3>Posting details</h3><p>A useful posting identifies the employer, location, duties, pay basis and application method.</p></li>
+</ol>
+<p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">How to search for remote work &rarr;</a></p>
 </div></section>
 
 <section class="alt"><div class="wrap">
@@ -208,9 +225,21 @@ PAGES["index.html"] = page(
 </div>
 </div></section>
 
-<section class="alt"><div class="wrap split">
-<div><span class="eyebrow">More information</span><h2>Questions about a guide?</h2><p class="lede">Questions about the terms, figures or links in a guide can be sent by email.</p></div>
-<div class="btn-row"><a class="btn btn-primary" href="contact.html">Contact Job Compass</a><a class="btn btn-ghost" href="faq.html">Read common questions</a></div>
+<section class="alt" id="contact"><div class="wrap split">
+<div><span class="eyebrow">Contact</span><h2>Questions about the guides?</h2><p class="lede">Send a question about the terms, figures or public sources used in a guide. The form opens a message in your email application.</p>
+<p class="notice">Job Compass cannot assess a job offer or provide individual legal, tax, immigration or employment advice. Do not include identification or banking information.</p></div>
+<div>
+<form id="contact-form" class="form" novalidate>
+<div class="field"><label for="name">Name</label><input id="name" required autocomplete="name"><div class="err" aria-live="polite"></div></div>
+<div class="field"><label for="email">Email</label><input id="email" type="email" required autocomplete="email"><div class="err" aria-live="polite"></div></div>
+<div class="field"><label for="province">Province or territory</label><select id="province"><option value="">Prefer not to say</option><option>Alberta</option><option>British Columbia</option><option>Manitoba</option><option>New Brunswick</option><option>Newfoundland and Labrador</option><option>Northwest Territories</option><option>Nova Scotia</option><option>Nunavut</option><option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option><option>Saskatchewan</option><option>Yukon</option><option>Outside Canada</option></select></div>
+<div class="field"><label for="topic">Topic</label><select id="topic"><option>Remote work</option><option>Online work</option><option>Part-time or flexible work</option><option>Freelance or additional work</option><option>Pay, deductions or employment status</option><option>Another question about a guide</option></select></div>
+<div class="field"><label for="msg">Question</label><textarea id="msg" required></textarea><div class="err" aria-live="polite"></div></div>
+<button class="btn btn-primary" type="submit">Open email</button>
+<p class="notice">This form does not submit information to the website.</p>
+</form>
+<div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email message is ready.</h3><p>Review it in your email app before sending.</p><p class="ok-sub">If the app did not open, email {EMAIL}.</p></div>
+</div>
 </div></section>
 """,
 )
