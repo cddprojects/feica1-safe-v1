@@ -327,6 +327,7 @@ PAGES["online-work-canada.html"] = page(
 <p>Search by occupation, then use the posting to confirm the work location, hours, employer and pay arrangement. The guide to <a href="article-where-to-look.html">searching for remote work</a> covers Job Bank filters and employer verification.</p>
 <h2>Sources</h2>
 <ul class="sources">
+<li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html" rel="noopener">Canada Revenue Agency: Employee or Self-employed?</a></li>
 <li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job</a></li>
 </ul>
 </div></section>
@@ -563,7 +564,7 @@ PAGES["article-pay-and-province.html"] = page(
 <p>The applicable employment standards can depend on the employer, worker, workplace and whether the business is federally regulated. The location in a remote posting is relevant, but it does not always settle jurisdiction by itself.</p>
 <h2>What job postings must show in B.C. and Ontario</h2>
 <p>British Columbia has required pay information in covered public job postings since 1 November 2023. Ontario’s rules from 1 January 2026 require many employers to show expected compensation or a range, disclose artificial-intelligence screening and say whether a vacancy exists. Details and exceptions are in <a href="article-read-a-remote-ad.html">How to read a remote job posting</a>. A posted range is not a written offer. </p>
-<h2>A second paycheque</h2>
+<h2>Payroll deductions from a second job</h2>
 <p>A second employer still makes required payroll deductions. Multiple jobs can affect TD1 claims and may produce excess CPP or QPP contributions. The Canada Revenue Agency’s current instructions explain how to complete payroll forms and report contributions when filing a return.</p>
 <p>A contract that uses the word “freelance” does not by itself establish self-employment. The Canada Revenue Agency considers control, tools, subcontracting, financial risk and opportunity for profit when assessing employment status.</p>
 <h2>Sources</h2>
@@ -572,7 +573,6 @@ PAGES["article-pay-and-province.html"] = page(
 <li><a href="https://www.jobbank.gc.ca/support/question?qaid=143&amp;tid=7" rel="noopener">Job Bank: remote jobs and wage regulations</a></li>
 <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/income-tax.html" rel="noopener">Canada Revenue Agency: income tax when an employee has different jobs</a></li>
 <li><a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp.html" rel="noopener">Canada Revenue Agency: CPP when an employee has different jobs</a></li>
-<li><a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-44800-cpp-overpayment.html" rel="noopener">Canada Revenue Agency: line 44800, CPP or QPP overpayment</a></li>
 </ul>
 """,
     ),
