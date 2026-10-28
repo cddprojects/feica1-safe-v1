@@ -188,27 +188,26 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">What · Work arrangements</span><h2>Types of flexible work in Canada.</h2><p class="lede">The first distinction is between work location, online delivery and working hours. A position can combine more than one arrangement.</p></div>
+<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Compare remote, online and flexible work.</h2><p class="lede">Work location, online delivery and working hours are separate conditions. One position may combine more than one arrangement.</p></div>
 <div class="minis">
-<a class="mini reveal" href="remote-work-canada.html"><b>Work from home</b><span>Fully remote jobs, hybrid jobs and how they differ.</span></a>
+<a class="mini reveal" href="remote-work-canada.html"><b>Remote &amp; hybrid</b><span>Work completed away from the employer’s workplace, with or without scheduled on-site days.</span></a>
 <a class="mini reveal" href="online-work-canada.html"><b>Online work</b><span>Jobs completed or delivered over the internet.</span></a>
 <a class="mini reveal" href="flexible-work-canada.html"><b>Part-time &amp; flexible</b><span>Part-time and flexible hours alongside other commitments.</span></a>
 <a class="mini reveal" href="article-second-path.html"><b>Freelance &amp; additional work</b><span>Project-based and additional work, including variable income.</span></a>
 </div>
-</div></section>
-
-<section class="alt"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Why · Reasons for additional work</span><h2>Reasons people hold more than one job.</h2><p class="lede">The reason for seeking additional work helps determine which hours, income pattern and level of flexibility may be suitable.</p></div>
+<div class="reason-panel">
+<div class="head reveal"><span class="eyebrow">Reasons for additional work</span><h2>Why Canadians take on additional work.</h2><p class="lede">Income, experience and scheduling needs shape which work arrangements are practical.</p></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share cited income beyond everyday essentials.</p></li>
 <li class="reveal"><span class="no">14.5%</span><h3>Meaningful work</h3><p>Another share cited work in a field they were passionate about.</p></li>
 </ol>
 <p class="src-note">Source: Statistics Canada survey of multiple jobholders aged 15 to 69, August 2023.</p>
+</div>
 </div></section>
 
 <section class="route" id="recruitment"><div class="wrap">
-<div class="route-head reveal"><span class="eyebrow">How · Finding suitable arrangements</span><h2>A clearer search for remote and online work.</h2>
+<div class="route-head reveal"><span class="eyebrow">Searching for work</span><h2>Finding suitable remote and online opportunities.</h2>
 <p class="lede">Relevant results depend on more than a “work from home” keyword. A practical search begins with an occupation, narrows results by work location and hours, and then checks each posting for the employer, pay and employment or contract status.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Reason for searching</h3><p>Extra income, experience, fewer hours or less travel.</p></li>
@@ -220,64 +219,19 @@ PAGES["index.html"] = page(
 <p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">How to search for remote work</a></p>
 </div></section>
 
-<section id="roles"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Which · Roles to consider</span><h2>Work that can be delivered remotely or online.</h2><p class="lede">The work arrangement is separate from the occupation. A useful search starts with a role that matches existing skills, then applies location and hours filters.</p></div>
-<div class="answer-grid">
-<article class="answer-card reveal"><span class="answer-kicker">Customer and administration</span><h3>Service, scheduling and records</h3><p>Customer support, administrative assistance, scheduling and bookkeeping may be offered online when the employer’s systems support remote access.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Digital and technical</span><h3>Software, data and IT support</h3><p>Development, testing, data work and technical support are commonly delivered online, although some positions include office or on-call requirements.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Communication and creative</span><h3>Writing, design and marketing</h3><p>Writing, editing, design, marketing and content moderation may appear as employment or independent contract work.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Teaching and specialist services</span><h3>Tutoring, training and consulting</h3><p>Online delivery is possible for tutoring, training, translation and consulting when the applicant has the required subject knowledge or credentials.</p></article>
-</div>
-<p class="src-note">These are occupational examples, not a list of current openings. Job titles, qualifications and work arrangements are set by each employer or client.</p>
-</div></section>
-
-<section class="alt" id="timing"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">When · Search timing</span><h2>Timing for a smaller, changing market.</h2><p class="lede">Remote and part-time openings form a narrow part of the job market. New postings, closing dates and required working hours affect when an opportunity is relevant.</p></div>
+<section class="alt" id="market"><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Canadian job market</span><h2>Remote and flexible work in Canada’s job market.</h2><p class="lede">Remote openings form a small share of the market. Suitable opportunities depend on occupation, province, experience, available hours and the terms of the posting.</p></div>
 <div class="answer-grid three">
-<article class="answer-card reveal"><span class="answer-kicker">New postings</span><h3>Saved searches reduce repeat work</h3><p>Job Bank alerts can report new matches as employers publish them. Counts change as postings open, expire or are filled.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Working hours</span><h3>Availability must match the schedule</h3><p>Time zone, fixed shifts, weekly hours and project deadlines determine whether remote or additional work fits existing commitments.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Hiring timeline</span><h3>Response times vary by employer</h3><p>There is no standard response period. Closing dates, screening steps and interview schedules shape the process for each vacancy.</p></article>
+<article class="answer-card reveal"><span class="answer-kicker">Roles and employers</span><h3>Occupation and arrangement are separate details</h3><p>Customer support, administration, software, writing, design and specialist services may be delivered online, depending on the employer and the work involved.</p></article>
+<article class="answer-card reveal"><span class="answer-kicker">Timing and sources</span><h3>Postings change throughout the search</h3><p>Job Bank alerts identify new matches. Employer career pages confirm current vacancies, while Job Bank trend data provides regional context.</p></article>
+<article class="answer-card reveal"><span class="answer-kicker">Requirements and competition</span><h3>Role requirements still apply</h3><p>Qualifications, location, communication, tools and time-zone availability still matter. Response times vary with each employer’s process.</p></article>
 </div>
-</div></section>
-
-<section id="sources"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Where · Reliable sources</span><h2>Reliable places to find opportunities and context.</h2><p class="lede">A posting source shows the opening; a labour-market source helps explain the occupation, outlook and regional conditions around it.</p></div>
-<div class="answer-grid three">
-<article class="answer-card reveal"><span class="answer-kicker">Current openings</span><h3>Job Bank</h3><p>Canada’s public job board supports searches by occupation, location, work arrangement and hours, with alerts for new matches.</p><p><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Search Job Bank &rarr;</a></p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Employer confirmation</span><h3>Career pages</h3><p>An employer’s own website can confirm that a vacancy is current, identify the application method and provide information about the organization.</p><p><a href="article-read-a-remote-ad.html">Review posting details &rarr;</a></p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Regional context</span><h3>Job Bank trends and provincial services</h3><p>Occupation outlooks, local wages, training and employment standards vary by province, territory and economic region.</p><p><a href="https://www.jobbank.gc.ca/trend-analysis" rel="noopener">View Job Bank trend analysis &rarr;</a></p></article>
-</div>
-</div></section>
-
-<section class="market-section" id="market"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Demand and competition by province</span><h2>Remote openings remain a small, competitive part of the market.</h2><p class="lede">National figures provide context, but they do not predict an individual result. Occupation, province, experience and the terms of each posting determine the practical opportunity.</p></div>
-<div class="statrow">
-<div class="stat reveal"><b>510,200</b><span>job vacancies across all industries, second quarter of 2026</span></div>
-<div class="stat reveal"><b>2.8%</b><span>national vacancy rate in the second quarter of 2026</span></div>
-<div class="stat reveal"><b>3.0</b><span>unemployed people for every vacancy in the second quarter of 2026</span></div>
-<div class="stat reveal"><b>About 700</b><span>Job Bank postings marked remote out of about 84,000 in October 2026</span></div>
-</div>
-<div class="market-factors">
-<div class="reveal"><h3>Demand must be read by occupation and province</h3><p>Job Bank outlooks assess an occupation within a province or economic region. A high total vacancy count in one province does not necessarily mean more remote openings in a particular field.</p></div>
-<div class="reveal"><h3>Competition extends beyond the local market</h3><p>Remote postings may attract applicants from several provinces. Residence, licensing, language and time-zone requirements can reduce the eligible pool for a specific position.</p></div>
-<div class="reveal"><h3>Pay and employment rules still have a location</h3><p>Minimum wage, pay-transparency requirements and employment standards depend on the applicable province, territory or federal jurisdiction.</p></div>
-</div>
-<p class="src-note">Sources: Statistics Canada, second quarter and September 2026; Job Bank snapshot, October 2026. Counts change as employers add and close postings. <a href="article-what-vacancies-mean.html">Read the Canadian market guide</a>.</p>
-</div></section>
-
-<section class="alt" id="expectations"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">What employers may expect</span><h2>Qualifications, experience, tools and response times.</h2><p class="lede">Requirements come from the occupation and the employer. Remote work adds practical expectations around communication, location, equipment and working without continuous on-site supervision.</p></div>
-<div class="answer-grid">
-<article class="answer-card reveal"><span class="answer-kicker">Qualifications</span><h3>Role-specific education or credentials</h3><p>The posting should identify required education, licences, language ability or certifications. A remote arrangement does not remove occupational requirements.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Experience</span><h3>Relevant outcomes and communication</h3><p>Applications are stronger when they show completed work, measurable results and clear written communication rather than duty lists alone.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Tools and setup</span><h3>Software, internet and equipment</h3><p>Postings may name communication, project or technical tools and may state who supplies the computer, software or other equipment.</p></article>
-<article class="answer-card reveal"><span class="answer-kicker">Response timeline</span><h3>No standard waiting period</h3><p>Application volume and screening steps affect timing. The posting’s closing date and the employer’s messages are the relevant sources for status updates.</p></article>
-</div>
-<div class="btn-row"><a class="btn btn-ghost" href="article-remote-cv.html">Résumé guidance</a><a class="btn btn-ghost" href="article-read-a-remote-ad.html">Job-posting guidance</a></div>
+<p class="src-note">In October 2026, about 700 of roughly 84,000 Job Bank postings were marked remote. Counts change as employers add and close postings.</p>
+<div class="btn-row"><a class="btn btn-primary" href="article-what-vacancies-mean.html">Canadian job-market guide</a><a class="btn btn-ghost" href="https://www.jobbank.gc.ca/trend-analysis" rel="noopener">Job Bank trend analysis</a></div>
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Popular guides</span><h2>Remote work, pay and applications.</h2><p class="lede">Canadian information on work arrangements, job searches and employment terms.</p></div>
+<div class="head reveal"><span class="eyebrow">Guides and articles</span><h2>Job-search, application and pay guides.</h2><p class="lede">Detailed Canadian information on work arrangements, job postings, applications and employment terms.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Money is only part of it. Time, location and meaningful work matter too.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Occupation, work-location and hours filters provide more relevant Job Bank results.</p></article>
@@ -289,7 +243,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Get in touch</span><h2>Questions about work arrangements or job searches</h2><p class="lede">Questions about remote, online and flexible work are welcome.</p>
+<div><span class="eyebrow">Get in touch</span><h2>Questions about remote and flexible work.</h2><p class="lede">Questions about work arrangements, job searches and the published guides are welcome.</p>
 </div>
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -546,11 +500,25 @@ PAGES["article-what-vacancies-mean.html"] = page(
 <p>Software developers and programmers had 3,545 vacancies in that quarter, up about 35 per cent year over year, with an average offered hourly wage of $43.65. Offered wages are the amounts employers advertised for vacancies in that occupation. They do not represent pay for remote work generally. Pay varies by occupation and posting.</p>
 <h2>Part-time remote work</h2>
 <p>Part-time remote work is a narrower search than “any job,” so relevant postings may appear less often. A Job Bank alert can track new results. The national vacancy total does not measure an individual applicant’s prospects.</p>
+<h2>Roles that may support remote or online delivery</h2>
+<p>Work arrangement and occupation are separate details. Customer support, administration, scheduling and bookkeeping may be offered online when an employer’s systems support remote access. Software development, testing, data work and technical support are also commonly delivered online, although some positions include office or on-call requirements.</p>
+<p>Writing, editing, design, marketing, tutoring, training, translation and consulting may appear as employment or independent contract work. These examples describe how work can be delivered; they are not a list of current openings. Each employer or client sets the job title, qualifications, hours and permitted work location.</p>
+<h2>When and where opportunities appear</h2>
+<p>Remote and part-time postings open and close throughout the year rather than on one national schedule. Job Bank alerts can report new matches from a saved occupation, location and hours search. Closing dates, fixed shifts, time zones and project deadlines determine whether a posting remains relevant to an applicant’s availability.</p>
+<p>Job Bank provides current postings and labour-market information. An employer’s careers page can confirm that a vacancy is current and identify the application method. Provincial and territorial employment services provide regional information on wages, training and employment standards.</p>
+<h2>Demand and competition differ by province</h2>
+<p>Job Bank outlooks assess an occupation within a province or economic region. A high total vacancy count in one province does not necessarily mean more remote openings in a particular field. Remote postings may also attract applicants from several provinces, while residence, licensing, language and time-zone requirements can narrow the eligible group.</p>
+<p>Minimum wage, pay-transparency requirements and employment standards depend on the applicable province, territory or federal jurisdiction. The guide to <a href="article-pay-and-province.html">pay and province</a> explains these distinctions.</p>
+<h2>Qualifications, tools and response times</h2>
+<p>A remote arrangement does not remove occupational requirements. Postings may specify education, licences, language ability, certifications, communication skills and experience working with limited on-site supervision. They may also name communication, project or technical tools and state who supplies the computer, software or other equipment.</p>
+<p>There is no standard employer response period. Closing dates, application volume, screening steps and interview schedules shape the timeline. The employer’s messages are the relevant source for an application’s status. The guides to <a href="article-remote-cv.html">remote-work résumés</a> and <a href="article-read-a-remote-ad.html">job-posting details</a> cover applications in more detail.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/260915/dq260915a-eng.htm" rel="noopener">Statistics Canada: job vacancies, second quarter 2026</a></li>
 <li><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/261009/dq261009a-eng.htm" rel="noopener">Statistics Canada: Labour Force Survey, September 2026</a></li>
 <li><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/260605/dq260605a-eng.htm" rel="noopener">Statistics Canada: Labour Force Survey, May 2026, work location</a></li>
+<li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job</a></li>
+<li><a href="https://www.jobbank.gc.ca/trend-analysis" rel="noopener">Job Bank: trend analysis by occupation and region</a></li>
 </ul>
 """,
     ),

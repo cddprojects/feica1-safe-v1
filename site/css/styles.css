@@ -206,6 +206,8 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .mini:hover{transform:translateY(-5px) rotate(-1deg);color:var(--ink)}
 .mini b{display:block;font:500 1.35rem var(--f-head);margin-bottom:.15rem}
 .mini span{font-size:.95rem;color:var(--ink-2);line-height:1.4;display:block}
+.reason-panel{margin-top:clamp(3.5rem,7vw,6rem);padding:clamp(1.75rem,5vw,4rem);background:var(--sand);border-radius:clamp(2rem,5vw,4rem)}
+.reason-panel .head{margin-bottom:2.5rem}
 
 /* homepage question sequence */
 .answer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
@@ -219,19 +221,8 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .answer-card h3{font-size:clamp(1.25rem,2vw,1.55rem);margin-bottom:.45rem}
 .answer-card p{margin:.45rem 0 0;color:var(--ink-2);line-height:1.55}
 .answer-card p a{font-weight:650}
-.market-section{background:var(--spruce);color:var(--paper);border-radius:clamp(2rem,6vw,5rem);margin-inline:clamp(.4rem,1.6vw,1.25rem)}
-.market-section .eyebrow,.market-section .stat b{color:var(--butter)}
-.market-section h2,.market-section h3{color:#fff}
-.market-section .lede,.market-section .stat span,.market-section .src-note{color:#cfdac9}
-.market-section .statrow{margin-bottom:3.5rem}
-.market-factors{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1.5rem,4vw,3rem)}
-.market-factors > div{padding-top:1.25rem;border-top:1px solid color-mix(in srgb,var(--butter) 40%,transparent)}
-.market-factors h3{font-size:1.25rem;margin-bottom:.5rem}
-.market-factors p{margin:0;color:#cfdac9}
-.market-section .src-note{border-left-color:var(--butter)}
-.market-section a{color:var(--butter)}
 @media(max-width:800px){
- .answer-grid,.answer-grid.three,.market-factors{grid-template-columns:1fr}
+ .answer-grid,.answer-grid.three{grid-template-columns:1fr}
 }
 
 /* tiles (Why it matters) */
