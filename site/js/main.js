@@ -61,25 +61,25 @@
     var hopes = {
       essentials: {
         h: "A second job for essentials",
-        p: "In August 2023, 34.9% of people with more than one job said the main reason was paying for groceries, housing and other essentials. Write down the hours you can give beside your main job, then search Job Bank for that title with the remote and part-time filters. Read the pay guide before you treat an advertised range as your wage.",
+        p: "In August 2023, 34.9% of people with more than one job said their main reason was paying for groceries, housing and other essentials. Decide how many hours you can work alongside your main job, then search Job Bank for a suitable title and use the remote and part-time filters. Read the pay guide before treating an advertised range as your expected wage.",
         href: "article-pay-and-province.html",
         link: "Pay and a second job"
       },
       extra: {
         h: "Extra income, with a limit on hours",
-        p: "Almost the same share, 34.8%, said they wanted extra income. Decide the hours first. A part-time employee role comes with a pay stub. Contract work can be quieter in some months.",
+        p: "Almost the same share, 34.8%, said they wanted extra income. Decide how many hours you can realistically work. Part-time employees receive regular pay statements, while contract income may vary from month to month.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       },
       craft: {
-        h: "A field you want to build",
-        p: "14.5% said they held a second job to do work they were passionate about. Start from a skill you can already show, and put one finished result on the CV. Then search that job title, not the words “work from home” alone.",
+        h: "Build experience in a field",
+        p: "14.5% said they held a second job to do work they were passionate about. Start with a skill you can demonstrate and include a relevant result on your resume. Search for a suitable job title rather than relying on the words “work from home” alone.",
         href: "article-remote-cv.html",
-        link: "The CV guide"
+        link: "The resume guide"
       },
       hours: {
         h: "Hours that fit the rest of your life",
-        p: "School, children, health, or a preference for a shorter week are why many people work part-time. On this desk, flexible means those hours are attached to online or remote work.",
+        p: "School, family responsibilities, health needs or a preference for a shorter schedule are among the reasons people work part-time. North Desk focuses on flexible hours for online or remote work.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       }
