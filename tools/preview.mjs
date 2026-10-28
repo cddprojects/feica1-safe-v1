@@ -39,8 +39,8 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(port, "0.0.0.0", () => {
+server.listen({ port, host: "::", ipv6Only: false }, () => {
   console.log("North Desk preview");
   console.log("http://127.0.0.1:" + port + "/");
-  console.log("http://localhost:" + port + "/");
+  console.log("http://[::1]:" + port + "/");
 });
