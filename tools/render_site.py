@@ -102,7 +102,7 @@ def footer():
 <div>{brand()}
 <p style="margin-top:1rem;max-width:36ch">An independent Canadian publisher covering online, remote and flexible work for people considering a second job or an additional source of income.</p></div>
 <div><h4>Guides</h4><ul>
-<li><a href="reading.html">All articles</a></li>
+<li><a href="reading.html">Browse all guides</a></li>
 <li><a href="work-types.html">Work types</a></li>
 <li><a href="path-check.html">Find the right guide</a></li>
 <li><a href="glossary.html">Glossary</a></li>
@@ -156,7 +156,7 @@ def article(eyebrow, h1, lede, body, reviewed="October 2026"):
 <p class="byline">Job Compass &middot; Last reviewed {reviewed}</p>
 <p class="lede">{lede}</p>
 {body}
-<p style="margin-top:2.5rem"><a href="reading.html">&larr; All articles</a></p>
+<p style="margin-top:2.5rem"><a href="reading.html">&larr; Back to all guides</a></p>
 </div></section>"""
 
 
