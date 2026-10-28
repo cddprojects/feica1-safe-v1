@@ -41,7 +41,8 @@ HERO_ART = (
     '<g clip-path="url(#arch)">'
     '<rect width="480" height="560" fill="url(#sky)"/>'
     '<circle cx="380" cy="110" r="64" fill="#f7d77b" opacity=".85"/>'
-    '<circle cx="90" cy="96" r="26" fill="#fff" opacity=".55"/>'
+    '<circle cx="90" cy="96" r="30" fill="#fff" opacity=".72"/>'
+    f'<path d="{LEAF}" fill="#c4442f" transform="translate(77 82) scale(.26)"/>'
     '<rect x="0" y="392" width="480" height="168" fill="#23402f"/>'
     '<rect x="0" y="392" width="480" height="10" fill="#183024"/>'
     '<rect x="94" y="164" width="292" height="222" rx="20" fill="#1f2a24"/>'
@@ -169,19 +170,21 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">Guides to flexible work in Canada</span>
-<h1>A practical look at remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Explore how remote, online and flexible work differs in Canada, where current opportunities are posted, and which details matter when comparing hours, pay and employment terms.</p>
+<span class="eyebrow">A Canadian guide to flexible work</span>
+<h1>Your compass for remote, online and flexible work in <em>Canada.</em></h1>
+<p class="lede">Compare the ways flexible work can be structured, see where current postings are published, and understand the hours, pay and employment terms behind each opportunity.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
 <p class="hero-note">For current openings, search Job Bank or an employer’s careers page.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
+<div class="art-stamp"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="{LEAF}"/></svg><span>Canada-focused</span></div>
+<div class="art-caption"><small>Compare the essentials</small><strong>Location · Schedule · Pay</strong></div>
 </div>
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Remote, online or flexible—what sets each option apart.</h2><p class="lede">A posting may use several of these terms at once. Each one answers a different question about the work.</p></div>
+<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Flexible work comes in more than one form.</h2><p class="lede">Remote describes location. Online describes how work is delivered. Part-time and flexible describe hours or workload. A single posting may combine several of them.</p></div>
 <div class="types">
 <article class="type reveal"><div><span class="n">01 · Location</span><h3><a href="remote-work-canada.html">Remote work</a></h3></div><div><p>The work is completed away from the employer’s workplace. A remote position may still be limited to a province, territory or time zone. Hybrid work includes required on-site days.</p><p><a href="remote-work-canada.html">About remote work</a></p></div></article>
 <article class="type reveal"><div><span class="n">02 · Delivery</span><h3><a href="online-work-canada.html">Online work</a></h3></div><div><p>The work is completed or delivered over the internet. Online work can be remote, hybrid or on-site, and may include customer support, writing, bookkeeping, tutoring, design or software work.</p><p><a href="online-work-canada.html">About online work</a></p></div></article>
@@ -191,8 +194,8 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="route" id="recruitment"><div class="wrap">
-<div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>Five details that bring a job search into focus.</h2>
-<p class="lede">These details connect the kind of work a reader wants with the filters and terms found in Canadian job postings.</p></div>
+<div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>A better-matched search starts with the right details.</h2>
+<p class="lede">Occupation, work location, schedule and employment status shape which postings are relevant. These five details bring a broad search into focus.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Occupation</h3><p>A job title or occupation produces more relevant results than searching only for “work from home.”</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Work location</h3><p>Remote, hybrid and on-site labels show where the work is completed and whether attendance is required.</p></li>
@@ -204,7 +207,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Why some Canadians take on a second job.</h2><p class="lede">Statistics Canada asked multiple jobholders aged 15 to 69 for their main reason in August 2023.</p></div>
+<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>A second job can be about more than extra income.</h2><p class="lede">For some Canadians, additional work covers everyday costs. For others, it creates extra income or a chance to do meaningful work. Statistics Canada measured these reasons in August 2023.</p></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share wanted money beyond the basics.</p></li>
@@ -214,7 +217,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">A practical sequence</span><h2>A practical path from first search to application.</h2><p class="lede">Each guide answers the next question that commonly arises during a remote or flexible job search.</p></div>
+<div class="head reveal"><span class="eyebrow">Guides for each stage</span><h2>From first search to a stronger application.</h2><p class="lede">Six practical reads connect the key decisions: understanding work types, interpreting job-market figures, finding postings, checking the details, preparing a resume and comparing pay.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Job market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">What remote-work statistics can tell you</a></h3><p>Work-from-home figures and vacancy figures measure different parts of the labour market.</p></article>
@@ -226,7 +229,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Contact</span><h2>Need more detail from a guide?</h2><p class="lede">Send a question about the terms, figures or public sources used in a guide. The form opens a message in your email application.</p>
+<div><span class="eyebrow">Contact</span><h2>Looking for one more detail?</h2><p class="lede">If a term, figure or public source in a guide needs more explanation, send us a question. The form opens a message in your email application.</p>
 <p class="notice">Job Compass cannot assess a job offer or provide individual legal, tax, immigration or employment advice. Do not include identification or banking information.</p></div>
 <div>
 <form id="contact-form" class="form" novalidate>
