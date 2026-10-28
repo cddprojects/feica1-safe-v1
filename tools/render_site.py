@@ -164,7 +164,7 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">Remote and flexible work in Canada</span>
+<span class="eyebrow">Work arrangements and job search</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
 <p class="lede">The guides explain how these work arrangements differ, where current postings appear, and what hours, pay and employment terms mean in practice.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
@@ -733,7 +733,7 @@ PAGES["about.html"] = page(
     "About Job Compass, an editorial publisher covering remote, online and flexible work in Canada.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">About</span><h1>About Job Compass</h1></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Work information for Canadians</span><h1>About Job Compass</h1></div></div>
 <section><div class="wrap article">
 <h2>What Job Compass covers</h2>
 <p>Job Compass publishes guides that compare work arrangements, explain where postings appear and describe the terms found in job advertisements and written offers.</p>
@@ -755,7 +755,7 @@ PAGES["contact.html"] = page(
     "Contact Job Compass about its guides to remote, online and flexible work in Canada. Please do not send identification or banking information.",
     "contact.html",
     f"""
-<div class="page-head"><div class="wrap"><span class="eyebrow">Contact</span><h1>Contact</h1><p class="lede">Questions about a published guide or one of its sources can be sent by email.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Questions about the guides</span><h1>Contact Job Compass</h1><p class="lede">Questions about a published guide or one of its sources can be sent by email.</p></div></div>
 <section><div class="wrap split">
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -784,7 +784,7 @@ PAGES["privacy.html"] = page(
     "How Job Compass handles personal information. The contact form opens your email app. The path check and search run in your browser.",
     "contact.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Privacy</span><h1>Privacy</h1><p class="lede">Last updated 28 October 2026.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Site information</span><h1>Privacy</h1><p class="lede">Last updated 28 October 2026.</p></div></div>
 <section><div class="wrap article">
 <p>This notice explains the limited personal information involved when you use Job Compass. The site does not offer user accounts.</p>
 <h2>What you can send us</h2>
@@ -808,7 +808,7 @@ PAGES["disclaimer.html"] = page(
     "Job Compass publishes general information on remote, online and flexible work in Canada. It does not hire candidates or guarantee employment or income.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Disclaimer</span><h1>Disclaimer</h1></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Site information</span><h1>Disclaimer</h1></div></div>
 <section><div class="wrap article">
 <h2>About this publication</h2>
 <p>Job Compass publishes general information about remote, online and flexible work in Canada. It does not list jobs, recruit or place candidates, or act on behalf of employers.</p>
