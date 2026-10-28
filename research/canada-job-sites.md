@@ -2,6 +2,8 @@
 
 Research date: 27 October 2026 (Asia/Kuala Lumpur). This note is for an independent Canada career publication in the same family as WorkNest SG. It is not a job board, and it should not read like one.
 
+Update, 28 October 2026: the site’s job is guidance for people who want online, remote, or flexible work as a second path. A later section, “What guidance sites say about online, remote and flexible work,” records how official and commercial sites talk. The scam-first article list further down is the 27 October plan. Do not put it back in the hero.
+
 ## The market, in one paragraph
 
 Statistics Canada counted **510,200 job vacancies** in the second quarter of 2026. The vacancy rate held at **2.8%**. There were **3.0 unemployed people for every vacancy**. In September 2026 the unemployment rate was **6.5%**, employment fell by 68,000, and the employment rate was 60.6%. Boards still open with “your next job starts here” because they are search tools. The numbers say the market is steady and uneven, not wide open.
@@ -257,6 +259,48 @@ Match the Singapore set, with Canadian sources under each title.
 9. A CV for a remote or hybrid role.
 10. Youth, newcomers, and a first Canadian job (13% youth unemployment; Canadian-experience ban on Ontario postings).
 
+## What guidance sites say about online, remote and flexible work
+
+Checked 28 October 2026. North Desk is a publisher. These are the voices already in the market, and the sentence each one actually uses.
+
+### They sort into four kinds of site
+
+**1. Public job boards that also define the words.** They open with a search and a count. Remote is a filter, not an essay.
+
+- Job Bank defines four work locations. Remote: the work must be done remotely, from a place the person chooses, such as a home office. Hybrid: some days in person, and the split is discussed with the employer. On-site: a place the employer names. On the road: the location keeps changing. Remote results can appear from across the country. Job Bank’s own note says those postings follow the wage rules of the employer’s province, which can differ from the province where the person lives. Career planning on the same site is quizzes, occupations, and training, not a magazine about a second job. https://www.jobbank.gc.ca/support/question?mtid=2&qaid=222&tid=7 and https://www.jobbank.gc.ca/support/question?qaid=143&tid=7
+- Indeed Canada’s help article says listings use “remote” in different ways, and “work from home” does not mean the person can work from anywhere. A card that says “Remote – Toronto” or “Remote in Vancouver” may still require the person to live there. Laws and tax can change by province. The same article tells people to use the Remote filter, and a Hybrid filter where it exists. https://ca.indeed.com/help/job-seekers/articles/115005875163-searching-for-remote-jobs?co=CA&hl=en
+- WorkBC’s home page is still a search count and an offer of free help at a local centre. Its search tips teach filters: location, job type, salary, industry, education, date posted. https://www.workbc.ca/find-job/search-jobs/job-search-tips
+
+**2. A rights page, for a narrow set of employees.** Employment and Social Development Canada explains flexible work only under the Canada Labour Code. That covers federally regulated workplaces, not a normal provincial employer. Flexible work, in their words, is a change to the terms of employment so the person can balance work and home. It covers three things: location (home or a satellite office), the schedule (modified hours or a split shift), and the number of hours (part-time, job share, reduced hours). An employee can request it in writing after six continuous months. The employer has 30 days to approve it, approve part of it, propose something else, or refuse with a reason. It is a right to ask, not a right to be given remote work. https://www.canada.ca/en/employment-social-development/corporate/portfolio/labour/programs/labour-standards/flexible-work-arrangements.html
+
+**3. Provincial guidance, which is the closest thing to a publisher.**
+
+- Alberta’s ALIS page, “Maximizing Your Value in a Gig Economy,” is the voice nearest to a second path. It says gig work is “doing jobs” instead of “having a job,” and then names three shapes: self-employed professional work, a gig beside a full-time job (a passion, a hobby, or extra income), and platform work such as Uber, SkipTheDishes, or Upwork. The online list that needs only an internet connection is programming, consulting, social media, website work, and writing or editing. The reasons it gives workers are immediate income, a flexible balance, variety, and avoiding a commute. The cautions are the next contract, no benefits, income that is hard to predict, and setting money aside for tax. The page says “about 13% of Canadians identify as gig workers” and does not show a table or a date for that sentence. Do not reprint 13% as a Statistics Canada figure. https://alis.alberta.ca/plan-your-career/workplace-trends/maximizing-your-value-in-a-gig-economy/
+- Quebec’s CNESST talks about télétravail as how the work is organised: occasional or regular, part-time or full-time, at home or another named place, using information technology. The employer decides whether to offer it. The recommended tools are a workplace policy and an individual agreement. The pages are in French and are not a job board. https://www.cnesst.gouv.qc.ca/fr/prevention-securite/milieu-travail-sain/teletravail/politique-entente-teletravail
+- The Canadian Centre for Occupational Health and Safety uses the words differently from Job Bank. Telework, in its glossary, is usually a voluntary arrangement away from the designated worksite. Remote work is often the employer requiring someone to work elsewhere because of an emergency. Its practical list is a written agreement: duties, deadlines, who supplies the chair and computer, who pays for internet, working alone, and a start-and-end ritual so the day does not run long. https://www.ccohs.ca/oshanswers/hsprograms/telework.html
+
+**4. Commercial remote boards.** They sell or curate openings. They do not explain Canadian rules.
+
+- FlexJobs leads with “work from home jobs” and “flexible hours and hybrid work,” and with a claim that listings are screened so the seeker is not sorting ads and junk. It is a paid job seeker product. It is not a Canadian employment-standards guide. https://www.flexjobs.com/
+- Jobspresso, which Indeed Canada describes as Canadian-based, says “Great remote jobs. Work from anywhere.” Its own FAQ says the listings are curated and reviewed daily, in tech, marketing, customer support, and more. The board has a Canada filter and part-time, contract, and freelance filters. On 28 October 2026 the visible cards were mostly US-dollar roles at US companies that also hire in Canada, with a smaller number of Canadian-dollar roles. A Toronto headquarters is what its LinkedIn company page states. https://jobspresso.co/ and https://jobspresso.co/faq/
+- Indeed Canada’s career article “15 remote job websites” points readers onward to Workopolis (now an Indeed portal), We Work Remotely, Remote.co, FlexJobs, Remote OK, and Jobspresso. Those sites talk about categories and a clean list. They do not talk about a province’s wage floor.
+
+### What the official numbers say, when a site says “gig” or “side income”
+
+Statistics Canada’s Labour Force Survey for December 2025, released 9 January 2026, is the figure to use for platform work. In the 12 months to December 2025, 667,000 people aged 15 to 69 (2.3% of that population) had done paid work through a digital platform. That was little changed from 671,000 a year earlier. The largest activities were delivery of food or other goods (272,000), personal transport (184,000), and selling goods (92,000). Less than a quarter (21.8%) were doing that platform work as their main job in December. The main reasons they started: 45.6% to supplement a main job or earn extra money, 15.4% because other work was hard to find, 14.2% for flexible hours or convenience. https://www150.statcan.gc.ca/n1/daily-quotidien/260109/dq260109a-eng.htm
+
+That survey is apps and sites that coordinate the work or the payment. It is not the same thing as a remote employee job, and it is not ALIS’s unsourced 13%. Delivery and driving dominate the count. The online professional slice (programming, design, tutoring, editing) is smaller and, in the December 2024 chart, was published with a warning that several of those estimates are too variable to treat as precise. https://www150.statcan.gc.ca/n1/daily-quotidien/250110/cg-a005-eng.htm
+
+### What a publisher can take from them
+
+Use the reader’s words in the headline: online, remote, flexible, second path. Use the official words in the body.
+
+- From Job Bank and Indeed: remote, hybrid, and on-site are different, and “remote” can still name a province.
+- From the federal flexible-work page: location, schedule, and number of hours are three separate requests, and the 6-month / 30-day rule is only for federally regulated employees.
+- From ALIS: a second block of work can be extra income, a field the person cares about, or hours that fit, and the quiet month is part of contract work.
+- From CCOHS and CNESST: a real arrangement is written down. Equipment, hours, and place belong in that note.
+- Leave the live list of openings to Job Bank, Indeed, WorkBC, and the curated boards. North Desk does not post vacancies and does not charge a reader to look.
+
 ## Sources
 
 - Statistics Canada, The Daily, Job vacancies, second quarter 2026, released 15 September 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260915/dq260915a-eng.htm
@@ -274,3 +318,13 @@ Match the Singapore set, with Canadian sources under each title.
 - Government of British Columbia, minimum wage, updated 1 June 2026. https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/wages/minimum-wage
 - Canadian Anti-Fraud Centre, job fraud. https://antifraudcentre.ca/scams-fraudes/job-emploi-eng.htm
 - CRTC, employment recruitment scams, same 1-888-495-8501 line. https://www.crtc.gc.ca/eng/phone/telemarketing/cust.htm
+- Job Bank, remote, hybrid, on-site and on the road. https://www.jobbank.gc.ca/support/question?mtid=2&qaid=222&tid=7
+- Job Bank, remote results and the employer’s province. https://www.jobbank.gc.ca/support/question?qaid=143&tid=7
+- Indeed Canada, searching for remote jobs. https://ca.indeed.com/help/job-seekers/articles/115005875163-searching-for-remote-jobs?co=CA&hl=en
+- Employment and Social Development Canada, flexible work arrangements for federally regulated employees. https://www.canada.ca/en/employment-social-development/corporate/portfolio/labour/programs/labour-standards/flexible-work-arrangements.html
+- ALIS Alberta, Maximizing Your Value in a Gig Economy. https://alis.alberta.ca/plan-your-career/workplace-trends/maximizing-your-value-in-a-gig-economy/
+- CNESST, politique et entente de télétravail. https://www.cnesst.gouv.qc.ca/fr/prevention-securite/milieu-travail-sain/teletravail/politique-entente-teletravail
+- Canadian Centre for Occupational Health and Safety, telework and remote work. https://www.ccohs.ca/oshanswers/hsprograms/telework.html
+- Statistics Canada, The Daily, Labour Force Survey, December 2025, digital platform work, released 9 January 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260109/dq260109a-eng.htm
+- FlexJobs home. https://www.flexjobs.com/
+- Jobspresso home and FAQ. https://jobspresso.co/ and https://jobspresso.co/faq/
