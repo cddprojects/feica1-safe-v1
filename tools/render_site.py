@@ -187,6 +187,16 @@ PAGES["index.html"] = page(
 </div>
 </div></section>
 
+<section><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Browse by type of work</span><h2>Types of flexible work in Canada.</h2></div>
+<div class="minis">
+<a class="mini reveal" href="remote-work-canada.html"><b>Work from home</b><span>Fully remote jobs, hybrid jobs and how they differ.</span></a>
+<a class="mini reveal" href="online-work-canada.html"><b>Online work</b><span>Jobs completed or delivered over the internet.</span></a>
+<a class="mini reveal" href="flexible-work-canada.html"><b>Part-time &amp; flexible</b><span>Part-time and flexible hours alongside other commitments.</span></a>
+<a class="mini reveal" href="article-second-path.html"><b>Freelance &amp; additional work</b><span>Project-based and additional work, including variable income.</span></a>
+</div>
+</div></section>
+
 <section class="alt"><div class="wrap">
 <div class="head reveal"><span class="eyebrow">Why people take a second job</span><h2>Reasons people hold more than one job.</h2></div>
 <ol class="shifts">
@@ -220,16 +230,6 @@ PAGES["index.html"] = page(
 <li class="stop reveal"><span class="n">5</span><h3>Posting details</h3><p>The employer, pay, province and employment or contract status.</p></li>
 </ol>
 <p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">How to search for remote work</a></p>
-</div></section>
-
-<section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Browse by type of work</span><h2>Types of flexible work in Canada.</h2></div>
-<div class="minis">
-<a class="mini reveal" href="remote-work-canada.html"><b>Work from home</b><span>Fully remote jobs, hybrid jobs and how they differ.</span></a>
-<a class="mini reveal" href="online-work-canada.html"><b>Online work</b><span>Jobs completed or delivered over the internet.</span></a>
-<a class="mini reveal" href="flexible-work-canada.html"><b>Part-time &amp; flexible</b><span>Part-time and flexible hours alongside other commitments.</span></a>
-<a class="mini reveal" href="article-second-path.html"><b>Freelance &amp; additional work</b><span>Project-based and additional work, including variable income.</span></a>
-</div>
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
