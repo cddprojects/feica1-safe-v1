@@ -55,28 +55,47 @@
     });
   }
 
-  var chk = document.getElementById("scam-check");
-  if (chk) {
-    var out = document.getElementById("scam-result");
-    chk.addEventListener("change", function () {
-      var n = chk.querySelectorAll("input:checked").length;
-      if (n === 0) { out.hidden = true; return; }
-      var cls = "result";
-      var h;
-      var p;
-      if (n === 1) {
-        cls += " warn";
-        h = "One warning sign. Pause.";
-        p = "Look up the organisation on its own website and call a number you found there, not in the message. A real employer does not need a fee, a deposit, or a private app before you start.";
-      } else {
-        cls += " bad";
-        h = n + " warning signs. Stop.";
-        p = "Do not send money, ID, or banking details. Do not install the app. Report it to your local police and to the Canadian Anti-Fraud Centre at 1-888-495-8501.";
+  var pathForm = document.getElementById("path-check");
+  if (pathForm) {
+    var pathOut = document.getElementById("path-result");
+    var hopes = {
+      essentials: {
+        h: "A second job for essentials",
+        p: "In August 2023, 34.9% of people with more than one job said the main reason was paying for groceries, housing and other essentials. Write down the hours you can give beside your main job, then search Job Bank for that title with the remote and part-time filters. Read the pay guide before you treat an advertised range as your wage.",
+        href: "article-pay-and-province.html",
+        link: "Pay and a second job"
+      },
+      extra: {
+        h: "Extra income, with a limit on hours",
+        p: "Almost the same share, 34.8%, said they wanted extra income. Decide the hours first. A part-time employee role comes with a pay stub. Contract work can be quieter in some months.",
+        href: "flexible-work-canada.html",
+        link: "Flexible hours"
+      },
+      craft: {
+        h: "A field you want to build",
+        p: "14.5% said they held a second job to do work they were passionate about. Start from a skill you can already show, and put one finished result on the CV. Then search that job title, not the words “work from home” alone.",
+        href: "article-remote-cv.html",
+        link: "The CV guide"
+      },
+      hours: {
+        h: "Hours that fit the rest of your life",
+        p: "School, children, health, or a preference for a shorter week are why many people work part-time. On this desk, flexible means those hours are attached to online or remote work.",
+        href: "flexible-work-canada.html",
+        link: "Flexible hours"
       }
-      out.className = cls;
-      out.hidden = false;
-      out.querySelector("h3").textContent = h;
-      out.querySelector("p").textContent = p;
+    };
+    pathForm.addEventListener("change", function () {
+      var picked = pathForm.querySelector("input:checked");
+      if (!picked || !hopes[picked.value]) { pathOut.hidden = true; return; }
+      var item = hopes[picked.value];
+      var next = document.getElementById("path-next");
+      pathOut.hidden = false;
+      pathOut.querySelector("h3").textContent = item.h;
+      pathOut.querySelector("p").textContent = item.p;
+      if (next) {
+        next.href = item.href;
+        next.textContent = item.link;
+      }
     });
   }
 
