@@ -166,7 +166,7 @@ PAGES["index.html"] = page(
 <div>
 <span class="eyebrow">Work arrangements and job search</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">We share practical guidance to help you understand remote, online and flexible work in Canada, including where postings appear and how hours, pay and employment terms can differ.</p>
+<p class="lede">Learn how remote, online and flexible work differ in Canada, where current postings are published, and what to consider when comparing hours, pay and employment terms.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
 <p class="hero-note">Current openings are published through Job Bank and employer careers pages.</p>
 </div>
@@ -177,7 +177,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Flexible work comes in more than one form.</h2><p class="lede">Remote describes location. Online describes how work is delivered. Part-time and flexible describe hours or workload. A single posting may combine several of them.</p></div>
+<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Flexible work comes in more than one form.</h2><p class="lede">Learn what each term describes, where the arrangements can overlap and which details may change from one posting to another.</p></div>
 <div class="types">
 <article class="type reveal"><div><span class="n">01 · Location</span><h3><a href="remote-work-canada.html">Remote work</a></h3></div><div><p>The work is completed away from the employer’s workplace. A remote position may still be limited to a province, territory or time zone. Hybrid work includes required on-site days.</p><p><a href="remote-work-canada.html">About remote work</a></p></div></article>
 <article class="type reveal"><div><span class="n">02 · Delivery</span><h3><a href="online-work-canada.html">Online work</a></h3></div><div><p>The work is completed or delivered over the internet. Online work can be remote, hybrid or on-site, and may include customer support, writing, bookkeeping, tutoring, design or software work.</p><p><a href="online-work-canada.html">About online work</a></p></div></article>
@@ -188,7 +188,7 @@ PAGES["index.html"] = page(
 
 <section class="route" id="recruitment"><div class="wrap">
 <div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>The details that bring a job search into focus.</h2>
-<p class="lede">Occupation, work location, schedule and working relationship each change the results. The posting itself then confirms whether a role is relevant.</p></div>
+<p class="lede">Learn how occupation, work location, schedule, working relationship and posting details can narrow a broad search.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Occupation</h3><p>A job title or occupation produces more relevant results than searching only for “work from home.”</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Work location</h3><p>Remote, hybrid and on-site labels show where the work is completed and whether attendance is required.</p></li>
@@ -200,7 +200,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Why Canadians take on additional work.</h2><p class="lede">For some Canadians, additional work covers everyday costs. For others, it provides extra income or work they are passionate about. Statistics Canada measured these reasons in August 2023.</p></div>
+<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Why Canadians take on additional work.</h2><p class="lede">Learn what Statistics Canada data from August 2023 shows about everyday costs, extra income and meaningful work.</p></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share wanted money beyond the basics.</p></li>
@@ -210,7 +210,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Guides for each stage</span><h2>Useful reading for each stage of the search.</h2><p class="lede">Six guides cover work types, labour-market figures, job searches, posting details, résumés and pay.</p></div>
+<div class="head reveal"><span class="eyebrow">Guides for each stage</span><h2>Useful reading for each stage of the search.</h2><p class="lede">Learn about work types, labour-market figures, job searches, posting details, résumés and pay through six focused guides.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>A single posting may describe the work as remote, online and flexible at the same time.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Job market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">Remote-work statistics and search filters</a></h3><p>Statistics on current workers do not measure the number of open remote positions.</p></article>
@@ -222,7 +222,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Contact</span><h2>Questions about a guide or source.</h2><p class="lede">Questions about a term, figure or linked source can be sent by email. The form opens a draft in the reader’s email application.</p>
+<div><span class="eyebrow">Contact</span><h2>Questions about a guide or source.</h2><p class="lede">Questions about a term, figure or linked source can be sent by email. The form opens a draft in an email application and does not submit information to the website.</p>
 <p class="notice">Do not include identification or banking information.</p></div>
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -793,11 +793,11 @@ PAGES["privacy.html"] = page(
 <h2>What stays on your device</h2>
 <p>The path check and the glossary search run in your browser. What you choose or type there is not transmitted to us by those tools.</p>
 <h2>Fonts and server logs</h2>
-<p>Pages request typefaces from Google Fonts. That request can expose your IP address to Google. Our hosting provider may keep ordinary server logs, such as IP address, browser and page requested, for security. We do not add our own analytics tracker to these pages.</p>
+<p>Pages request typefaces from Google Fonts. That request can expose an IP address to Google. The hosting provider may keep ordinary server logs, such as IP address, browser and page requested, for security. Job Compass does not add its own analytics tracker to these pages.</p>
 <h2>How long a message is kept</h2>
-<p>We keep emails only as long as we need them to reply, keep a record or meet a legal obligation. After that, we delete or anonymize them. You can ask what information we still have, request a correction or ask us to delete the thread by writing to hello@jobcompass.ca. We may need to verify that the request comes from the email account concerned.</p>
+<p>Emails are kept only as long as needed to reply, maintain a record or meet a legal obligation. After that, they are deleted or anonymized. Requests for access, correction or deletion can be sent to hello@jobcompass.ca. The email account may need to be verified before a request is completed.</p>
 <h2>Other sites</h2>
-<p>Articles link to Job Bank, Statistics Canada, the Canada Revenue Agency and provincial pages. Those sites have their own notices. We do not control them.</p>
+<p>Articles link to Job Bank, Statistics Canada, the Canada Revenue Agency and provincial pages. Those sites have their own privacy notices and control their own content.</p>
 </div></section>
 """,
 )
