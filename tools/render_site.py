@@ -170,9 +170,9 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">Job guidance for people in Canada</span>
-<h1>Clear facts about <em>online and remote work.</em></h1>
-<p class="lede">Independent guides to work-from-home, remote, part-time, freelance and side-job opportunities in Canada: how they differ, where to search, and what to check before you apply.</p>
+<span class="eyebrow">Independent job guidance for Canadians</span>
+<h1>Online and remote work in Canada, <em>explained.</em></h1>
+<p class="lede">Free guides for anyone considering work from home, remote, part-time or freelance work, including as a second job. Learn how each type works, where to search and what to check before you apply.</p>
 <ul class="hero-points">
 <li><b>How the work differs.</b> Remote, online and part-time arrangements explained in plain language.</li>
 <li><b>Where to search.</b> The Job Bank filters that narrow results to remote and part-time positions.</li>
@@ -180,14 +180,14 @@ PAGES["index.html"] = page(
 <li><b>Pay and tax basics.</b> What changes with a second job, and why your province matters.</li>
 </ul>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Explore the guides</a><a class="btn btn-ghost" href="path-check.html">Find your starting point</a></div>
-<p class="hero-note">Free guides. We do not list jobs, charge fees or promise income.</p>
+<p class="hero-note">Job Compass is a guide, not a job board. We do not list jobs or charge fees.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
 <div class="modes">
 <h2 class="sr">Three types of flexible work</h2>
 <a class="mode" href="remote-work-canada.html"><span class="dot"></span><span><b>Remote work</b><small>Work outside the employer’s regular workplace under a clear location agreement.</small></span><span class="tag">Where</span></a>
-<a class="mode" href="online-work-canada.html"><span class="dot"></span><span><b>Online work</b><small>Do work such as customer support, writing, design, bookkeeping, tutoring or software development online.</small></span><span class="tag">What</span></a>
+<a class="mode" href="online-work-canada.html"><span class="dot"></span><span><b>Online work</b><small>Do work such as customer support, writing, design, bookkeeping, tutoring or software development online.</small></span><span class="tag">How</span></a>
 <a class="mode" href="flexible-work-canada.html"><span class="dot"></span><span><b>Part-time &amp; flexible</b><small>Fit work around a main job, studies, family responsibilities or your preferred schedule.</small></span><span class="tag">When</span></a>
 </div>
 </div>
@@ -199,13 +199,12 @@ PAGES["index.html"] = page(
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Some people take additional work to help pay for housing, groceries and other essentials.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>For almost the same share, a second job was a way to earn income beyond the basics.</p></li>
 <li class="reveal"><span class="no">14.5%</span><h3>Work they cared about</h3><p>For others, a second job let them work in a field they cared about.</p></li>
-<li class="reveal"><span class="no">Your schedule</span><h3>Hours that fit</h3><p>Part-time and flexible work can fit around school, family responsibilities, health needs or a main job.</p></li>
 </ol>
 <p class="src-note">Statistics Canada asked people aged 15 to 69 who held more than one job about their main reason in August 2023. These figures describe their answers—not an expected result for a new reader.</p>
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Start where you are</span><h2>A clearer question makes for a better search.</h2><p class="lede">Choose the guide that matches what you need: a different place to work, hours that fit, additional income or a new direction for your skills.</p></div>
+<div class="head reveal"><span class="eyebrow">Popular guides</span><h2>Start with the question on your mind.</h2><p class="lede">Each guide answers one practical question, with sources you can check yourself.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Extra income is only part of the story. Time, location and meaningful work also matter.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Start with a role that matches your skills, then use Job Bank’s remote and hours filters to narrow the results.</p></article>
@@ -217,7 +216,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="recruitment"><div class="wrap split">
-<div class="reveal"><span class="eyebrow">From interest to a useful search</span><h2>Begin with what you need—not every opening.</h2></div>
+<div class="reveal"><span class="eyebrow">Before you apply</span><h2>Five steps for a more focused search.</h2></div>
 <div class="reveal">
 <p class="lede">Remote work, online work and freelance projects can look similar in search results. A few choices make it easier to recognize the work arrangement that fits your needs.</p>
 <ol class="note-list">
@@ -232,7 +231,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Choose what matters most</span><h2>Flexibility can mean more than one thing.</h2></div>
+<div class="head reveal"><span class="eyebrow">Browse by type of work</span><h2>Find the guide that matches the work.</h2></div>
 <div class="minis">
 <a class="mini reveal" href="remote-work-canada.html"><b>Work from home</b><span>Understand fully remote and hybrid arrangements.</span></a>
 <a class="mini reveal" href="online-work-canada.html"><b>Online work</b><span>Explore work that can be completed over the internet.</span></a>
@@ -733,12 +732,12 @@ PAGES["services.html"] = page(
 <section><div class="wrap">
 <div class="head reveal"><span class="eyebrow">Start with your reason</span><h2>There is no single reason to look for additional work.</h2><p class="lede">Statistics Canada asked people who already held more than one job about their main reason in August 2023. Their answers show that income matters, but it is not the whole story.</p></div>
 <div class="tiles">
-<article class="tile reveal"><h3>Help with everyday costs</h3><p>34.9 per cent said their main reason was paying for essentials such as groceries or housing.</p></article>
-<article class="tile reveal"><h3>Add income</h3><p>34.8 per cent wanted income beyond what their main job provided.</p></article>
-<article class="tile reveal"><h3>Build experience</h3><p>14.5 per cent wanted to do work they were passionate about. A second job can also be a practical way to develop experience in a field.</p></article>
+<article class="tile reveal"><h3>Help with everyday costs</h3><p>Paying for essentials such as groceries or housing was the most common main reason.</p></article>
+<article class="tile reveal"><h3>Add income</h3><p>Nearly as many people wanted income beyond what their main job provided.</p></article>
+<article class="tile reveal"><h3>Build experience</h3><p>Some wanted to do work they were passionate about. A second job can also be a practical way to develop experience in a field.</p></article>
 <article class="tile reveal"><h3>Find hours that fit</h3><p>Part-time or flexible work may fit around a main job, studies, family responsibilities or health needs.</p></article>
 </div>
-<p class="src-note">These figures describe people aged 15 to 69 who already held more than one job. They do not predict what a new job search will provide.</p>
+<p class="src-note">Source: Statistics Canada, August 2023, people aged 15 to 69 who already held more than one job. The results do not predict what a new job search will provide. <a href="article-second-path.html">See the full figures</a>.</p>
 </div></section>
 <section class="alt"><div class="wrap split">
 <div><span class="eyebrow">What these arrangements can change</span><h2>Place, access and time are different needs.</h2>
@@ -752,8 +751,8 @@ PAGES["services.html"] = page(
 <p>We provide independent guidance. We do not publish jobs, place candidates or promise a particular income.</p></div>
 </div></section>
 <section><div class="wrap split">
-<div><span class="eyebrow">A second dream</span><h2>Practical needs and personal goals can exist together.</h2>
-<p>A “second dream” does not have to mean leaving your main job or finding a perfect role. It can be a second job that supports a household need, a freelance project that builds experience or a flexible role that creates a better fit with your schedule.</p>
+<div><span class="eyebrow">More than a paycheque</span><h2>Practical needs and personal goals can both matter.</h2>
+<p>Taking on more work does not have to mean leaving your main job or finding a perfect role. It can be a second job that supports a household need, a freelance project that builds experience or a flexible position that fits your schedule.</p>
 <p>The goal is not to tell every reader that they need another job. It is to help people who are already considering one understand their options, limits and next steps.</p></div>
 <div><span class="eyebrow">What you can learn here</span><h2>Move from a broad idea to a focused search.</h2>
 <ol class="note-list">

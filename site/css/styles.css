@@ -117,7 +117,6 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .shifts li{flex:1 1 200px;position:relative}
 .shifts li:nth-child(even){margin-top:2.5rem}
 .shifts .no{display:block;font:italic 450 clamp(3.2rem,6vw,5rem)/1 var(--f-head);font-variation-settings:"SOFT" 100;color:var(--maple);letter-spacing:-.04em;margin-bottom:.4rem}
-.shifts li:last-child .no{font-size:clamp(2rem,3.4vw,2.8rem);padding-top:1.2rem;color:var(--spruce)}
 .shifts h3{margin:0 0 .35rem;font-size:1.3rem}
 .shifts p{margin:0;font-size:.98rem;color:var(--ink-2)}
 @media(max-width:700px){.shifts li:nth-child(even){margin-top:0}}
