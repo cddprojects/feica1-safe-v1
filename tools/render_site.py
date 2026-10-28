@@ -215,19 +215,17 @@ PAGES["index.html"] = page(
 </div>
 </div></section>
 
-<section class="alt" id="recruitment"><div class="wrap split">
-<div class="reveal"><span class="eyebrow">Before you apply</span><h2>Five steps before you start searching.</h2></div>
-<div class="reveal">
-<p class="lede">Remote, online and freelance postings can look alike in search results. These steps help you sort them out.</p>
-<ol class="note-list">
-<li>Start with the change you want: more room in the budget, a different field, fewer hours or less travel.</li>
-<li>Decide how many hours you can realistically work in a part-time job or side job.</li>
-<li>Decide whether you need fully remote work or simply want some work-from-home days.</li>
-<li>Search <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a> by occupation, then use the remote and hours filters.</li>
-<li>Before you apply, check the employer, pay, province and whether you would be an employee or an independent contractor.</li>
+<section class="route" id="recruitment"><div class="wrap">
+<div class="route-head reveal"><span class="eyebrow">Before you apply</span><h2>Five stops before you start searching.</h2>
+<p class="lede">Remote, online and freelance postings can look alike in search results. Work through these and the right ones stand out.</p></div>
+<ol class="stops">
+<li class="stop reveal"><span class="n">1</span><h3>Name the change</h3><p>More room in the budget, a different field, fewer hours or less travel. Know what you want first.</p></li>
+<li class="stop reveal"><span class="n">2</span><h3>Count your hours</h3><p>Be realistic about how many hours a part-time job or side job can take each week.</p></li>
+<li class="stop reveal"><span class="n">3</span><h3>Pick your kind of remote</h3><p>Fully remote, or just a few work-from-home days? The answer changes where you look.</p></li>
+<li class="stop reveal"><span class="n">4</span><h3>Search by job title</h3><p>Try <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a>, then add the remote and hours filters.</p></li>
+<li class="stop reveal"><span class="n">5</span><h3>Check before you apply</h3><p>Employer, pay, province, and whether you would be an employee or an independent contractor.</p></li>
 </ol>
-<p><a href="article-where-to-look.html">Build a more focused search &rarr;</a></p>
-</div>
+<p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">Build a more focused search &rarr;</a></p>
 </div></section>
 
 <section><div class="wrap">
