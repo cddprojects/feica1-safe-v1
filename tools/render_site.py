@@ -172,14 +172,14 @@ PAGES["index.html"] = page(
 <div>
 <span class="eyebrow">A Canadian guide to flexible work</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Compare the ways flexible work can be structured, see where current postings are published, and understand the hours, pay and employment terms behind each opportunity.</p>
+<p class="lede">Job Compass examines how flexible work is structured in Canada, where current postings appear, and how hours, pay and employment terms differ across arrangements.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
-<p class="hero-note">For current openings, search Job Bank or an employer’s careers page.</p>
+<p class="hero-note">Current openings are published through Job Bank and employer careers pages.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
 <div class="art-stamp"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="{LEAF}"/></svg><span>Canada-focused</span></div>
-<div class="art-caption"><small>Compare the essentials</small><strong>Location · Schedule · Pay</strong></div>
+<div class="art-caption"><small>Essential details</small><strong>Location · Schedule · Pay</strong></div>
 </div>
 </div></section>
 
@@ -195,7 +195,7 @@ PAGES["index.html"] = page(
 
 <section class="route" id="recruitment"><div class="wrap">
 <div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>A better-matched search starts with the right details.</h2>
-<p class="lede">Occupation, work location, schedule and employment status shape which postings are relevant. These five details bring a broad search into focus.</p></div>
+<p class="lede">Occupation, work location, schedule and employment status determine which postings are relevant. Together, these five details narrow a broad search.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Occupation</h3><p>A job title or occupation produces more relevant results than searching only for “work from home.”</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Work location</h3><p>Remote, hybrid and on-site labels show where the work is completed and whether attendance is required.</p></li>
@@ -223,13 +223,13 @@ PAGES["index.html"] = page(
 <article class="post reveal"><div class="meta"><span class="cat">Job market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">What remote-work statistics can tell you</a></h3><p>Work-from-home figures and vacancy figures measure different parts of the labour market.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Job search</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>A job title plus Job Bank’s work-location and hours filters can narrow the results.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
-<article class="post reveal"><div class="meta"><span class="cat">Your application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Tailor your resume for online and remote work</a></h3><p>Show results, the tools you use and how you communicate.</p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Your application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Tailor your resume for online and remote work</a></h3><p>The guide covers results, digital tools and communication habits relevant to remote work.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="article-pay-and-province.html">Pay and deductions for additional work</a></h3><p>Minimum wage, payroll deductions and employee or contractor status.</p></article>
 </div>
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Contact</span><h2>Looking for one more detail?</h2><p class="lede">If a term, figure or public source in a guide needs more explanation, send us a question. The form opens a message in your email application.</p>
+<div><span class="eyebrow">Contact</span><h2>Questions about the published guides.</h2><p class="lede">Readers can ask about a term, figure or public source used in a guide. The form opens a message in the reader’s email application.</p>
 <p class="notice">Job Compass cannot assess a job offer or provide individual legal, tax, immigration or employment advice. Do not include identification or banking information.</p></div>
 <div>
 <form id="contact-form" class="form" novalidate>
