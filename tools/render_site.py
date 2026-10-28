@@ -355,7 +355,7 @@ PAGES["online-work-canada.html"] = page(
 <section><div class="wrap article">
 <h2>Online work is not necessarily remote work</h2>
 <p>Online work can be completed at an employer’s workplace or somewhere else. Remote work can also include scheduled phone duties that are not usually described as online work. On this site, online work means tasks completed or delivered over the internet. Work location remains a separate detail in the posting.</p>
-<h2>Employee or contractor</h2>
+<h2>Employment or independent contract work</h2>
 <p>Some online roles are employment, with scheduled hours, supervision, pay statements and payroll deductions where applicable. Others are independent contract work involving invoices, financial risk and self-employed tax obligations. The Canada Revenue Agency considers factors such as control, tools, financial risk and opportunity for profit. The word “freelance” does not determine employment status.</p>
 <h2>Online work beside a main job</h2>
 <p>Online work alongside a main job often uses existing experience in customer service, bookkeeping, writing, design, tutoring, moderation or software development. Demonstrated skills and available hours help determine whether a posting is suitable. The <a href="article-remote-cv.html">résumé guide</a> covers how that experience can be presented.</p>
