@@ -60,26 +60,26 @@
     var pathOut = document.getElementById("path-result");
     var hopes = {
       essentials: {
-        h: "A second job for essentials",
-        p: "In August 2023, 34.9% of people with more than one job said their main reason was paying for groceries, housing and other essentials. Decide how many hours you can work alongside your main job, then search Job Bank for a suitable title and use the remote and part-time filters. Read the pay guide before treating an advertised range as your expected wage.",
+        h: "Covering the essentials",
+        p: "In August 2023, 34.9% of Canadians with more than one job said their main reason was paying for groceries, housing and other essentials. A good first step is working out how many hours you can give alongside your main job, then searching Job Bank by job title with the remote and part-time filters on. A posted pay range isn’t your wage until an employer offers it, so the pay guide is worth a read.",
         href: "article-pay-and-province.html",
         link: "Pay and a second job"
       },
       extra: {
-        h: "Extra income, with a limit on hours",
-        p: "Almost the same share, 34.8%, said they wanted extra income. Decide how many hours you can realistically work. Part-time employees receive regular pay statements, while contract income may vary from month to month.",
+        h: "Extra income without going full-time",
+        p: "Almost the same share, 34.8%, said they wanted extra income. Be honest about how many hours you can really work. Part-time employees get regular paycheques, while contract income can swing from month to month.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       },
       craft: {
-        h: "Build experience in a field",
-        p: "14.5% said they held a second job to do work they were passionate about. Start with a skill you can demonstrate and include a relevant result on your resume. Search for a suitable job title rather than relying on the words “work from home” alone.",
+        h: "Building experience in a field you like",
+        p: "14.5% said they took a second job to do work they care about. Start with a skill you can already show, and put a real result on your resume. Search by job title, since the words “work from home” alone bring up a lot of noise.",
         href: "article-remote-cv.html",
-        link: "The resume guide"
+        link: "Our resume guide"
       },
       hours: {
-        h: "Hours that fit the rest of your life",
-        p: "School, family responsibilities, health needs or a preference for a shorter schedule are among the reasons people work part-time. Job Compass focuses on flexible hours for online or remote work.",
+        h: "Hours that fit your life",
+        p: "School, family, health or just wanting a shorter week are common reasons people work part-time. Our flexible work guide looks at hours for online and remote jobs.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       }
