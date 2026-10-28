@@ -171,10 +171,10 @@ PAGES["index.html"] = page(
 <section class="hero"><div class="wrap hero-grid">
 <div>
 <span class="eyebrow">Independent job guidance for Canadians</span>
-<h1>Online and remote work in Canada, <em>explained.</em></h1>
+<h1>Thinking about online or remote work? <em>Start here.</em></h1>
 <p class="lede">Free guides for anyone considering work from home, remote, part-time or freelance work, including as a second job. Learn how each type works, where to search and what to check before you apply.</p>
 <ul class="hero-points">
-<li><b>How the work differs.</b> Remote, online and part-time arrangements explained in plain language.</li>
+<li><b>How the work differs.</b> Remote, online and part-time arrangements, described in plain language.</li>
 <li><b>Where to search.</b> The Job Bank filters that narrow results to remote and part-time positions.</li>
 <li><b>What a posting should tell you.</b> Employer, work location, pay, hours and employment status.</li>
 <li><b>Pay and tax basics.</b> What changes with a second job, and why your province matters.</li>
