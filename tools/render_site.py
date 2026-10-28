@@ -174,7 +174,7 @@ PAGES["index.html"] = page(
 <li><b>Pay and status.</b> Employment and independent contract work handle deductions, expenses and tax differently.</li>
 </ul>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="#contact">Find a starting guide</a></div>
-<p class="hero-note">For current openings, search Job Bank or an employer’s careers page.</p>
+<p class="hero-note">Job Compass is an independent information service.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
