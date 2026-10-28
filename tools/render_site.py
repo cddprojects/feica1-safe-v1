@@ -204,7 +204,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Popular guides</span><h2>Start with the question on your mind.</h2><p class="lede">Each guide answers one question and links to its sources.</p></div>
+<div class="head reveal"><span class="eyebrow">Popular guides</span><h2>What Canadians ask about flexible work.</h2><p class="lede">Short reads on remote, online and part-time work, with official sources linked.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Extra income is only part of the story. Time, location and meaningful work also matter.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Start with a role that matches your skills, then use Job Bank’s remote and hours filters to narrow the results.</p></article>
