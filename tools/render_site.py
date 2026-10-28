@@ -174,7 +174,7 @@ PAGES["index.html"] = page(
 <h1>Thinking about online or remote work? <em>Start here.</em></h1>
 <p class="lede">Free guides for anyone considering work from home, remote, part-time or freelance work, including as a second job. Learn how each type works, where to search and what to check before you apply.</p>
 <ul class="hero-points">
-<li><b>How the work differs.</b> Remote, online and part-time arrangements, described in plain language.</li>
+<li><b>What the terms mean.</b> Remote, online, hybrid and part-time are not the same thing, and a job posting does not always say which one it is.</li>
 <li><b>Where to search.</b> The Job Bank filters that narrow results to remote and part-time positions.</li>
 <li><b>What a posting should tell you.</b> Employer, work location, pay, hours and employment status.</li>
 <li><b>Pay and tax basics.</b> What changes with a second job, and why your province matters.</li>
@@ -747,7 +747,7 @@ PAGES["services.html"] = page(
 <p><a href="work-types.html">Compare the three work types &rarr;</a></p></div>
 <div><span class="eyebrow">The idea behind Job Compass</span><h2>Clear information before a job application.</h2>
 <p>Information about remote work is spread across job postings, Job Bank, Statistics Canada, the Canada Revenue Agency and provincial or territorial websites. It can be difficult to know which details matter to your situation.</p>
-<p>Job Compass brings that information together in plain language. Our guides help you choose a work arrangement, narrow a search, read a job posting, prepare a resume and understand basic questions about pay and employment status.</p>
+<p>Job Compass puts that information in one place. Our guides help you choose a work arrangement, narrow a search, read a job posting, prepare a resume and understand basic questions about pay and employment status.</p>
 <p>We provide independent guidance. We do not publish jobs, place candidates or promise a particular income.</p></div>
 </div></section>
 <section><div class="wrap split">
