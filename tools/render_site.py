@@ -233,7 +233,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Get in touch</span><h2>Questions about work arrangements or job searches</h2><p class="lede">Questions are welcome about work arrangements, Job Bank searches, postings, applications, pay and sources. Replies point to a published guide or official source.</p>
+<div><span class="eyebrow">Get in touch</span><h2>Questions about work arrangements or job searches</h2><p class="lede">Questions about remote, online and flexible work are welcome.</p>
 </div>
 <div>
 <form id="contact-form" class="form" novalidate>
