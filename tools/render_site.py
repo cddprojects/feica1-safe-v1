@@ -100,11 +100,11 @@ def footer():
     return f"""<footer class="site-footer"><div class="wrap">
 <div class="foot-grid">
 <div>{brand()}
-<p style="margin-top:1rem;max-width:36ch">An independent Canadian publisher covering online, remote and flexible work for people considering a second job or an additional source of income.</p></div>
+<p style="margin-top:1rem;max-width:36ch">Practical Canadian guides to remote, online and flexible work.</p></div>
 <div><h4>Guides</h4><ul>
 <li><a href="reading.html">Browse all guides</a></li>
 <li><a href="work-types.html">Work types</a></li>
-<li><a href="path-check.html">Which kind of work suits you?</a></li>
+<li><a href="path-check.html">Search goals</a></li>
 <li><a href="glossary.html">Glossary</a></li>
 <li><a href="faq.html">FAQ</a></li>
 </ul></div>
@@ -116,7 +116,7 @@ def footer():
 <li><a href="disclaimer.html">Disclaimer</a></li>
 </ul></div>
 </div>
-<div class="legal"><p>Job Compass is an independent publisher. We are not Job Bank, Statistics Canada or a provincial employment service, and we are not a licensed employment agency. We do not recruit, screen, place or introduce candidates, and we do not publish job postings. Our guides provide general information, not legal, tax or employment advice. Confirm the rules that apply to you with the appropriate government authority.</p>
+<div class="legal"><p>Job Compass does not list jobs or provide legal, tax or employment advice. Check official sources for the rules that apply to you.</p>
 <p>&copy; 2026 Job Compass &middot; Canada &middot; <a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
 <p class="wordmark" aria-hidden="true">Job Compass</p>
 </div></footer>
@@ -170,23 +170,23 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">Independent job guidance for Canadians</span>
-<h1>Looking for online or remote work in <em>Canada?</em></h1>
-<p class="lede">Free, plain-English guides to work from home, remote jobs, part-time work, freelancing and side jobs across Canada. See how each one works, where to look and what to know before you apply.</p>
+<span class="eyebrow">Guides to flexible work in Canada</span>
+<h1>Remote and online work in <em>Canada.</em></h1>
+<p class="lede">How different work arrangements operate, where jobs are advertised and what information belongs in a posting.</p>
 <ul class="hero-points">
-<li><b>Remote isn’t always remote.</b> “Remote,” “online” and “hybrid” can mean very different things, and the posting doesn’t always say.</li>
-<li><b>Job Bank has filters for this.</b> You can narrow results to remote and part-time work in a few clicks.</li>
-<li><b>Check the details first.</b> Employer, location, pay, hours and whether you would be an employee or self-employed.</li>
-<li><b>A second job changes your taxes.</b> Know what to expect, and why your province makes a difference.</li>
+<li><b>Check the work location.</b> Remote, online and hybrid describe different arrangements.</li>
+<li><b>Narrow the search.</b> Job Bank has filters for work location and hours.</li>
+<li><b>Review the posting.</b> Look for the employer, location, pay, hours and employment status.</li>
+<li><b>Know how pay is handled.</b> A second job may affect tax deductions and which employment standards apply.</li>
 </ul>
-<div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="path-check.html">Which work suits you?</a></div>
-<p class="hero-note">Job Compass is a guide, not a job board. We don’t list jobs, and it’s free to read.</p>
+<div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="path-check.html">Choose a work type</a></div>
+<p class="hero-note">For current openings, search Job Bank or an employer’s careers page.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
 <div class="modes">
 <h2 class="sr">Three types of flexible work</h2>
-<a class="mode" href="remote-work-canada.html"><span class="dot"></span><span><b>Remote work</b><small>Work from home or another place that isn’t your employer’s office.</small></span><span class="tag">Where</span></a>
+<a class="mode" href="remote-work-canada.html"><span class="dot"></span><span><b>Remote work</b><small>Work from home or another location away from the employer’s office.</small></span><span class="tag">Where</span></a>
 <a class="mode" href="online-work-canada.html"><span class="dot"></span><span><b>Online work</b><small>Customer support, writing, design, bookkeeping, tutoring or coding, all done over the internet.</small></span><span class="tag">How</span></a>
 <a class="mode" href="flexible-work-canada.html"><span class="dot"></span><span><b>Part-time &amp; flexible</b><small>Hours that fit around a full-time job, school, family or the way you like to work.</small></span><span class="tag">When</span></a>
 </div>
@@ -194,21 +194,21 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Why people take a second job</span><h2>Why Canadians pick up extra work.</h2></div>
+<div class="head reveal"><span class="eyebrow">Why people take a second job</span><h2>Reasons people hold more than one job.</h2></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share wanted money beyond the basics.</p></li>
 <li class="reveal"><span class="no">14.5%</span><h3>Work they cared about</h3><p>Others wanted to work in a field they care about.</p></li>
 </ol>
-<p class="src-note">In August 2023, Statistics Canada asked Canadians aged 15 to 69 with more than one job why they had a second one. These are their answers, not a prediction of what you will earn.</p>
+<p class="src-note">Source: Statistics Canada survey of multiple jobholders aged 15 to 69, August 2023.</p>
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Popular guides</span><h2>What Canadians ask about flexible work.</h2><p class="lede">Short, practical reads on remote, online and part-time work. Every guide links to its official sources.</p></div>
+<div class="head reveal"><span class="eyebrow">Popular guides</span><h2>Remote work, pay and applications.</h2><p class="lede">Canadian information on work arrangements, job searches and employment terms.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Money is only part of it. Time, location and meaningful work matter too.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Job Bank’s remote and part-time filters do most of the work once you know your job title.</p></article>
-<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online or flexible: which one do you need?</a></h3><p>They sound alike, but one is about where you work, one is about how, and one is about when.</p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Your application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Tailor your resume for online and remote work</a></h3><p>Show results, the tools you use and how you communicate.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="article-pay-and-province.html">What a second paycheque changes</a></h3><p>Minimum wage by province, deductions and how employee and freelance pay differ.</p></article>
@@ -216,41 +216,41 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="route" id="recruitment"><div class="wrap">
-<div class="route-head reveal"><span class="eyebrow">Before you apply</span><h2>Five things to sort out before you search.</h2>
-<p class="lede">Remote, online and freelance postings can look a lot alike in search results. Getting clear on these five things makes the right ones easier to spot.</p></div>
+<div class="route-head reveal"><span class="eyebrow">Before you apply</span><h2>Before a remote job search.</h2>
+<p class="lede">A focused search starts with five details: the goal, available hours, work location, occupation and terms in the posting.</p></div>
 <ol class="stops">
-<li class="stop reveal"><span class="n">1</span><h3>Name the change</h3><p>More room in the budget, a new field, fewer hours or a shorter commute. What matters most to you?</p></li>
-<li class="stop reveal"><span class="n">2</span><h3>Count your hours</h3><p>How many hours a week can a part-time job or side job honestly fit?</p></li>
-<li class="stop reveal"><span class="n">3</span><h3>Pick your kind of remote</h3><p>Fully remote, or just a few work-from-home days? It changes where you search.</p></li>
-<li class="stop reveal"><span class="n">4</span><h3>Search by job title</h3><p>Start on <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a>, then narrow it with the remote and hours filters.</p></li>
-<li class="stop reveal"><span class="n">5</span><h3>Look closely at the posting</h3><p>Who the employer is, what it pays, which province’s rules apply and whether you would be an employee or a contractor.</p></li>
+<li class="stop reveal"><span class="n">1</span><h3>Reason for searching</h3><p>Extra income, experience, fewer hours or less travel.</p></li>
+<li class="stop reveal"><span class="n">2</span><h3>Available hours</h3><p>The number of hours that can fit around current commitments.</p></li>
+<li class="stop reveal"><span class="n">3</span><h3>Work location</h3><p>Fully remote work and hybrid work lead to different results.</p></li>
+<li class="stop reveal"><span class="n">4</span><h3>Occupation</h3><p><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a> can filter an occupation by work location and hours.</p></li>
+<li class="stop reveal"><span class="n">5</span><h3>Posting details</h3><p>The employer, pay, province and employment or contract status.</p></li>
 </ol>
-<p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">Tips for searching smarter &rarr;</a></p>
+<p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">How to search for remote work &rarr;</a></p>
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Browse by type of work</span><h2>Pick the kind of work you’re after.</h2></div>
+<div class="head reveal"><span class="eyebrow">Browse by type of work</span><h2>Types of flexible work in Canada.</h2></div>
 <div class="minis">
 <a class="mini reveal" href="remote-work-canada.html"><b>Work from home</b><span>Fully remote jobs, hybrid jobs and how they differ.</span></a>
 <a class="mini reveal" href="online-work-canada.html"><b>Online work</b><span>Jobs you can do over the internet.</span></a>
 <a class="mini reveal" href="flexible-work-canada.html"><b>Part-time &amp; flexible</b><span>Part-time and flexible hours around the rest of your week.</span></a>
-<a class="mini reveal" href="article-second-path.html"><b>Freelance work &amp; side jobs</b><span>Extra work on your own terms, with no promised income.</span></a>
+<a class="mini reveal" href="article-second-path.html"><b>Freelance work &amp; side jobs</b><span>Project-based and additional work, including variable income.</span></a>
 </div>
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Ask a question</span><h2>Have a question about working in Canada?</h2><p class="lede">Ask us about online, remote, work-from-home, part-time or flexible work. We will point you to the right guide or official source. We can’t find you a job or look over an offer, and please never send ID or banking details.</p></div>
+<div><span class="eyebrow">Ask a question</span><h2>Questions about remote or flexible work</h2><p class="lede">Ask a question about remote or flexible work. We can direct you to a relevant guide or official source. Do not include identification or banking information.</p></div>
 <div>
 <form id="contact-form" class="form" novalidate>
 <div class="field"><label for="name">Name</label><input id="name" required autocomplete="name"><div class="err" aria-live="polite"></div></div>
 <div class="field"><label for="email">Email</label><input id="email" type="email" required autocomplete="email"><div class="err" aria-live="polite"></div></div>
 <div class="field"><label for="province">Province or territory</label><select id="province"><option value="">Prefer not to say</option><option>Alberta</option><option>British Columbia</option><option>Manitoba</option><option>New Brunswick</option><option>Newfoundland and Labrador</option><option>Northwest Territories</option><option>Nova Scotia</option><option>Nunavut</option><option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option><option>Saskatchewan</option><option>Yukon</option><option>Outside Canada</option></select></div>
-<div class="field"><label for="topic">What is it about?</label><select id="topic"><option>Remote work</option><option>Online work</option><option>Work from home</option><option>Part-time or flexible work</option><option>Freelance or side job</option><option>Pay, tax or employment status</option><option>Another job-related question</option></select></div>
+<div class="field"><label for="topic">Topic</label><select id="topic"><option>Remote work</option><option>Online work</option><option>Work from home</option><option>Part-time or flexible work</option><option>Freelance or side job</option><option>Pay, tax or employment status</option><option>Another job-related question</option></select></div>
 <div class="field"><label for="msg">Your question</label><textarea id="msg" required placeholder="For example: Which Job Bank filter shows fully remote, part-time positions in Alberta?"></textarea><div class="err" aria-live="polite"></div></div>
 <button class="btn btn-primary" type="submit">Send</button>
-<p class="notice">This opens your email app with a message to {EMAIL}. We don’t keep what you type on our site.</p>
+<p class="notice">This form opens a message in your email app. It does not submit information to our website.</p>
 </form>
-<div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email app should have opened.</h3><p>Hit send there when you’re ready.</p><p class="ok-sub">Nothing happened? Email us at {EMAIL}.</p></div>
+<div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email message is ready.</h3><p>Review it in your email app before sending.</p><p class="ok-sub">If the app did not open, email {EMAIL}.</p></div>
 </div>
 </div></section>
 """,
@@ -262,19 +262,19 @@ PAGES["reading.html"] = page(
     "Canadian guides to work from home, remote work, online work, part-time roles, freelance work and second jobs.",
     "reading.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Guides</span><h1>Guides to online, remote and flexible work.</h1><p class="lede">All our guides on remote, online, part-time and freelance work in Canada.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Guides</span><h1>Guides to remote, online and flexible work in Canada</h1><p class="lede">Information on work arrangements, job searches, applications and pay.</p></div></div>
 <section><div class="wrap">
 <div class="filters" role="group" aria-label="Filter articles">
 <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
 <button class="chip" type="button" data-filter="path" aria-pressed="false">Second jobs</button>
-<button class="chip" type="button" data-filter="hiring" aria-pressed="false">Hiring</button>
-<button class="chip" type="button" data-filter="market" aria-pressed="false">Market</button>
+<button class="chip" type="button" data-filter="hiring" aria-pressed="false">Applications</button>
+<button class="chip" type="button" data-filter="market" aria-pressed="false">Job market</button>
 <button class="chip" type="button" data-filter="pay" aria-pressed="false">Pay</button>
 </div>
 <div class="posts">
 <article class="post" data-cat="path"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Money is only part of it. Time, location and meaningful work matter too.</p></article>
 <article class="post" data-cat="path"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Job Bank’s remote and part-time filters do most of the work once you know your job title.</p></article>
-<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online or flexible: which one do you need?</a></h3><p>Where you work, how the work is delivered and when you work are three separate things.</p></article>
+<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
 <article class="post" data-cat="market"><div class="meta"><span class="cat">The market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">What the remote job market looks like in Canada</a></h3><p>What the national numbers say about work-from-home jobs, and why a focused search works better.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">Your application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Tailor your resume for online and remote work</a></h3><p>Show results, the tools you use and how you communicate.</p></article>
@@ -290,12 +290,12 @@ PAGES["work-types.html"] = page(
     "Three guides from Job Compass: remote work, online work and flexible arrangements in Canada.",
     "work-types.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Work types</span><h1>Three kinds of flexible work.</h1><p class="lede">Remote work is about where you work. Online work is about how the work is done. Part-time and flexible work are about your hours.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Work types</span><h1>Remote, online and flexible work.</h1><p class="lede">Remote describes location. Online describes how work is completed. Part-time and flexible describe hours or workload.</p></div></div>
 <section><div class="wrap">
 <div class="types">
-<article class="type"><div><span class="n">01 · Location</span><h3><a href="remote-work-canada.html">Remote</a></h3></div><div><p>You don’t normally have to go into the employer’s workplace. Some remote jobs let you live anywhere in Canada, others only in a certain province, and hybrid jobs still bring you in some days. Job Bank has a remote filter to help you sort them out.</p><p><a href="remote-work-canada.html">Read the guide</a></p></div></article>
-<article class="type"><div><span class="n">02 · Work</span><h3><a href="online-work-canada.html">Online</a></h3></div><div><p>The work itself is done and handed in online, such as customer support, writing, design, bookkeeping, tutoring, moderating or coding. Online doesn’t always mean from home, so look at where the posting says the work has to happen.</p><p><a href="online-work-canada.html">Read the guide</a></p></div></article>
-<article class="type"><div><span class="n">03 · Hours</span><h3><a href="flexible-work-canada.html">Flexible</a></h3></div><div><p>Flexible hours, project deadlines or part-time work. Statistics Canada counts part-time as under 30 hours a week. Flexible doesn’t mean guaranteed income, so read the contract or agreement before you say yes.</p><p><a href="flexible-work-canada.html">Read the guide</a></p></div></article>
+<article class="type"><div><span class="n">01 · Location</span><h3><a href="remote-work-canada.html">Remote</a></h3></div><div><p>Remote jobs are completed away from the employer’s workplace. Some allow work from anywhere in Canada, while others are limited to a province. Hybrid jobs include on-site days. Job Bank identifies remote positions with a work-location filter.</p><p><a href="remote-work-canada.html">Read the guide</a></p></div></article>
+<article class="type"><div><span class="n">02 · How work is done</span><h3><a href="online-work-canada.html">Online</a></h3></div><div><p>Online work is completed or delivered over the internet, including customer support, writing, design, bookkeeping, tutoring, moderation and software development. It may be done at home or at an employer’s workplace.</p><p><a href="online-work-canada.html">Read the guide</a></p></div></article>
+<article class="type"><div><span class="n">03 · Hours</span><h3><a href="flexible-work-canada.html">Flexible</a></h3></div><div><p>This category includes flexible hours, deadline-based projects and part-time work. Statistics Canada generally defines part-time work as fewer than 30 hours a week. Income and hours depend on the agreement or contract.</p><p><a href="flexible-work-canada.html">Read the guide</a></p></div></article>
 </div>
 <p class="src-note">Looking for current openings? <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a> has a remote-work filter that works better than searching for the phrase “work from home.”</p>
 </div></section>
@@ -315,24 +315,24 @@ PAGES["remote-work-canada.html"] = page(
 <dt>Hours</dt><dd>Often full-time. Statistics Canada counts part-time as under 30 hours a week.</dd>
 <dt>Applying</dt><dd>Apply through Job Bank or the employer’s website, and confirm the hours and where the work is done.</dd>
 <dt>Where to look</dt><dd>Job Bank’s remote filter and the employer’s careers page.</dd>
-</dl><p class="rv">Last reviewed October 2026. This page is a guide, not a job posting.</p></aside>
+</dl><p class="rv">Last reviewed October 2026.</p></aside>
 </div></div>
 <section><div class="wrap article">
 <h2>What remote work means</h2>
 <p>On Job Bank and Indeed, a job posting may be marked on-site, hybrid or remote. Hybrid means you work at a stated location some of the time. Remote means you are not normally required to report to the employer’s workplace. A keyword search for “work from home” is not the same as using the remote filter: it can also return on-site positions that happen to mention a home.</p>
-<p>Indeed asks employers to use “Canada” or “nationwide” only when the work really can be done from anywhere in the country. Plenty of remote jobs still want you to live in one province or work in a Canadian time zone, so read the location details before you apply.</p>
+<p>Indeed asks employers to use “Canada” or “nationwide” only when the work really can be done from anywhere in the country. Some remote jobs require you to live in a particular province or work in a Canadian time zone. Check the location requirements before applying.</p>
 <h2>How employers hire for remote positions</h2>
-<p>Most employers post the job, review applications and book interviews, much like any other hire. A written offer should spell out the pay, hours, employer and where you are allowed to work. If this would be a second job, line the hours up with your current schedule first.</p>
-<p>We don’t post jobs ourselves. To see what’s open right now, try <a href="https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=remote" rel="noopener">Job Bank</a> with the remote-work filter on.</p>
-<h2>Questions worth asking before you say yes</h2>
+<p>Most employers post the job, review applications and arrange interviews, much like any other hire. A written offer normally sets out the pay, hours, employer and permitted work location. For a second job, those hours also have to fit the reader’s existing schedule.</p>
+<p>To find current openings, use <a href="https://www.jobbank.gc.ca/jobsearch/jobsearch?searchstring=remote" rel="noopener">Job Bank’s remote-work filter</a>.</p>
+<h2>Details to confirm in an offer</h2>
 <ul>
 <li>Which provinces or territories can I work from, and what happens if I move?</li>
-<li>Do I have to come in on any days? If so, it’s a hybrid job.</li>
+<li>Are any on-site days required? If so, the position is hybrid.</li>
 <li>Who is my employer, and is the pay hourly, salaried or per project?</li>
 <li>Which time zone do the meetings and work hours follow?</li>
 <li>Who supplies the computer and software?</li>
 </ul>
-<p>For pay rules, see <a href="article-pay-and-province.html">What a second paycheque changes</a>. Got a posting open right now? Here is <a href="article-read-a-remote-ad.html">how to read it</a>.</p>
+<p>For pay rules, see <a href="article-pay-and-province.html">What a second paycheque changes</a>. Use the <a href="article-read-a-remote-ad.html">job-posting guide</a> to check the employer, location, pay and hours.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job</a></li>
@@ -349,23 +349,23 @@ PAGES["online-work-canada.html"] = page(
     "work-types.html",
     """
 <div class="page-head jobhero jh2"><div class="wrap jh-grid">
-<div><span class="eyebrow">How the work is delivered</span><h1>Online work in Canada</h1><p class="lede">Online work is done or delivered over the internet. That doesn’t always mean you can work from home, or from any province.</p></div>
+<div><span class="eyebrow">How the work is delivered</span><h1>Online work in Canada</h1><p class="lede">Online work is completed or delivered over the internet. Work location is a separate condition and may be limited to a province.</p></div>
 <aside class="qf"><h2>At a glance</h2><dl>
 <dt>Typical tasks</dt><dd>Support, writing, design, bookkeeping, tutoring, moderation, software.</dd>
-<dt>Status</dt><dd>Employee or independent contractor. What a posting calls the job doesn’t decide your legal status.</dd>
-<dt>Pay</dt><dd>Hourly, salary or per project. A number in a posting isn’t an offer yet.</dd>
+<dt>Status</dt><dd>Employee or independent contractor. The label in a posting does not determine legal status.</dd>
+<dt>Pay</dt><dd>Hourly, salaried or project-based. An advertised figure is not a written offer.</dd>
 <dt>Additional work</dt><dd>Part-time support, writing, bookkeeping, design, tutoring or coding.</dd>
-</dl><p class="rv">Last reviewed October 2026. This page is a guide, not a job posting.</p></aside>
+</dl><p class="rv">Last reviewed October 2026.</p></aside>
 </div></div>
 <section><div class="wrap article">
 <h2>Online work is not necessarily remote work</h2>
-<p>Online work can be done from the employer’s office or from somewhere else. Remote work can also include things like scheduled phone shifts that few people would call “online.” On Job Compass, online work means tasks done or delivered over the internet. The posting should say where you would actually do it.</p>
+<p>Online work can be done from an employer’s office or somewhere else. Remote work can also include scheduled phone duties that are not usually described as online work. Here, online work means tasks completed or delivered over the internet. Work location is a separate detail in the posting.</p>
 <h2>Employee or contractor</h2>
-<p>Some online jobs are regular employment: you get a schedule, a manager and a pay stub, and Canada Pension Plan and Employment Insurance deductions may apply. Others are contract work, where you send invoices, carry the financial risk and handle your own taxes. The Canada Revenue Agency looks at control, tools, financial risk and chance of profit, so calling a job “freelance” doesn’t settle it. If you’re unsure, the CRA can help. This page is general information, not tax advice.</p>
+<p>Some online jobs are regular employment: you get a schedule, a manager and a pay stub, and Canada Pension Plan and Employment Insurance deductions may apply. Others are contract work, where you send invoices, carry the financial risk and handle your own taxes. The Canada Revenue Agency considers factors such as control, tools, financial risk and opportunity for profit. The word “freelance” does not determine employment status.</p>
 <h2>Online work beside a main job</h2>
 <p>Many people add online work to a full-time job by doing something they already know for a few hours a week: customer service, bookkeeping, writing, design, tutoring, moderating or coding. Think about the skills you can already show and whether the hours really fit your week. Our <a href="article-remote-cv.html">resume guide</a> shows how to present that experience.</p>
-<p>Software development is one occupation where online delivery is common. In the second quarter of 2026, Statistics Canada counted 3,545 vacancies for software developers and programmers, up about 35 per cent year over year, with an average offered wage of $43.65 an hour. That is the wage employers advertised for open positions in the occupation. It isn’t a typical remote-work wage, and it isn’t an offer to you.</p>
-<p>A good posting names the organization, describes the work and explains how you would be paid. Ready to look? Start with <a href="article-where-to-look.html">Job Bank’s remote filter</a> and the employer’s own careers page.</p>
+<p>Software development is one occupation where online delivery is common. In the second quarter of 2026, Statistics Canada counted 3,545 vacancies for software developers and programmers, up about 35 per cent year over year, with an average offered wage of $43.65 an hour. That figure is the average advertised wage for vacancies in the occupation, not for remote work generally.</p>
+<p>A good posting names the organization, describes the work and explains how you would be paid. Search Job Bank by occupation and work location, then confirm the posting on the employer’s careers page. See <a href="article-where-to-look.html">how to search for remote work</a>.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/260915/t002a-eng.htm" rel="noopener">Statistics Canada: occupations with the largest vacancy increases, Q2 2026</a></li>
@@ -387,15 +387,15 @@ PAGES["flexible-work-canada.html"] = page(
 <dt>Part-time</dt><dd>Under 30 hours a week, by Statistics Canada’s definition.</dd>
 <dt>Shapes</dt><dd>Hours you choose, a shorter week or a project with a deadline.</dd>
 <dt>Not included</dt><dd>On-site casual shifts, even short ones.</dd>
-<dt>Pay</dt><dd>Depends on the job. Nothing here promises an amount.</dd>
-</dl><p class="rv">Last reviewed October 2026. This page is a guide, not a job posting.</p></aside>
+<dt>Pay</dt><dd>May be hourly, salaried or project-based.</dd>
+</dl><p class="rv">Last reviewed October 2026.</p></aside>
 </div></div>
 <section><div class="wrap article">
 <h2>Why hours matter when you add a second job</h2>
 <p>Flexible work can mean fewer hours, a say in when you work, or no commute at all. Where you work is covered in our <a href="remote-work-canada.html">remote work guide</a>. This one is about hours and workload.</p>
 <p>A second job beside a full-time one only works if the hours fit your week. In 2023, 89.9 per cent of multiple jobholders held at least one part-time job. People whose main job was already part-time were more than twice as likely to hold another job as people whose main job was full-time (9.7 per cent, compared with 4.7 per cent). Statistics Canada’s part-time line is usually under 30 hours a week at the main job. A second job can be much shorter than that. That line is just for statistics. It has nothing to do with overtime rules in your province.</p>
 <p>Plenty of people work fewer hours because of school, caring for kids or family, health or simply preference. A good posting tells you the weekly hours or deadlines, the time zone and who sets the schedule. Our guide to <a href="article-read-a-remote-ad.html">reading a job posting</a> covers what to look for.</p>
-<p>Self-employment, which includes a lot of flexible online contract work, was up 51,000 people (+1.9 per cent) in the year to September 2026, and down 23,000 in that month alone. A flexible month can also be a quiet month, so don’t count on contract work the way you would a regular paycheque.</p>
+<p>Self-employment, which includes a lot of flexible online contract work, was up 51,000 people (+1.9 per cent) in the year to September 2026, and down 23,000 in that month alone. Contract income may vary from month to month and is generally less predictable than regular employee pay.</p>
 <h2>Asking your employer for flexible hours</h2>
 <p>Employees in federally regulated workplaces have a formal right to request flexible work arrangements. Everyone else is covered by provincial or territorial law, workplace policy and any collective agreement or contract. It helps to put your request in writing, describe the schedule you have in mind and keep the reply. Be careful with advice written for other countries, since the rules here are different.</p>
 <h2>Sources</h2>
@@ -425,12 +425,12 @@ PAGES["article-read-a-remote-ad.html"] = page(
 <li>Do the hours fit around your current job, school or family?</li>
 </ul></div>
 <h2>What to expect in a job posting</h2>
-<p>Most Job Bank and Indeed postings show a job title, employer, location, pay, a work-location label and the date posted. Pay may be hourly or yearly. If the wage says “to be negotiated,” the employer hasn’t given a number.</p>
-<p>A remote posting should also say where you are allowed to live and work. “Remote, Canada” and “Remote, must live in British Columbia” are very different. Indeed asks employers not to list a nationwide location unless people anywhere in the country can do the job.</p>
+<p>Most Job Bank and Indeed postings show a job title, employer, location, pay, a work-location label and the date posted. Pay may be hourly or yearly. If the wage says “to be negotiated,” the posting does not provide an amount.</p>
+<p>Remote postings normally include the permitted work location. “Remote, Canada” and “Remote, must live in British Columbia” describe different arrangements. Indeed asks employers to use a nationwide location only when the job can be done from anywhere in the country.</p>
 <h2>Pay in the posting</h2>
 <p>British Columbia has required compensation information in covered public job postings since 1 November 2023. For covered publicly advertised job postings in Ontario, rules in effect from 1 January 2026 require many employers with at least 25 employees to include expected compensation or a range, disclose whether they use artificial intelligence to screen applicants and say whether a vacancy exists. A posted range in Ontario cannot span more than $50,000 a year, and positions paying more than $200,000 a year are exempt. A range does not guarantee the amount you will be offered. Employers cannot require Canadian experience in those Ontario postings or related application forms.</p>
 <p>Indeed’s hiring lab measured the Ontario change: pay appeared on 49 per cent of Ontario postings just before the rule, and on 71 per cent by June 2026. Most of those were ranges.</p>
-<h2>Check the hours if it’s a second job</h2>
+<h2>Hours for a second job</h2>
 <p>For a second job, the weekly hours and time zone matter more than the word “flexible.” A pay range describes the job. It only becomes your pay once the employer puts that amount in an offer. Still deciding where to look? See our guide to <a href="article-where-to-look.html">finding remote work</a>.</p>
 <h2>Sources</h2>
 <ul class="sources">
@@ -444,28 +444,28 @@ PAGES["article-read-a-remote-ad.html"] = page(
 
 PAGES["article-three-arrangements.html"] = page(
     "article-three-arrangements.html",
-    "Remote, online or flexible: which one do you need? | Job Compass",
+    "Remote, online and flexible work compared | Job Compass",
     "Why online, remote and flexible work in Canada describe where the work is done, how it is delivered and when it is done.",
     "reading.html",
     article(
         "Work types",
-        "Remote, online or flexible: which one do you need?",
+        "Remote, online and flexible work compared",
         "You will often see these three words together in job postings, but each one means something different.",
         """
 <div class="takeaways"><h2>The short version</h2><ul>
 <li>Remote describes where the work is done.</li>
 <li>Online describes how the work is completed or delivered.</li>
 <li>Flexible describes the hours or workload.</li>
-<li>A job can be one, two or all three. The posting should say which.</li>
+<li>A job can include one, two or all three arrangements.</li>
 </ul></div>
 <h2>Work location</h2>
 <p>Remote work is done away from the employer’s office. Hybrid mixes remote and on-site days, so a “remote” posting that wants you in the office three days a week is really hybrid. More in our <a href="remote-work-canada.html">remote work guide</a>.</p>
 <h2>How the work is delivered</h2>
 <p>Online work is done or delivered over the internet, either from home or at the employer’s office. If a posting only says “online job,” ask where you would be expected to work. More in our <a href="online-work-canada.html">online work guide</a>.</p>
 <h2>Hours</h2>
-<p>Flexible work gives you some say over your schedule or workload. Statistics Canada counts part-time as under 30 hours a week at your main job. Flexible jobs can still be full-time, and part-time work doesn’t always pay well. More in our <a href="flexible-work-canada.html">flexible work guide</a>.</p>
+<p>Flexible work may provide some choice over schedule or workload. Statistics Canada generally defines part-time work as fewer than 30 hours a week at the main job. A flexible arrangement can still be full-time, and part-time describes hours rather than pay. See the <a href="flexible-work-canada.html">flexible-work guide</a>.</p>
 <h2>Why the difference matters</h2>
-<p>Adding work beside a main job? The hours matter most. Want to skip the commute? Look at where the work has to be done. Want a certain kind of work? Look at the duties. A posting that throws all three words around without explaining them leaves the important questions open. Next up: <a href="article-read-a-remote-ad.html">how to read a job posting</a>, or <a href="article-second-path.html">why people take a second job</a>.</p>
+<p>For work alongside a main job, hours may be the main concern. For less commuting, location matters. For a particular kind of work, the duties matter most. If a posting uses these terms without defining them, the location, duties and hours need a closer look. Related guides cover <a href="article-read-a-remote-ad.html">job postings</a> and <a href="article-second-path.html">second jobs</a>.</p>
 """,
     ),
 )
@@ -488,13 +488,13 @@ PAGES["article-what-vacancies-mean.html"] = page(
 </div>
 <h2>Remote jobs are a small slice of the market</h2>
 <p>Statistics Canada’s Job Vacancy and Wage Survey counted 510,200 vacancies in the second quarter of 2026. The vacancy rate was 2.8 per cent. There were 3.0 unemployed people for every vacancy. In September 2026 the Labour Force Survey put unemployment at 6.5 per cent. Those numbers cover everything from offices to shops, trucks, kitchens and clinics. They are the backdrop, not the size of the remote job market.</p>
-<p>Work-location data is more useful here. In May 2026, 11.4 per cent of employed Canadians worked exclusively from home, and 9.8 per cent had a hybrid arrangement. Working only from home was a bit less common than a year earlier, but it is clearly here to stay. Anyone hunting for a second job narrows that group further by wanting fewer hours, online work or both.</p>
+<p>Work-location data is more useful here. In May 2026, 11.4 per cent of employed Canadians worked exclusively from home, and 9.8 per cent had a hybrid arrangement. Working exclusively from home was slightly less common than one year earlier. Anyone hunting for a second job narrows that group further by wanting fewer hours, online work or both.</p>
 <h2>Why the remote filter matters</h2>
-<p>When we checked Job Bank in October 2026, its home page showed about 84,000 postings, and only about 700 were marked remote. Those numbers change daily, but the gap is the point. Searching a job title with the remote filter turned on beats scrolling through everything, and typing only “work from home” can pull up hybrid and on-site jobs too. Our guide to <a href="article-where-to-look.html">finding remote work</a> walks through it.</p>
+<p>When we checked Job Bank in October 2026, its home page showed about 84,000 postings, while about 700 were marked remote. The counts change daily, but they show that remote postings are a small share of the total. A job-title search with the remote filter is more precise than browsing every posting. Searching only for “work from home” can also return hybrid and on-site jobs. See <a href="article-where-to-look.html">how to search for remote work</a>.</p>
 <h2>One occupation that can be done online</h2>
-<p>Software developers and programmers had 3,545 vacancies in that quarter, up about 35 per cent year over year, with an average offered hourly wage of $43.65. Offered wages are what employers advertised for open positions in that occupation. They aren’t the typical pay for every remote job, and they aren’t an offer. Search for an occupation that matches your skills, then check the pay in each posting.</p>
-<h2>Looking for extra hours?</h2>
-<p>A focused search can take a while, since part-time remote work is a narrower field than “any job.” A Job Bank alert saves you from checking every day, and the national vacancy total says little about your own chances. We don’t post jobs ourselves.</p>
+<p>Software developers and programmers had 3,545 vacancies in that quarter, up about 35 per cent year over year, with an average offered hourly wage of $43.65. Offered wages are the amounts employers advertised for vacancies in that occupation. They do not represent pay for remote work generally. Pay varies by occupation and posting.</p>
+<h2>Part-time remote work</h2>
+<p>Part-time remote work is a narrower search than “any job,” so relevant postings may appear less often. A Job Bank alert can track new results. The national vacancy total does not measure an individual applicant’s prospects.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/260915/dq260915a-eng.htm" rel="noopener">Statistics Canada: job vacancies, second quarter 2026</a></li>
@@ -521,15 +521,15 @@ PAGES["article-second-path.html"] = page(
 <li>14.5 per cent: to do work they cared about.</li>
 <li>Hours and location decide whether a second job can fit beside the first.</li>
 </ul></div>
-<h2>A second job is already common</h2>
-<p>In 2023, 5.6 per cent of employed Canadians held more than one job at the same time, about 1.1 million people. Women were more likely to do so than men (6.4 per cent, compared with 4.8 per cent). In 2025, Statistics Canada’s annual count of multiple jobholders was 1,178,600. For some, one job doesn’t cover the bills. For others, the main job just doesn’t offer the kind of work they want.</p>
-<p>Those August 2023 answers come from a Statistics Canada Labour Force Survey supplement of workers aged 15 to 69 who already had more than one job. They don’t predict what a new job search will pay.</p>
+<h2>How common is multiple jobholding?</h2>
+<p>In 2023, 5.6 per cent of employed Canadians held more than one job at the same time, about 1.1 million people. Women were more likely to do so than men (6.4 per cent, compared with 4.8 per cent). In 2025, Statistics Canada’s annual count of multiple jobholders was 1,178,600. For some, one job does not cover household costs. Others use a second job to pursue a different kind of work.</p>
+<p>Those August 2023 results come from a Statistics Canada Labour Force Survey supplement of workers aged 15 to 69 who already held more than one job.</p>
 <h2>Why online, remote and flexible work suit a second job</h2>
 <p>Most people who held two jobs in 2023 also held at least one part-time job: 89.9 per cent. A second commute can make the schedule impossible. Remote work skips that trip, and flexible hours can work around another shift, school or family. Online work can include customer support, writing, design, bookkeeping, tutoring and software development.</p>
-<p>Home is already a workplace for a minority of employed Canadians. In May 2026, 11.4 per cent worked only from home, and 9.8 per cent split the week between home and another place. That covers the whole economy, so it isn’t a promise that a “remote” job is waiting for you. It does show that working from home is a normal way to work in Canada.</p>
-<h2>Let your reason shape the search</h2>
+<p>Home is already a workplace for a minority of employed Canadians. In May 2026, 11.4 per cent worked only from home, and 9.8 per cent split the week between home and another place. Those figures cover the whole economy rather than available remote jobs. They show that working from home is an established work arrangement in Canada.</p>
+<h2>Different goals lead to different searches</h2>
 <p>If you need to cover essentials or bring in more money, begin with the hours you can really give and the kind of pay you need. Regular employee pay is usually steadier than contract income, which can swing from month to month. If you want to build experience, start with skills you can already show, and have a look at <a href="article-remote-cv.html">our resume guide</a>. If work has to fit around school, caregiving or health, read about <a href="flexible-work-canada.html">flexible hours</a> before you go after a full-time remote job.</p>
-<p>From there, <a href="article-where-to-look.html">how to search for remote work</a> covers Job Bank’s remote and hours filters, and <a href="path-check.html">Which kind of work suits you?</a> points you to the guide that fits your reason. Nothing here is a job offer or a promise of earnings.</p>
+<p>The guide to <a href="article-where-to-look.html">searching for remote work</a> covers Job Bank’s remote and hours filters. The <a href="path-check.html">search goals page</a> groups guides by common reasons for seeking additional work.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www150.statcan.gc.ca/n1/pub/14-28-0001/2024001/article/00002-eng.htm" rel="noopener">Statistics Canada: Multiple jobholders, 2023</a></li>
@@ -551,22 +551,22 @@ PAGES["article-where-to-look.html"] = page(
         "How to search for remote work",
         "Pick a job title that matches your skills, then let Job Bank’s remote and hours filters narrow the list.",
         """
-<div class="takeaways"><h2>A simple search routine</h2><ul>
+<div class="takeaways"><h2>Job Bank search options</h2><ul>
 <li>A job title that fits your skills, not just the words “work from home.”</li>
 <li>Job Bank’s remote filter, if you want a fully remote job.</li>
-<li>An hours filter, if it’s going beside a main job.</li>
+<li>An hours filter for work alongside a main job.</li>
 <li>A job alert, so new matches land in your inbox.</li>
 <li>The employer’s own careers page, before you apply.</li>
 </ul></div>
 <h2>What Job Bank means by remote</h2>
 <p>Job Bank lets employers label a job in one of four ways. Remote means the work is done from a place you choose, like a home office. Hybrid means part in person and part remote, with the split agreed with the employer. On-site means a place the employer names, with no remote option. On the road means the location changes because the job involves travel.</p>
-<p>Searching the words “work from home” is hit and miss, because it can bring up hybrid and on-site postings that mention a home somewhere in the text. For a fully remote job, use the filter instead. On <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank’s Find a job page</a>, enter a job title and location, then choose Remote under work location.</p>
-<h2>Hours, if it’s a second job</h2>
-<p>The same results page can filter by hours. If you already have a main job, the part-time filter is a good way to find extra hours. Statistics Canada counts part-time as under 30 hours a week at the main job, and a second job can be far fewer. The posting should still tell you the weekly hours or deadlines. Full-time remote work is a different search, since it is usually a main job done from home.</p>
-<p>Remote results can come from across the country, because the work isn’t tied to the city you typed in. Check the province in each posting. Job Bank notes that remote jobs follow the wage rules of the province where the employer is located, which may not be where you live. More on that in <a href="article-pay-and-province.html">What a second paycheque changes</a>.</p>
-<h2>Set up a job alert</h2>
+<p>Searching only for “work from home” can bring up hybrid and on-site postings that mention a home elsewhere in the text. For a fully remote job, use the filter instead. On <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank’s Find a job page</a>, enter a job title and location, then choose Remote under work location.</p>
+<h2>Hours for a second job</h2>
+<p>The same results page can filter by hours. For someone with a main job, the part-time filter narrows the search to additional hours. Statistics Canada counts part-time as under 30 hours a week at the main job, and a second job can involve far fewer. Weekly hours or project deadlines are normally included in the posting. Full-time remote work is a different search, since it is usually a main job done from home.</p>
+<p>Remote results may come from across the country because the work is not tied to the city entered in the search. The province in each posting still matters. Job Bank notes that remote jobs follow the wage rules of the employer’s province, which may differ from the worker’s province. See <a href="article-pay-and-province.html">What a second paycheque changes</a>.</p>
+<h2>Job alerts</h2>
 <p>Once your filters look right, Job Bank can email you when a new posting appears. Create a job alert from the results page, then confirm it using the email Job Bank sends you. You can change or stop it at any time, and Job Bank is free.</p>
-<p>When a posting looks promising, find the employer’s name and see if the same job is on its website. You can apply there or through Job Bank. We don’t post jobs or introduce candidates to employers. Got one open? Here is <a href="article-read-a-remote-ad.html">how to read it</a>.</p>
+<p>Before applying, look for the same position on the employer’s website. Apply there or through Job Bank, then use the <a href="article-read-a-remote-ad.html">job-posting guide</a> to review the details.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job</a></li>
@@ -585,19 +585,19 @@ PAGES["article-remote-cv.html"] = page(
     article(
         "Your application",
         "Tailor your resume for online and remote work",
-        "For remote and online jobs, employers want to see that you get results, communicate clearly and can work without someone watching over you.",
+        "For remote and online jobs, employers look for results, clear communication and the ability to work without close supervision.",
         """
-<div class="takeaways"><h2>What to put front and centre</h2><ul>
+<div class="takeaways"><h2>Relevant resume information</h2><ul>
 <li>Results you delivered on your own.</li>
 <li>The tools you use, named plainly.</li>
 <li>A short summary at the top.</li>
-<li>Your city and province, and anywhere you can’t work from.</li>
+<li>Your city and province, including any geographic work restrictions.</li>
 </ul></div>
 <h2>What employers look for</h2>
 <p>For online and remote jobs, employers want to know you can get the work done reliably without close supervision. For each relevant job, say what you achieved: customer requests resolved, reports delivered, classes taught, software releases maintained. Name the communication and project tools you used. If your availability matters, mention it in your application or cover letter instead of the top of your resume.</p>
-<h2>What to leave out</h2>
-<p>Never make up a remote job title you didn’t hold, and don’t list an expected daily income. A real employer won’t need your social insurance number, ID or banking details just to decide whether to interview you, so keep those off any application. Your city and province are enough.</p>
-<h2>A quick check before you send it</h2>
+<h2>Information not needed in an application</h2>
+<p>Use the job title you held and describe relevant results. Do not include a social insurance number, identification or banking details in an application. Your city and province are sufficient.</p>
+<h2>Resume review</h2>
 <p>Can someone skimming your resume see what you achieved and which tools you used? If it reads like duties copied from an old posting, turn the best points into results. Then apply on the employer’s website or through Job Bank. Our <a href="article-where-to-look.html">search guide</a> shows you where to look.</p>
 """,
     ),
@@ -621,13 +621,13 @@ PAGES["article-pay-and-province.html"] = page(
 </ul></div>
 <h2>Minimum wage for remote work</h2>
 <p>Minimum wage is set province by province, with a separate federal rate for federally regulated employees. From 1 April 2026 the federal rate is $18.15 an hour. If the provincial general rate is higher, a federally regulated employer must meet the higher one. Alberta’s general rate is still $15. British Columbia’s is $18.25 from 1 June 2026. Ontario’s is $17.95 from 1 October 2026. Quebec’s is $16.60 from 1 May 2026. Rates change often, so double-check the current figure on the <a href="https://minwage-salairemin.service.canada.ca/en/general.html" rel="noopener">federal minimum wage database</a> and your province’s website before relying on any list, including ours.</p>
-<p>Job Bank says remote jobs follow the wage rules of the province where the employer is located, which can differ from where you live. Check the province in the posting, then confirm the rules that apply. This page can’t tell you which law covers your contract.</p>
+<p>Job Bank says remote jobs follow the wage rules of the province where the employer is located, which can differ from where the worker lives. The province named in the posting is therefore an important detail. The applicable law can depend on the employment arrangement.</p>
 <h2>What job postings must show in B.C. and Ontario</h2>
-<p>British Columbia has required pay information in covered public job postings since 1 November 2023. Ontario’s rules from 1 January 2026 require many employers to show expected compensation or a range, disclose artificial-intelligence screening and say whether a vacancy exists. Details and exceptions are in <a href="article-read-a-remote-ad.html">How to read a remote job posting</a>. A posted range isn’t your offer yet. Quebec employment standards are administered by CNESST, while workplace language requirements are governed under the Charter of the French Language and overseen by the OQLF.</p>
+<p>British Columbia has required pay information in covered public job postings since 1 November 2023. Ontario’s rules from 1 January 2026 require many employers to show expected compensation or a range, disclose artificial-intelligence screening and say whether a vacancy exists. Details and exceptions are in <a href="article-read-a-remote-ad.html">How to read a remote job posting</a>. A posted range is not a written offer. Quebec employment standards are administered by CNESST, while workplace language requirements are governed under the Charter of the French Language and overseen by the OQLF.</p>
 <h2>A second paycheque</h2>
 <p>If you already have an employer, a second employer still deducts income tax from your pay. If you have already claimed your personal tax credits on another TD1 and your total income will go past them, you generally enter zero on the second TD1 and tick the matching box. The CRA’s current instructions cover your exact situation.</p>
 <p>Each employer works out CPP deductions on its own. If the two jobs together push you over the yearly maximum, the extra contribution can be refunded or applied to tax owing when you file (it goes on line 44800). Quebec uses the Quebec Pension Plan, which works a little differently. Rates change every year, so check the CRA for the latest.</p>
-<p>A contract that says “freelance” doesn’t make you self-employed. The Canada Revenue Agency looks at control, tools, subcontracting, financial risk and chance of profit. We can’t tell you which one you are, and this is general information, not tax advice.</p>
+<p>A contract that uses the word “freelance” does not by itself establish self-employment. The Canada Revenue Agency considers control, tools, subcontracting, financial risk and opportunity for profit when assessing employment status.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www.canada.ca/en/services/jobs/workplace/federal-labour-standards/pay-deductions.html" rel="noopener">Canada.ca: pay, deductions and the federal minimum wage</a></li>
@@ -642,11 +642,11 @@ PAGES["article-pay-and-province.html"] = page(
 
 PAGES["path-check.html"] = page(
     "path-check.html",
-    "Which kind of work suits you? | Job Compass",
+    "Search goals for flexible work | Job Compass",
     "Choose why you want online, remote or flexible work in Canada, and open the Job Compass guide that matches.",
     "reading.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Which kind of work suits you?</span><h1>What are you hoping extra work will do for you?</h1><p class="lede">Pick the reason closest to yours. Your answer stays in your browser, and we never see it.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Search goals</span><h1>Reasons for looking for additional work</h1><p class="lede">These four common goals lead to different guides. Selecting one displays a related starting point. The selection stays in the browser and is not sent to Job Compass.</p></div></div>
 <section><div class="wrap" style="max-width:760px">
 <form id="path-check">
 <ul class="check">
@@ -657,7 +657,7 @@ PAGES["path-check.html"] = page(
 </ul>
 </form>
 <div id="path-result" class="result" hidden><h3></h3><p></p><p><a id="path-next" href="article-second-path.html">Read the guide</a></p></div>
-<p class="notice" style="margin-top:1.5rem">The percentages come from Statistics Canada (August 2023) and describe people who already had more than one job. They aren’t a promise of pay. For the full picture, read <a href="article-second-path.html">Why people take a second job</a>.</p>
+<p class="notice" style="margin-top:1.5rem">The percentages come from Statistics Canada (August 2023) and describe people who already had more than one job. They do not predict earnings. For the full picture, read <a href="article-second-path.html">Why people take a second job</a>.</p>
 </div></section>
 """,
 )
@@ -668,25 +668,25 @@ PAGES["glossary.html"] = page(
     "Definitions for remote, hybrid, online, flexible, NOC, EI, CPP, LMIA and other terms used in Canadian job postings.",
     "reading.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Glossary</span><h1>Terms used in job postings</h1><p class="lede">Plain-language meanings for the terms you will run into in online, remote and flexible job postings in Canada. For legal rights, check the official sources linked in our guides.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Glossary</span><h1>Terms used in job postings</h1><p class="lede">Definitions of terms found in Canadian remote, online and flexible job postings. Legal rights and obligations depend on the applicable official source.</p></div></div>
 <section><div class="wrap">
 <label class="notice" for="glossary-search">Search terms</label>
 <input id="glossary-search" class="search" type="search" placeholder="Try “remote”, “EI” or “contractor”">
 <dl class="glossary">
-<div class="term"><dt>Remote</dt><dd>You don’t work at the employer’s office. You may still need to live in a certain province or time zone.</dd></div>
-<div class="term"><dt>Hybrid</dt><dd>Part of the work is remote and part is at a set location. It isn’t fully remote.</dd></div>
-<div class="term"><dt>On-site</dt><dd>You go to a workplace. We don’t cover these jobs.</dd></div>
-<div class="term"><dt>Online work</dt><dd>Work done or delivered over the internet. The term alone doesn’t tell you the location or hours.</dd></div>
-<div class="term"><dt>Flexible work</dt><dd>Work with some choice over hours, schedule or workload. We cover it when it is also online or remote.</dd></div>
+<div class="term"><dt>Remote</dt><dd>Work is completed away from the employer’s office. The position may still be limited to a province or time zone.</dd></div>
+<div class="term"><dt>Hybrid</dt><dd>Part of the work is remote and part is at a set location. It is not fully remote.</dd></div>
+<div class="term"><dt>On-site</dt><dd>Work completed at a location set by the employer, with no remote option.</dd></div>
+<div class="term"><dt>Online work</dt><dd>Work done or delivered over the internet. The term alone does not specify location or hours.</dd></div>
+<div class="term"><dt>Flexible work</dt><dd>Work that offers some choice over hours, schedule or workload.</dd></div>
 <div class="term"><dt>Part-time</dt><dd>Under 30 hours a week at your main or only job, by Statistics Canada’s definition. A second job can be shorter.</dd></div>
-<div class="term"><dt>Second job</dt><dd>A job you hold at the same time as another one. In August 2023 the top reasons were essentials, extra income and work people cared about.</dd></div>
+<div class="term"><dt>Second job</dt><dd>A job held at the same time as another job.</dd></div>
 <div class="term"><dt>Additional work</dt><dd>A second job, freelance gig or other paid work you take on alongside everything else.</dd></div>
 <div class="term"><dt>Job Bank</dt><dd>The Government of Canada’s job search website. Its remote filter helps when location matters.</dd></div>
 <div class="term"><dt>NOC</dt><dd>National Occupational Classification. A code for an occupation, used on Job Bank and in labour statistics.</dd></div>
 <div class="term"><dt>Vacancy</dt><dd>A position an employer is trying to fill. Statistics Canada counts vacancies through a survey, so its numbers differ from the postings on a website.</dd></div>
-<div class="term"><dt>Offered wage</dt><dd>The wage advertised for an open position. It isn’t the average pay of people already working, and it isn’t an offer to you.</dd></div>
+<div class="term"><dt>Offered wage</dt><dd>The wage advertised for an open position. It is neither the average pay of current workers nor a written offer.</dd></div>
 <div class="term"><dt>CPP</dt><dd>Canada Pension Plan. Contributions can apply to any employment, part-time included. The Canada Revenue Agency posts current rates.</dd></div>
-<div class="term"><dt>EI</dt><dd>Employment Insurance. Premiums and benefits have their own rules, and a contract that says “freelance” doesn’t settle them.</dd></div>
+<div class="term"><dt>EI</dt><dd>Employment Insurance. Premiums and benefits have their own rules, and the word “freelance” does not determine them.</dd></div>
 <div class="term"><dt>Independent contractor</dt><dd>Someone in business for themselves. The CRA looks at control, tools, risk and chance of profit, not just what the contract calls you.</dd></div>
 <div class="term"><dt>LMIA</dt><dd>Labour Market Impact Assessment. A step employers may need to take before hiring certain temporary foreign workers. It is not a job, and job seekers should never pay for one.</dd></div>
 <div class="term"><dt>TD1</dt><dd>The form where an employee claims personal tax credits with an employer. Those credits are normally claimed with one employer, not again at a second job.</dd></div>
@@ -703,13 +703,13 @@ PAGES["faq.html"] = page(
     "Answers about Job Compass and about online, remote and flexible work in Canada.",
     "reading.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">FAQ</span><h1>Common questions.</h1></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">FAQ</span><h1>Questions about remote and flexible work</h1></div></div>
 <section><div class="wrap" style="max-width:820px">
 <details><summary>Does Job Compass list jobs?</summary><p>No. We write guides to online, remote and flexible work and how hiring works. For current openings, try Job Bank’s remote filter and employers’ own careers pages.</p></details>
-<details><summary>Are you a recruitment agency?</summary><p>No. We’re an independent publisher, not a licensed employment agency. We don’t screen, place or introduce candidates, and we never charge job seekers.</p></details>
-<details><summary>Why only online, remote and flexible work?</summary><p>Because these jobs are often easier to fit around a main job, school or family. We stick to work you can do online or away from the employer’s office, with part-time or flexible hours. On-site jobs aren’t something we cover.</p></details>
-<details><summary>Why do people take a second job?</summary><p>In August 2023, Canadians with more than one job most often said essentials (34.9 per cent), extra income (34.8 per cent) or work they cared about (14.5 per cent). <a href="article-second-path.html">Our guide</a> goes through the numbers, and <a href="path-check.html">Which kind of work suits you?</a> can point you to the right place to start.</p></details>
-<details><summary>Is remote work common in Canada?</summary><p>Fairly. In May 2026, 11.4 per cent of employed Canadians worked only from home and 9.8 per cent had a hybrid week. Remote jobs on Job Bank are a much shorter list than all postings, so a job title plus the remote filter works best. <a href="article-where-to-look.html">Here is how to search</a>.</p></details>
+<details><summary>Are you a recruitment agency?</summary><p>No. Job Compass is an independent publisher, not a licensed employment agency. It does not screen, place or introduce candidates, and it does not charge readers.</p></details>
+<details><summary>Why only online, remote and flexible work?</summary><p>These arrangements can be easier to fit around a main job, school or family responsibilities. Job Compass covers work completed online or away from the employer’s office, including part-time and flexible arrangements.</p></details>
+<details><summary>Why do people take a second job?</summary><p>In August 2023, Canadians with more than one job most often cited essentials (34.9 per cent), extra income (34.8 per cent) or work they cared about (14.5 per cent). <a href="article-second-path.html">Why people take a second job</a> provides the full figures. The <a href="path-check.html">search goals page</a> groups related guides by reason.</p></details>
+<details><summary>Is remote work common in Canada?</summary><p> In May 2026, 11.4 per cent of employed Canadians worked only from home and 9.8 per cent had a hybrid week. Remote jobs on Job Bank are a much shorter list than all postings, so a job title plus the remote filter works best. <a href="article-where-to-look.html">Here is how to search</a>.</p></details>
 <details><summary>What is the difference between remote and online?</summary><p>Remote is about where you work. Online is about how the work is done or delivered. A job can be one, the other or both. <a href="article-three-arrangements.html">See how the three compare</a>.</p></details>
 <details><summary>Will I be paid a set amount?</summary><p>Only if an employer offers you that amount in writing. Nothing on Job Compass is a job offer or a promise of earnings.</p></details>
 <details><summary>Which province’s rules apply if I work from home?</summary><p>It depends on where you work, where the employer operates, the type of business and your employment relationship. Federally regulated workplaces follow federal labour standards. <a href="article-pay-and-province.html">What a second paycheque changes</a> has more, with official links.</p></details>
@@ -726,33 +726,33 @@ PAGES["services.html"] = page(
     "Why people in Canada consider online, remote and flexible work, and how clear guidance can help them make informed choices.",
     "services.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Why it matters</span><h1>Why people look for extra work.</h1><p class="lede">For some it helps with everyday costs. For others it is a way to build experience or find hours around a main job, school or family. Knowing your own reason makes the search a lot easier.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Why it matters</span><h1>Why people look for extra work.</h1><p class="lede">Additional work can help with everyday costs, build experience or provide hours that fit around a main job, school or family responsibilities.</p></div></div>
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Everyone has a reason</span><h2>Why people take on more work.</h2><p class="lede">In August 2023, Statistics Canada asked people with more than one job for their main reason. Income mattered, but it wasn’t the whole story.</p></div>
+<div class="head reveal"><span class="eyebrow">Everyone has a reason</span><h2>Why people take on more work.</h2><p class="lede">In August 2023, Statistics Canada asked people with more than one job for their main reason. Income was the main reason for many respondents, but not for everyone.</p></div>
 <div class="tiles">
 <article class="tile reveal"><h3>Help with everyday costs</h3><p>Paying for essentials like groceries or housing was the top reason.</p></article>
 <article class="tile reveal"><h3>Add income</h3><p>Nearly as many wanted money beyond what their main job pays.</p></article>
 <article class="tile reveal"><h3>Build experience</h3><p>Some wanted to do work they care about, and a second job can be a practical way to get experience in a new field.</p></article>
 <article class="tile reveal"><h3>Find hours that fit</h3><p>Part-time or flexible work can fit around a main job, school, family or health needs.</p></article>
 </div>
-<p class="src-note">Source: Statistics Canada, August 2023, people aged 15 to 69 who already had more than one job. These results don’t predict what a new job search will bring. <a href="article-second-path.html">See the full numbers</a>.</p>
+<p class="src-note">Source: Statistics Canada, August 2023, people aged 15 to 69 who already had more than one job. These results describe current multiple jobholders rather than the outcome of a new job search. <a href="article-second-path.html">See the full numbers</a>.</p>
 </div></section>
 <section class="alt"><div class="wrap split">
 <div><span class="eyebrow">What changes with each type</span><h2>Where, how and when you work.</h2>
 <p><b>Remote work</b> can cut or remove the commute, though some jobs still need you to live in a certain province or work in a certain time zone.</p>
-<p><b>Online work</b> puts some jobs on your computer, but online doesn’t always mean remote or flexible.</p>
+<p><b>Online work</b> is completed or delivered over the internet, but it is not necessarily remote or flexible.</p>
 <p><b>Flexible work</b> can mean a shorter week or more say over your hours. Even so, find out who sets the schedule, how much work there is and how you get paid.</p>
 <p><a href="work-types.html">See how the three compare &rarr;</a></p></div>
-<div><span class="eyebrow">About Job Compass</span><h2>Why we made Job Compass.</h2>
-<p>Information about remote work is scattered across job postings, Job Bank, Statistics Canada, the Canada Revenue Agency and provincial websites. It’s hard to tell which details matter for you.</p>
-<p>We pull it together in one place. Our guides cover choosing the kind of work you want, narrowing your search, reading a posting, preparing a resume and the basics of pay and employment status.</p>
-<p>We’re independent. We don’t post jobs, place candidates or promise any income.</p></div>
+<div><span class="eyebrow">About Job Compass</span><h2>Canadian sources in one place.</h2>
+<p>Information about remote work is spread across job postings, Job Bank, Statistics Canada, the Canada Revenue Agency and provincial websites.</p>
+<p>Job Compass brings those sources together in guides on work arrangements, job searches, applications, pay and employment status.</p>
+<p>Job Compass is an independent publisher. See the About page for our editorial approach.</p></div>
 </div></section>
 <section><div class="wrap split">
 <div><span class="eyebrow">More than a paycheque</span><h2>Practical needs and personal goals both count.</h2>
-<p>Taking on more work doesn’t mean quitting your main job or finding a perfect role. It might be a second job that helps at home, a freelance project that builds experience or a flexible position that fits your week.</p>
-<p>We’re not here to tell anyone they need another job. We’re here for people already thinking about it, so they understand the options and what to do next.</p></div>
-<div><span class="eyebrow">Inside the guides</span><h2>What you will find here.</h2>
+<p>Additional work can take the form of a second job that supports household costs, a freelance project that builds experience or a flexible position that fits an existing schedule.</p>
+<p>The information is for people already considering additional work and comparing their options.</p></div>
+<div><span class="eyebrow">Topics covered</span><h2>From work arrangements to pay.</h2>
 <ol class="note-list">
 <li>Work out whether location, hours, income or experience matters most.</li>
 <li>Learn how remote, online and flexible work differ.</li>
@@ -760,7 +760,7 @@ PAGES["services.html"] = page(
 <li>Check the employer, location, hours, pay and employment status.</li>
 <li>Find the official source when a legal, tax or employment rule applies to you.</li>
 </ol>
-<div class="btn-row"><a class="btn btn-primary" href="path-check.html">Which kind of work suits you?</a><a class="btn btn-ghost" href="reading.html">Browse all guides</a></div></div>
+<div class="btn-row"><a class="btn btn-primary" href="path-check.html">Explore search goals</a><a class="btn btn-ghost" href="reading.html">Browse all guides</a></div></div>
 </div></section>
 """,
 )
@@ -771,24 +771,24 @@ PAGES["about.html"] = page(
     "Job Compass is an independent Canadian publisher covering online, remote and flexible work, and how employers hire for that work.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">About Job Compass</span><h1>Who we are</h1></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">About Job Compass</span><h1>About Job Compass</h1></div></div>
 <section><div class="wrap split">
 <div class="reveal">
 <h2>Who we write for</h2>
 <p>Job Compass is an independent Canadian publisher for people thinking about online work, a remote job or flexible hours around a main job, family or school. We explain why people take on this kind of work and how to look for it on Job Bank and employers’ websites. We are not connected to Job Bank, Statistics Canada or any provincial or territorial government.</p>
-<p>We’re not a licensed employment agency. We don’t post job openings or pass your information to employers.</p>
+<p>Job Compass is not a licensed employment agency. It does not post job openings or send reader information to employers.</p>
 </div>
 <div class="reveal">
 <h2>How we write our guides</h2>
 <div class="types">
-<div class="type" style="grid-template-columns:1fr"><div><h3>Our focus</h3><p>Who we are. On-site positions are outside our editorial focus.</p></div></div>
+<div class="type" style="grid-template-columns:1fr"><div><h3>Our focus</h3><p>About Job Compass. On-site positions are outside our editorial focus.</p></div></div>
 <div class="type" style="grid-template-columns:1fr"><div><h3>Backed by sources</h3><p>Labour figures come from Statistics Canada, search tips from Job Bank, and pay and tax information from the Canada Revenue Agency and the right provincial, territorial or federal authority.</p></div></div>
 <div class="type" style="grid-template-columns:1fr"><div><h3>Dated and reviewed</h3><p>Each guide shows when it was last reviewed, and wage and vacancy figures say which period they cover.</p></div></div>
 </div>
 </div>
 </div></section>
 <section class="alt"><div class="wrap">
-<p class="notice" style="max-width:70ch">Job Compass shares general information, not legal, tax or employment advice. Reach us at hello@jobcompass.ca. We work online and don’t have a public office.</p>
+<p class="notice" style="max-width:70ch">Job Compass publishes general information rather than legal, tax or employment advice. Contact: hello@jobcompass.ca. Job Compass operates online and has no public office.</p>
 </div></section>
 """,
 )
@@ -799,24 +799,24 @@ PAGES["contact.html"] = page(
     "Ask Job Compass about online, remote, work-from-home, part-time or flexible work in Canada. The form opens your email app. We do not take identification or banking details.",
     "contact.html",
     f"""
-<div class="page-head"><div class="wrap"><span class="eyebrow">Contact</span><h1>Get in touch</h1><p class="lede">Wondering about online, remote, work-from-home, part-time or flexible work? Send us your question and we’ll point you to the right guide or official source.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Contact</span><h1>Get in touch</h1><p class="lede">Send a question about remote or flexible work in Canada. We can direct you to a relevant guide or official source.</p></div></div>
 <section><div class="wrap split">
 <div>
 <form id="contact-form" class="form" novalidate>
 <div class="field"><label for="name">Name</label><input id="name" required autocomplete="name"><div class="err" aria-live="polite"></div></div>
 <div class="field"><label for="email">Email</label><input id="email" type="email" required autocomplete="email"><div class="err" aria-live="polite"></div></div>
 <div class="field"><label for="province">Province or territory</label><select id="province"><option value="">Prefer not to say</option><option>Alberta</option><option>British Columbia</option><option>Manitoba</option><option>New Brunswick</option><option>Newfoundland and Labrador</option><option>Northwest Territories</option><option>Nova Scotia</option><option>Nunavut</option><option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option><option>Saskatchewan</option><option>Yukon</option><option>Outside Canada</option></select></div>
-<div class="field"><label for="topic">What is it about?</label><select id="topic"><option>Remote work</option><option>Online work</option><option>Work from home</option><option>Part-time or flexible work</option><option>Freelance or side job</option><option>Pay, tax or employment status</option><option>Another job-related question</option></select></div>
+<div class="field"><label for="topic">Topic</label><select id="topic"><option>Remote work</option><option>Online work</option><option>Work from home</option><option>Part-time or flexible work</option><option>Freelance or side job</option><option>Pay, tax or employment status</option><option>Another job-related question</option></select></div>
 <div class="field"><label for="msg">Your question</label><textarea id="msg" required placeholder="For example: Which Job Bank filter shows fully remote, part-time positions in Alberta?"></textarea><div class="err" aria-live="polite"></div></div>
 <button class="btn btn-primary" type="submit">Send</button>
-<p class="notice">Sending opens your email app with a message ready to go to {EMAIL}.</p>
+<p class="notice">This opens a message in your email app.</p>
 </form>
-<div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email app should have opened.</h3><p>Hit send there when you’re ready.</p><p class="ok-sub">Nothing happened? Email us at {EMAIL}.</p></div>
+<div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email message is ready.</h3><p>Review it in your email app before sending.</p><p class="ok-sub">If the app did not open, email {EMAIL}.</p></div>
 </div>
 <div>
 <h2>Email</h2>
 <ul class="contact-list"><li><b>Questions</b><a href="mailto:{EMAIL}">{EMAIL}</a></li></ul>
-<p class="notice">We can explain how these kinds of work are described in Canada and where to find official information. We can’t find you a job, review a specific offer or give legal, tax or immigration advice, and we never forward your details to employers. Please don’t send a social insurance number or banking information.</p>
+<p class="notice">We can help you find general information and official sources. We do not review job offers or provide legal, tax or immigration advice. Do not send a social insurance number or banking information.</p>
 </div>
 </div></section>
 """,
@@ -833,7 +833,7 @@ PAGES["privacy.html"] = page(
 <p>Job Compass is an independent publisher. We do not offer user accounts or ask you to create one. This notice describes the limited personal information that may be involved when you use the site. It reflects the fair information principles in Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA). Provincial privacy laws, including Quebec’s, may also apply depending on where you are and how a message is handled.</p>
 <h2>What you can send us</h2>
 <p>The contact form does not submit to our server. It opens your own email application with a message addressed to hello@jobcompass.ca. If you send that email, we receive whatever you chose to include: typically your name, email address, province and message. We use it to answer your question and to improve our guides. We do not sell it, and we do not use it to build a marketing list.</p>
-<p>Please don’t send a social insurance number, banking details, ID or passwords. We will never ask for them.</p>
+<p>Do not send a social insurance number, banking details, identification or passwords. Job Compass will not ask for them.</p>
 <h2>What stays on your device</h2>
 <p>The path check and the glossary search run in your browser. What you choose or type there is not transmitted to us by those tools.</p>
 <h2>Fonts and server logs</h2>
@@ -863,7 +863,7 @@ PAGES["disclaimer.html"] = page(
 <h2>Figures go out of date</h2>
 <p>We date our statistics and link to their sources. Vacancy counts, minimum wages and posting rules can change after a guide is reviewed, so check the linked source for the latest. If you spot an error, please tell us.</p>
 <h2>Other websites</h2>
-<p>We link to Job Bank, Statistics Canada and other sites so you can read the original source. We’re not responsible for what’s on them.</p>
+<p>Links to Job Bank, Statistics Canada and other sites provide access to original sources. Job Compass is not responsible for third-party content.</p>
 </div></section>
 """,
 )

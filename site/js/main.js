@@ -61,25 +61,25 @@
     var hopes = {
       essentials: {
         h: "Covering the essentials",
-        p: "In August 2023, 34.9% of Canadians with more than one job said their main reason was paying for groceries, housing and other essentials. A good first step is working out how many hours you can give alongside your main job, then searching Job Bank by job title with the remote and part-time filters on. A posted pay range isn’t your wage until an employer offers it, so the pay guide is worth a read.",
+        p: "In August 2023, 34.9% of Canadians with more than one job cited groceries, housing and other essentials as their main reason. Guides on part-time hours, Job Bank filters and pay are relevant to this goal.",
         href: "article-pay-and-province.html",
         link: "Pay and a second job"
       },
       extra: {
         h: "Extra income without going full-time",
-        p: "Almost the same share, 34.8%, said they wanted extra income. Be honest about how many hours you can really work. Part-time employees get regular paycheques, while contract income can swing from month to month.",
+        p: "Almost the same share, 34.8%, cited extra income. Part-time employment usually provides regular pay statements, while contract income can vary from month to month.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       },
       craft: {
         h: "Building experience in a field you like",
-        p: "14.5% said they took a second job to do work they care about. Start with a skill you can already show, and put a real result on your resume. Search by job title, since the words “work from home” alone bring up a lot of noise.",
+        p: "Another 14.5% cited work they cared about. The resume guide covers relevant skills and results, while the search guide explains why a job title is more precise than “work from home.”",
         href: "article-remote-cv.html",
         link: "Our resume guide"
       },
       hours: {
         h: "Hours that fit your life",
-        p: "School, family, health or just wanting a shorter week are common reasons people work part-time. Our flexible work guide looks at hours for online and remote jobs.",
+        p: "School, family responsibilities, health needs and a preference for a shorter week are common reasons for part-time work. The flexible-work guide covers hours and schedules for online and remote jobs.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       }
