@@ -79,7 +79,7 @@
       },
       hours: {
         h: "Hours that fit the rest of your life",
-        p: "School, family responsibilities, health needs or a preference for a shorter schedule are among the reasons people work part-time. North Desk focuses on flexible hours for online or remote work.",
+        p: "School, family responsibilities, health needs or a preference for a shorter schedule are among the reasons people work part-time. Job Compass focuses on flexible hours for online or remote work.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
       }
@@ -116,13 +116,13 @@
         var el = document.getElementById(id);
         return el ? el.value.trim() : "";
       };
-      var subject = "North Desk" + (v("topic") ? ": " + v("topic") : "");
-      var body = "Name: " + v("name") + "\nEmail: " + v("email") + "\nProvince or territory: " + v("province") + "\n\n" + v("msg");
+      var subject = "Job Compass inquiry" + (v("topic") ? ": " + v("topic") : "");
+      var body = "Name: " + v("name") + "\nEmail: " + v("email") + "\nProvince or territory: " + v("province") + "\nTopic: " + v("topic") + "\n\n" + v("msg");
       form.hidden = true;
       var done = document.getElementById("form-ok");
       done.hidden = false;
       done.focus();
-      window.location.href = "mailto:desk@northdesk.ca?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      window.location.href = "mailto:hello@jobcompass.ca?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
     });
   }
 })();
