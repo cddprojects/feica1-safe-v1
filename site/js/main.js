@@ -72,13 +72,13 @@
         link: "Flexible hours"
       },
       craft: {
-        h: "Building experience in a field you like",
-        p: "Another 14.5% cited work they cared about. The resume guide covers relevant skills and results, while the search guide explains why a job title is more precise than “work from home.”",
+        h: "Experience in a preferred field",
+        p: "Another 14.5% cited work they cared about. The résumé guide covers relevant skills and results, while the search guide explains why a job title is more precise than “work from home.”",
         href: "article-remote-cv.html",
-        link: "Our resume guide"
+        link: "Résumé guide"
       },
       hours: {
-        h: "Hours that fit your life",
+        h: "Hours compatible with other commitments",
         p: "School, family responsibilities, health needs and a preference for a shorter week are common reasons for part-time work. The flexible-work guide covers hours and schedules for online and remote jobs.",
         href: "flexible-work-canada.html",
         link: "Flexible hours"
