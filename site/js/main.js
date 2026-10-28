@@ -66,22 +66,22 @@
         link: "Pay and a second job"
       },
       extra: {
-        h: "Additional income without full-time hours",
-        p: "In August 2023, 34.8% of multiple jobholders cited extra income. Part-time employment usually provides regular pay statements, while contract income can vary from month to month.",
+        h: "Extra income without going full-time",
+        p: "Almost the same share, 34.8%, cited extra income. Part-time employment usually provides regular pay statements, while contract income can vary from month to month.",
         href: "flexible-work-canada.html",
-        link: "Part-time and flexible work guide"
+        link: "Flexible hours"
       },
       craft: {
-        h: "Experience in a preferred field",
-        p: "Another 14.5% cited work they were passionate about. The résumé guide covers relevant skills and results, while the search guide explains why a job title is more precise than “work from home.”",
+        h: "Building experience in a field you like",
+        p: "Another 14.5% cited work they cared about. The resume guide covers relevant skills and results, while the search guide explains why a job title is more precise than “work from home.”",
         href: "article-remote-cv.html",
-        link: "Résumé guide for remote and online work"
+        link: "Our resume guide"
       },
       hours: {
-        h: "Hours compatible with other commitments",
+        h: "Hours that fit your life",
         p: "School, family responsibilities, health needs and a preference for a shorter week are common reasons for part-time work. The flexible-work guide covers hours and schedules for online and remote jobs.",
         href: "flexible-work-canada.html",
-        link: "Part-time and flexible work guide"
+        link: "Flexible hours"
       }
     };
     pathForm.addEventListener("change", function () {
