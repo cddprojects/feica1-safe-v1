@@ -705,7 +705,7 @@ PAGES["about.html"] = page(
     "About Job Compass, an editorial publisher covering remote, online and flexible work in Canada.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">About Job Compass</span><h1>About Job Compass</h1></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Independent editorial publisher</span><h1>About Job Compass</h1></div></div>
 <section><div class="wrap article">
 <h2>Independent information about work in Canada</h2>
 <p>Job Compass is an editorial publisher covering remote, online and flexible work in Canada. The site is for readers comparing work arrangements, searching for reliable job information or reviewing the terms in a posting.</p>
