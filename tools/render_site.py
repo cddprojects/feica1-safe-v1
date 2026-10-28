@@ -171,7 +171,7 @@ PAGES["index.html"] = page(
 <section class="hero"><div class="wrap hero-grid">
 <div>
 <span class="eyebrow">Independent job guidance for Canadians</span>
-<h1>Thinking about online or remote work? <em>Start here.</em></h1>
+<h1>Looking for online or remote work in <em>Canada?</em></h1>
 <p class="lede">Free guides for anyone considering work from home, remote, part-time or freelance work, including as a second job. Learn how each type works, where to search and what to check before you apply.</p>
 <ul class="hero-points">
 <li><b>What the terms mean.</b> Remote, online, hybrid and part-time are not the same thing, and a job posting does not always say which one it is.</li>
