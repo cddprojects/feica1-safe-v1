@@ -16,6 +16,7 @@ const types = {
 };
 
 const server = http.createServer((req, res) => {
+  console.log(new Date().toISOString(), req.socket.remoteAddress, req.method, req.url);
   const url = new URL(req.url || "/", "http://127.0.0.1");
   let pathname = decodeURIComponent(url.pathname);
   if (pathname.endsWith("/")) pathname += "index.html";
