@@ -6,11 +6,6 @@ ROOT = Path(__file__).resolve().parents[1] / "site"
 EMAIL = "hello@jobcompass.ca"
 THEME = "#243552"
 
-LEAF = (
-    "M50 2 42 20 35 15 37 34 24 27 21 32 6 24 11 52 1 56 26 77 22 87 46 83 "
-    "46 100 54 100 54 83 78 87 74 77 99 56 89 52 94 24 79 32 76 27 63 34 65 15 58 20Z"
-)
-
 LOGO = (
     '<svg viewBox="0 0 100 100" aria-hidden="true">'
     '<circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="8"/>'
@@ -41,8 +36,7 @@ HERO_ART = (
     '<g clip-path="url(#arch)">'
     '<rect width="480" height="560" fill="url(#sky)"/>'
     '<circle cx="380" cy="110" r="64" fill="#f7d77b" opacity=".85"/>'
-    '<circle cx="90" cy="96" r="30" fill="#fff" opacity=".72"/>'
-    f'<path d="{LEAF}" fill="#c4442f" transform="translate(77 82) scale(.26)"/>'
+    '<circle cx="90" cy="96" r="26" fill="#fff" opacity=".55"/>'
     '<rect x="0" y="392" width="480" height="168" fill="#23402f"/>'
     '<rect x="0" y="392" width="480" height="10" fill="#183024"/>'
     '<rect x="94" y="164" width="292" height="222" rx="20" fill="#1f2a24"/>'
@@ -170,16 +164,15 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">A Canadian guide to flexible work</span>
+<span class="eyebrow">Remote and flexible work in Canada</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Job Compass examines how flexible work is structured in Canada, where current postings appear, and how hours, pay and employment terms differ across arrangements.</p>
+<p class="lede">The guides explain how these work arrangements differ, where current postings appear, and what hours, pay and employment terms mean in practice.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
 <p class="hero-note">Current openings are published through Job Bank and employer careers pages.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
-<div class="art-stamp"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="{LEAF}"/></svg><span>Canada-focused</span></div>
-<div class="art-caption"><small>Essential details</small><strong>Location · Schedule · Pay</strong></div>
+<div class="art-caption"><small>Posting details</small><strong>Location · Schedule · Pay</strong></div>
 </div>
 </div></section>
 
@@ -194,8 +187,8 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="route" id="recruitment"><div class="wrap">
-<div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>Five details that narrow a broad job search.</h2>
-<p class="lede">Occupation, work location, schedule and employment status determine which postings are relevant. Together, these five details narrow a broad search.</p></div>
+<div class="route-head reveal"><span class="eyebrow">A focused job search</span><h2>The details that bring a job search into focus.</h2>
+<p class="lede">Occupation, work location, schedule and working relationship each change the results. The posting itself then confirms whether a role is relevant.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Occupation</h3><p>A job title or occupation produces more relevant results than searching only for “work from home.”</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Work location</h3><p>Remote, hybrid and on-site labels show where the work is completed and whether attendance is required.</p></li>
@@ -207,7 +200,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Reasons Canadians report for holding a second job.</h2><p class="lede">For some Canadians, additional work covers everyday costs. For others, it provides extra income or work they are passionate about. Statistics Canada measured these reasons in August 2023.</p></div>
+<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Why Canadians take on additional work.</h2><p class="lede">For some Canadians, additional work covers everyday costs. For others, it provides extra income or work they are passionate about. Statistics Canada measured these reasons in August 2023.</p></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share wanted money beyond the basics.</p></li>
@@ -217,19 +210,19 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Guides for each stage</span><h2>From job search to application.</h2><p class="lede">Six guides cover work types, labour-market figures, job searches, posting details, résumés and pay.</p></div>
+<div class="head reveal"><span class="eyebrow">Guides for each stage</span><h2>Useful reading for each stage of the search.</h2><p class="lede">Six guides cover work types, labour-market figures, job searches, posting details, résumés and pay.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>A single posting may describe the work as remote, online and flexible at the same time.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Job market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">Remote-work statistics and search filters</a></h3><p>Statistics on current workers do not measure the number of open remote positions.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Job search</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>The search guide covers occupation, work-location and hours filters on Job Bank.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
-<article class="post reveal"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Résumé content for online and remote applications</a></h3><p>The application guide covers measurable results, digital tools and written communication.</p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">What belongs on a résumé for online and remote work</a></h3><p>The application guide covers measurable results, digital tools and written communication.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="article-pay-and-province.html">Pay and deductions for additional work</a></h3><p>The pay guide separates minimum-wage rules, payroll deductions and contract income.</p></article>
 </div>
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Contact</span><h2>Questions about the published guides.</h2><p class="lede">Readers can ask about a term, figure or public source used in a guide. The form opens a message in the reader’s email application.</p>
+<div><span class="eyebrow">Contact</span><h2>Questions about a guide or source.</h2><p class="lede">Questions about a term, figure or linked source can be sent by email. The form opens a draft in the reader’s email application.</p>
 <p class="notice">Do not include identification or banking information.</p></div>
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -270,7 +263,7 @@ PAGES["reading.html"] = page(
 <article class="post" data-cat="types"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>Remote describes location, online describes delivery, and flexible describes hours or workload.</p></article>
 <article class="post" data-cat="market"><div class="meta"><span class="cat">Job market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">Remote-work statistics and search filters</a></h3><p>Work-from-home figures describe employed people, while Job Bank filters organize current postings.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
-<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Résumé content for online and remote applications</a></h3><p>Relevant results, digital tools and communication methods for remote and online roles.</p></article>
+<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">What belongs on a résumé for online and remote work</a></h3><p>Relevant results, digital tools and communication methods for remote and online roles.</p></article>
 <article class="post" data-cat="pay"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="article-pay-and-province.html">Pay and deductions for additional work</a></h3><p>Minimum wage, payroll deductions and employment or independent-contractor status.</p></article>
 </div>
 </div></section>
@@ -404,7 +397,7 @@ PAGES["article-read-a-remote-ad.html"] = page(
     article(
         "Before you apply",
         "How to read a remote job posting",
-        "Before an application, the employer, work location, pay basis, weekly hours and employment status should be identifiable.",
+        "A credible posting makes the employer, work location, pay basis, weekly hours and working relationship easy to identify.",
         """
 <div class="takeaways"><h2>What to look for</h2><ul>
 <li>Employer name and a matching careers page on the employer’s website</li>
@@ -440,7 +433,7 @@ PAGES["article-three-arrangements.html"] = page(
         "Remote, online and flexible work compared",
         "These three terms often appear together in job postings, but each describes a different part of the arrangement.",
         """
-<div class="takeaways"><h2>Summary</h2><ul>
+<div class="takeaways"><h2>At a glance</h2><ul>
 <li>Remote describes where the work is done.</li>
 <li>Online describes how the work is completed or delivered.</li>
 <li>Flexible describes the hours or workload.</li>
@@ -552,13 +545,13 @@ PAGES["article-where-to-look.html"] = page(
 
 PAGES["article-remote-cv.html"] = page(
     "article-remote-cv.html",
-    "Résumé content for online and remote applications | Job Compass",
+    "What belongs on a résumé for online and remote work | Job Compass",
     "Résumé information relevant to online and remote applications, including results, communication, tools and location.",
     "reading.html",
     article(
         "Application",
-        "Résumé content for online and remote job applications",
-        "For remote or online applications, relevant results, communication experience and digital tools should be easy to identify.",
+        "What belongs on a résumé for online and remote work",
+        "A résumé for remote or online work should make relevant results, communication experience and digital tools easy to identify.",
         """
 <div class="takeaways"><h2>Relevant résumé information</h2><ul>
 <li>Measurable results from work completed with limited day-to-day supervision</li>
@@ -586,7 +579,7 @@ PAGES["article-pay-and-province.html"] = page(
         "Pay and deductions for additional work",
         "Additional work may involve minimum-wage rules, payroll deductions and different treatment for employees and independent contractors.",
         """
-<div class="takeaways"><h2>Summary</h2><ul>
+<div class="takeaways"><h2>At a glance</h2><ul>
 <li>There is no single minimum wage for every remote job in Canada. It depends on the federal rate or the province or territory in the posting.</li>
 <li>Banks, airlines, federally regulated telecommunications companies and interprovincial transportation businesses follow the Canada Labour Code.</li>
 <li>The applicable employment standards can depend on the employer, worker, workplace and whether the business is federally regulated.</li>
@@ -617,7 +610,7 @@ PAGES["path-check.html"] = page(
     "Common reasons for seeking additional work in Canada, with links to related Job Compass guides.",
     "reading.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Search goals</span><h1>Common goals for additional work</h1><p class="lede">Each goal links to related guides. The selection stays in the browser and is not sent to Job Compass.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Additional work</span><h1>Reasons for considering additional work</h1><p class="lede">Four common reasons are linked to guides on pay, hours, experience and job search. The selection stays in the browser and is not sent to Job Compass.</p></div></div>
 <section><div class="wrap" style="max-width:760px">
 <form id="path-check">
 <ul class="check">
