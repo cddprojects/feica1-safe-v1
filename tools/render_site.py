@@ -110,21 +110,21 @@ PAGES = {}
 
 PAGES["index.html"] = page(
     "index.html",
-    "Online, remote and flexible work in Canada | North Desk",
-    "North Desk explains why people in Canada look for online, remote and flexible work as a second path, and how to start that search.",
+    "Work from home, part-time and remote work in Canada | North Desk",
+    "Independent Canadian guidance on work from home, part-time jobs, online work, freelance work, remote work and side jobs. North Desk does not list jobs or promise income.",
     "index.html",
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">A second path, from home</span>
-<h1>Online, remote and flexible work, as a second dream.</h1>
-<p class="lede">A second dream is the work you want beside the life you already have: money for essentials, extra income, hours that fit school or family, or a field you care about. North Desk explains how that work is arranged in Canada when it is online, remote, or flexible. We are an independent publisher. We do not post vacancies, and we do not place people.</p>
-<div class="btn-row"><a class="btn btn-primary" href="article-second-path.html">Why people add this work</a><a class="btn btn-ghost" href="path-check.html">Which guide fits</a></div>
+<span class="eyebrow">Independent work guidance for Canada</span>
+<h1>Understand work from home, part-time and remote work.</h1>
+<p class="lede">North Desk publishes clear guidance on online work, freelance work and side jobs in Canada. Learn what the terms mean, where to search, and what to check before you apply. We do not list jobs, recruit candidates or promise income.</p>
+<div class="btn-row"><a class="btn btn-primary" href="article-search-terms.html">Start with the work terms</a><a class="btn btn-ghost" href="path-check.html">Which guide fits</a></div>
 </div>
 <div class="modes">
 <h2>The only work we cover</h2>
 <a class="mode" href="remote-work-canada.html"><span class="dot"></span><span><b>Remote</b><small>The seat is not the employer’s office, so a second job does not need a second commute.</small></span><span class="tag">Place</span></a>
-<a class="mode" href="online-work-canada.html"><span class="dot"></span><span><b>Online</b><small>Support, writing, design, books, tutoring and software can travel by internet.</small></span><span class="tag">Channel</span></a>
+<a class="mode" href="online-work-canada.html"><span class="dot"></span><span><b>Online</b><small>Support, writing, design, bookkeeping, tutoring and software can be delivered online.</small></span><span class="tag">Work</span></a>
 <a class="mode" href="flexible-work-canada.html"><span class="dot"></span><span><b>Flexible</b><small>The hours can sit beside a main job, a course, or care for someone at home.</small></span><span class="tag">Hours</span></a>
 </div>
 </div></section>
@@ -143,11 +143,11 @@ PAGES["index.html"] = page(
 <section><div class="wrap">
 <div class="head reveal"><span class="eyebrow">Start here</span><h2>Read this before you search.</h2></div>
 <div class="posts">
+<article class="post reveal"><div class="meta"><span class="cat">Search terms</span><span>6 min</span></div><h3><a href="article-search-terms.html">Work from home, online work and side jobs: what the terms mean</a></h3><p>Which phrases usually point to jobs, which point to freelance work, and which are broader money searches.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Second path</span><span>7 min</span></div><h3><a href="article-second-path.html">Why a second dream is online, remote or flexible</a></h3><p>What Canadians told Statistics Canada, and why a second commute usually does not fit.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">Where to look for this work in Canada</a></h3><p>Job Bank’s remote filter, an hours filter, and a job alert. A title plus those filters beats the words “work from home.”</p></article>
-<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Online, remote and flexible are three different agreements</a></h3><p>Place, channel and hours. A second path needs you to know which of the three you are asking for.</p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Online, remote and flexible are three different agreements</a></h3><p>Where you work, how the work is delivered, and when you work. Know which one you need before you search.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">How hiring works</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job ad in Canada</a></h3><p>Employer, place, pay, hours and status. Read them in that order before you apply.</p></article>
-<article class="post reveal"><div class="meta"><span class="cat">Applications</span><span>5 min</span></div><h3><a href="article-remote-cv.html">A CV for online and remote recruitment</a></h3><p>Show work you finished without someone beside you, the tools you used, and the hours you can overlap.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="article-pay-and-province.html">Pay, province and a second job</a></h3><p>Which wage floor to check, and what a second employer does with tax and Canada Pension Plan.</p></article>
 </div>
 </div></section>
@@ -157,7 +157,7 @@ PAGES["index.html"] = page(
 <div class="reveal">
 <p class="lede">A second path is easier to find when you can say what it is for. North Desk does not match you to an employer. These are the questions the guides answer.</p>
 <ol class="note-list">
-<li>Name the reason: essentials, extra income, a field you want, or hours that fit.</li>
+<li>Name the reason: essential costs, extra income, a field you want, or hours that fit.</li>
 <li>Write down the hours you can give in a normal week, beside the job or care you already have.</li>
 <li>Decide the place: fully remote, or online work that still has a city attached.</li>
 <li>Search <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a> with the remote filter and an hours filter. Save it as an alert.</li>
@@ -211,9 +211,10 @@ PAGES["reading.html"] = page(
 <button class="chip" type="button" data-filter="pay" aria-pressed="false">Pay</button>
 </div>
 <div class="posts">
+<article class="post" data-cat="path"><div class="meta"><span class="cat">Search terms</span><span>6 min</span></div><h3><a href="article-search-terms.html">Work from home, online work and side jobs: what the terms mean</a></h3><p>A plain-language guide to the phrases people use when they look for this work in Canada.</p></article>
 <article class="post" data-cat="path"><div class="meta"><span class="cat">Second path</span><span>7 min</span></div><h3><a href="article-second-path.html">Why a second dream is online, remote or flexible</a></h3><p>Essentials, extra income, and work people care about. The hours and the commute decide whether a second job can exist.</p></article>
 <article class="post" data-cat="path"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">Where to look for this work in Canada</a></h3><p>Job Bank’s remote and hours filters, then the employer’s own careers page.</p></article>
-<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Online, remote and flexible are three different agreements</a></h3><p>Place, channel and hours. Know which one you need before you search.</p></article>
+<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Online, remote and flexible are three different agreements</a></h3><p>Where you work, how the work is delivered, and when you work. Know which one you need before you search.</p></article>
 <article class="post" data-cat="market"><div class="meta"><span class="cat">The market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">What to expect when you search for remote work</a></h3><p>Home work is a real share of employment. A remote filter on a job board is a smaller list. Both facts help you search.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">How hiring works</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job ad in Canada</a></h3><p>Employer, place, pay, hours and status, in the order a careful reader uses.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">Applications</span><span>5 min</span></div><h3><a href="article-remote-cv.html">A CV for online and remote recruitment</a></h3><p>What a remote recruiter can actually see, and what to leave off.</p></article>
@@ -233,7 +234,7 @@ PAGES["work-types.html"] = page(
 <section><div class="wrap">
 <div class="types">
 <article class="type"><div><span class="n">01 · Place</span><h3><a href="remote-work-canada.html">Remote</a></h3></div><div><p>You are not required to sit in the employer’s office. The ad should say whether that means anywhere in a province, anywhere in Canada, or a hybrid split. Job Bank files this under a remote filter, separate from a keyword search.</p><p><a href="remote-work-canada.html">Read the guide</a></p></div></article>
-<article class="type"><div><span class="n">02 · Channel</span><h3><a href="online-work-canada.html">Online</a></h3></div><div><p>The tasks and the deliverable move over the internet: support, writing, design, bookkeeping, tutoring, moderation, software. Online does not promise a home office. Ask where the contract says you must be.</p><p><a href="online-work-canada.html">Read the guide</a></p></div></article>
+<article class="type"><div><span class="n">02 · Work</span><h3><a href="online-work-canada.html">Online</a></h3></div><div><p>The tasks and completed work move over the internet: support, writing, design, bookkeeping, tutoring, moderation or software. Online does not always mean work from home. Read where the posting says the work must be done.</p><p><a href="online-work-canada.html">Read the guide</a></p></div></article>
 <article class="type"><div><span class="n">03 · Hours</span><h3><a href="flexible-work-canada.html">Flexible</a></h3></div><div><p>The week can move: chosen hours, a project deadline, or a part-time load. Statistics Canada counts part-time as usually under 30 hours a week. Flexible is not a promise of income, and it is not permission to skip the contract.</p><p><a href="flexible-work-canada.html">Read the guide</a></p></div></article>
 </div>
 <p class="src-note">Current openings, when you want them, are on <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a>. Use the remote filter rather than the words “work from home” alone.</p>
@@ -288,7 +289,7 @@ PAGES["online-work-canada.html"] = page(
     "work-types.html",
     """
 <div class="page-head jobhero jh2"><div class="wrap jh-grid">
-<div><span class="eyebrow">Channel</span><h1>Online work in Canada</h1><p class="lede">Online means the work moves over the internet. It is a way of delivering the job, not a promise that you can do it from any kitchen table.</p></div>
+<div><span class="eyebrow">How the work is delivered</span><h1>Online work in Canada</h1><p class="lede">Online means the work is completed or delivered over the internet. It does not always mean that a person can work from home or from any province.</p></div>
 <aside class="qf"><h2>At a glance</h2><dl>
 <dt>Typical tasks</dt><dd>Support, writing, design, bookkeeping, tutoring, moderation, software.</dd>
 <dt>Status</dt><dd>Employee or independent contractor. The label on the ad is not the legal test.</dd>
@@ -384,7 +385,7 @@ PAGES["article-read-a-remote-ad.html"] = page(
 PAGES["article-three-arrangements.html"] = page(
     "article-three-arrangements.html",
     "Online, remote and flexible are three agreements | North Desk",
-    "Why online, remote and flexible work in Canada should be read as place, channel and hours, not as one job title.",
+    "Why online, remote and flexible work in Canada describe where the work is done, how it is delivered and when it is done.",
     "reading.html",
     article(
         "Work types",
@@ -399,7 +400,7 @@ PAGES["article-three-arrangements.html"] = page(
 </ul></div>
 <h2>Place</h2>
 <p>Remote work is not performed at the employer’s office. Hybrid work is partly there. If the message says remote and then names three office days, believe the office days. Guides: <a href="remote-work-canada.html">remote</a>.</p>
-<h2>Channel</h2>
+<h2>How the work is delivered</h2>
 <p>Online work is delivered over the internet. It can be remote, or it can be a seat in a building with a headset. When a pitch says only “online job,” ask for the place rule in writing. Guide: <a href="online-work-canada.html">online</a>.</p>
 <h2>Hours</h2>
 <p>Flexible work lets the week move. Statistics Canada’s part-time line is usually under 30 hours at the main job. A flexible arrangement can still be full-time, and a short week can still be poorly paid. Guide: <a href="flexible-work-canada.html">flexible</a>.</p>
@@ -511,6 +512,59 @@ PAGES["article-where-to-look.html"] = page(
 <li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job</a></li>
 <li><a href="https://www.jobbank.gc.ca/support/question?mtid=2&amp;qaid=222&amp;tid=7" rel="noopener">Job Bank: remote, hybrid, on-site and on the road</a></li>
 <li><a href="https://www.jobbank.gc.ca/support/question?qaid=143&amp;tid=7" rel="noopener">Job Bank: why remote jobs from other places appear, and which wage rules they name</a></li>
+</ul>
+""",
+    ),
+)
+
+PAGES["article-search-terms.html"] = page(
+    "article-search-terms.html",
+    "Work from home, online work and side jobs in Canada | North Desk",
+    "What work from home, part-time jobs, online work, freelance work, remote work and side jobs mean in Canada, with guidance for broader earn-money searches.",
+    "reading.html",
+    article(
+        "Search terms",
+        "Work from home, online work and side jobs: what the terms mean",
+        "People use these phrases for different kinds of work. Some describe a job arrangement. Others describe independent work or a general wish for more income. Knowing the difference makes the search more useful.",
+        """
+<div class="takeaways"><h2>The short version</h2><ul>
+<li><strong>Work from home</strong>, <strong>part-time jobs</strong> and <strong>remote work</strong> usually belong to a job search.</li>
+<li><strong>Online work</strong> can mean employment or freelance work completed over the internet.</li>
+<li><strong>Freelance</strong> usually means providing a service to clients rather than joining an employer as an employee.</li>
+<li><strong>Side job</strong> means work held beside a main job, studies, care or another commitment.</li>
+<li><strong>Make money online</strong>, <strong>earn money from home</strong> and <strong>earn money online</strong> are broader searches. They are not job titles and do not describe a reliable level of income.</li>
+</ul></div>
+
+<h2>Terms that are closely related to jobs</h2>
+<p><strong>Jobs</strong> is a broad word. A useful search pairs it with a real occupation, such as customer support, bookkeeping, writing or software, and then adds the work arrangement.</p>
+<p><strong>Work from home</strong> describes where the work is done. Indeed Canada notes that employers do not always use it in the same way. Some postings use it for fully remote work; others use it for occasional days at home. Read the location line on each posting.</p>
+<p><strong>Part-time</strong> describes hours. Statistics Canada uses fewer than 30 usual hours a week at the main or only job for its national labour survey. An employer still needs to state the actual schedule. Search for a job title and then use the hours filter.</p>
+<p><strong>Remote work</strong> means the job is not normally completed at the employer’s workplace. Job Bank separates remote, hybrid, on-site and on-the-road jobs. A remote posting may still require the worker to live in Canada or in a named province.</p>
+
+<h2>Terms that can include contract work</h2>
+<p><strong>Online work</strong> describes how the work is completed or delivered. Support, writing, editing, bookkeeping, tutoring, design and software can all be online. The person may be an employee or an independent contractor, so the phrase alone does not tell you the pay, hours or legal status.</p>
+<p><strong>Freelance</strong> usually means work for clients, paid by the hour or by a project. Freelancers may need to find the next client, keep records and plan for tax. A freelance project is not automatically a part-time job with employee benefits.</p>
+<p><strong>Side job</strong> is ordinary language for work beside another commitment. Official Canadian sites are more likely to use part-time, casual, contract, self-employed or gig work. In the year to December 2025, 667,000 Canadians aged 15 to 69 did paid work through a digital platform. Only 21.8 per cent were doing that platform work as their main job or business in December. Platform work includes delivery and driving as well as online services, so it is not the same as remote work.</p>
+
+<h2>What the money phrases mean</h2>
+<p>Searches such as <strong>make money online</strong>, <strong>earn money from home</strong> and <strong>earn money online</strong> show an interest in income, but they do not identify an occupation or an employer. Results can include jobs, freelance services, selling products, surveys, creator work and investing. North Desk covers only the employment and work side of those searches.</p>
+<p>No guide can promise that a person will make money online or earn a set amount from home. Pay depends on the work, the hours, the person’s experience, the province and whether the arrangement is employment or contract work. Start with a job title or a service you can provide, then add remote, part-time or freelance.</p>
+
+<h2>Better searches for work</h2>
+<ul>
+<li><strong>Remote customer support jobs Canada</strong> — a job title, a work location and a country.</li>
+<li><strong>Part-time online bookkeeping</strong> — hours, delivery and a skill.</li>
+<li><strong>Freelance writing Canada</strong> — independent work and a service.</li>
+<li><strong>Work from home accounting Ontario</strong> — a work arrangement, occupation and province.</li>
+</ul>
+<p>Job Bank recommends starting with a job title and location, then narrowing the results with filters for remote work, hours, salary and other needs. Indeed Canada also recommends using its Remote filter and checking whether a posting is tied to a province or city. North Desk explains the terms; it does not carry the openings.</p>
+
+<h2>Sources</h2>
+<ul class="sources">
+<li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job and use search filters</a></li>
+<li><a href="https://www.jobbank.gc.ca/support/question?mtid=2&amp;qaid=222&amp;tid=7" rel="noopener">Job Bank: remote, hybrid, on-site and on the road</a></li>
+<li><a href="https://ca.indeed.com/help/job-seekers/articles/115005875163-searching-for-remote-jobs?co=CA&amp;hl=en" rel="noopener">Indeed Canada: searching for remote jobs</a></li>
+<li><a href="https://www150.statcan.gc.ca/n1/daily-quotidien/260109/dq260109a-eng.htm" rel="noopener">Statistics Canada: Labour Force Survey, December 2025, digital platform work</a></li>
 </ul>
 """,
     ),

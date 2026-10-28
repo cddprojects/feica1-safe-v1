@@ -301,6 +301,59 @@ Use the reader’s words in the headline: online, remote, flexible, second path.
 - From CCOHS and CNESST: a real arrangement is written down. Equipment, hours, and place belong in that note.
 - Leave the live list of openings to Job Bank, Indeed, WorkBC, and the curated boards. North Desk does not post vacancies and does not charge a reader to look.
 
+## Keyword review for a Canadian guidance site
+
+Checked 28 October 2026. This is a relevance and policy-language review, not Google Keyword Planner volume data. No phrase is automatically safe or prohibited merely because it appears here. Google evaluates the ad, landing page, business identity, claims and targeting together.
+
+### Closely related to job search
+
+- **jobs** — very broad employment intent. Use with an occupation and arrangement. North Desk must not say it has jobs or use “apply now.”
+- **work from home** — strong job and work-arrangement intent. Indeed Canada uses it alongside remote and hybrid, but warns that it may mean occasional home days rather than fully remote.
+- **part time** — strong hours-of-work intent but incomplete on its own. In reader copy, use the standard form **part-time** and pair it with a job title or online/remote work.
+- **remote work** — strong work-arrangement and career-advice intent. It can mean a current arrangement, a job search, or employer policy.
+- **side job** — medium-to-strong second-job intent. Official sites more often say part-time, casual, contract, self-employment, gig work or multiple jobholding.
+
+### Related to work, but not always recruitment
+
+- **online work** — mixed intent. It can mean employee work, freelance services, platform tasks or general advice.
+- **freelance** — independent-client-work intent. It is related to the labour market but is not necessarily employment or recruitment. A freelancer may be self-employed and paid per hour or project.
+
+### Broad income intent, not recruitment keywords
+
+- **make money online**
+- **earn money from home**
+- **earn money online**
+
+These can lead to jobs and freelance work, but also to selling, surveys, creator programs, investing and money-making schemes. They do not name an occupation, employer or employment arrangement. On North Desk they should appear only in an explanatory sentence: the search is broader than a job search, income is not promised, and readers should start with a job title or a service they can provide.
+
+Do not use these as claims or calls to action:
+
+- “Make money online now”
+- “Earn money from home”
+- “Guaranteed side income”
+- “Easy online jobs”
+- “No experience, high pay”
+
+Safer informational headlines:
+
+- “Work from home, online work and side jobs: what the terms mean”
+- “How to search for part-time remote work in Canada”
+- “Online work or freelance work: understand the difference”
+
+### Google Ads policy points
+
+Google’s misrepresentation policy prohibits an inaccurate business identity, an implied affiliation the advertiser does not have, services the advertiser cannot deliver, and improbable outcomes presented as likely. Its unreliable-claims examples include unrealistic financial returns with little effort or risk. North Desk therefore needs its publisher identity, “we do not list jobs,” and “we do not promise income” on the landing page—not buried only in the disclaimer.
+
+Google’s personalized-advertising policy restricts targeting for job ads, recruitment sites, job-listing sites, freelance or gig listings and services for job seekers in Canada. Age, gender, parental status, marital status and full postal-code targeting cannot be used for those employment opportunities. City, country, province, radius of at least 1 km, and the first three Canadian postal-code characters can be used. Google’s FAQ separately lists career advice and employment training as examples that may not receive those employment targeting restrictions. North Desk is positioned as career guidance, but Google may review the ad and destination as a whole; do not rely on a label alone.
+
+Sources:
+
+- Google Ads, Employment in personalized advertising. https://support.google.com/adspolicy/answer/16700442?hl=en
+- Google Ads, employment targeting FAQ. https://support.google.com/adspolicy/answer/9997418?hl=en
+- Google Ads, Misrepresentation. https://support.google.com/adspolicy/answer/6020955
+- Google Ads, Unreliable claims. https://support.google.com/adspolicy/answer/15936857?hl=en-GB
+- Indeed Canada, searching for remote jobs. https://ca.indeed.com/help/job-seekers/articles/115005875163-searching-for-remote-jobs?co=CA&hl=en
+
 ## Sources
 
 - Statistics Canada, The Daily, Job vacancies, second quarter 2026, released 15 September 2026. https://www150.statcan.gc.ca/n1/daily-quotidien/260915/dq260915a-eng.htm
