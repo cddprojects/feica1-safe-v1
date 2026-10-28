@@ -166,7 +166,7 @@ PAGES["index.html"] = page(
 <div>
 <span class="eyebrow">Work arrangements and job search</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Explore how remote, online and flexible work differ, where current postings are published, and how hours, pay and employment terms shape each opportunity.</p>
+<p class="lede">We share practical guidance to help you understand remote, online and flexible work in Canada, including where postings appear and how hours, pay and employment terms can differ.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
 <p class="hero-note">Current openings are published through Job Bank and employer careers pages.</p>
 </div>
