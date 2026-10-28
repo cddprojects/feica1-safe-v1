@@ -305,6 +305,8 @@ Use the reader’s words in the headline: online, remote, flexible, second path.
 
 Checked 28 October 2026. This is a relevance and policy-language review, not Google Keyword Planner volume data. No phrase is automatically safe or prohibited merely because it appears here. Google evaluates the ad, landing page, business identity, claims and targeting together.
 
+Implementation decision, 28 October 2026: do not publish a keyword glossary. Google Ads says a word-for-word search phrase does not need to appear in the landing-page headline; the page should give the visitor what they expected and remain useful, original and easy to navigate. The employment phrases are therefore placed naturally across the home page and the relevant work-type guides. The broad money phrases stay in campaign planning and are not repeated to readers as promises.
+
 ### Closely related to job search
 
 - **jobs** — very broad employment intent. Use with an occupation and arrangement. North Desk must not say it has jobs or use “apply now.”
