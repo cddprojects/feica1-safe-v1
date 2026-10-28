@@ -219,7 +219,7 @@ PAGES["index.html"] = page(
 <li class="stop reveal"><span class="n">4</span><h3>Occupation</h3><p><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a> can filter an occupation by work location and hours.</p></li>
 <li class="stop reveal"><span class="n">5</span><h3>Posting details</h3><p>The employer, pay, province and employment or contract status.</p></li>
 </ol>
-<p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">How to search for remote work &rarr;</a></p>
+<p class="route-cta reveal"><a class="btn btn-primary" href="article-where-to-look.html">How to search for remote work</a></p>
 </div></section>
 
 <section><div class="wrap">
