@@ -164,9 +164,9 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">Flexible work in Canada</span>
-<h1>Remote, online and flexible work in Canada. <em>What the details mean for your search.</em></h1>
-<p class="lede">Practical guidance on province limits, schedules, pay and working relationships—so each posting is easier to assess before an application.</p>
+<span class="eyebrow">Work and job-search guides</span>
+<h1>Remote, online and flexible work in <em>Canada.</em></h1>
+<p class="lede">What the details mean for your search. Practical guidance on province limits, schedules, pay and working relationships before you apply.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
 <p class="hero-note">Current openings are published on Job Bank and employer careers pages.</p>
 </div>
