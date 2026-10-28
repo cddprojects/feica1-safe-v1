@@ -164,11 +164,11 @@ PAGES["index.html"] = page(
     f"""
 <section class="hero"><div class="wrap hero-grid">
 <div>
-<span class="eyebrow">Work arrangements and job search</span>
-<h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Practical guidance for Canadians comparing work that needs to fit real life—an existing job, family responsibilities or location limits—without overlooking hours, pay or contractor terms.</p>
+<span class="eyebrow">Flexible work in Canada</span>
+<h1>Remote, online and flexible work in Canada. <em>What the details mean for your search.</em></h1>
+<p class="lede">Practical guidance on province limits, schedules, pay and working relationships—so each posting is easier to assess before an application.</p>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="work-types.html">Compare work types</a></div>
-<p class="hero-note">Current openings are published through Job Bank and employer careers pages.</p>
+<p class="hero-note">Current openings are published on Job Bank and employer careers pages.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
@@ -177,7 +177,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>The same job label can hide a very different arrangement.</h2><p class="lede">“Remote,” “online” and “flexible” are often used together, but the real differences appear in province restrictions, on-site days, fixed availability and employment status.</p></div>
+<div class="head reveal"><span class="eyebrow">Work types</span><h2>The labels may look similar. The working arrangements are not.</h2><p class="lede">Remote, online, part-time and flexible each describe a different part of a job. Province limits, fixed availability and employment status are what change the fit.</p></div>
 <div class="types">
 <article class="type reveal"><div><span class="n">01 · Location</span><h3><a href="remote-work-canada.html">Remote work</a></h3></div><div><p>Remote does not always mean work from anywhere. Province limits, time zones and occasional on-site days can affect eligibility before experience is considered.</p><p><a href="remote-work-canada.html">About remote work</a></p></div></article>
 <article class="type reveal"><div><span class="n">02 · Delivery</span><h3><a href="online-work-canada.html">Online work</a></h3></div><div><p>Online describes how work is delivered, not where or when it happens. An online role may still be on-site, tied to fixed hours or offered as contract work.</p><p><a href="online-work-canada.html">About online work</a></p></div></article>
@@ -187,8 +187,8 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="route" id="recruitment"><div class="wrap">
-<div class="route-head reveal"><span class="eyebrow">A more relevant search</span><h2>A focused search reduces time spent on poor matches.</h2>
-<p class="lede">Broad “work from home” searches can surface hybrid, on-site or full-time roles that do not fit. Occupation, location, hours and working relationship make the results more relevant.</p></div>
+<div class="route-head reveal"><span class="eyebrow">Job search</span><h2>Five details that make a broad search more useful.</h2>
+<p class="lede">A job title rarely tells the full story. Location, hours, time zone, working relationship and posting quality help narrow the results.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Occupation</h3><p>A job title or occupation produces more relevant results than searching only for “work from home.”</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Work location</h3><p>Remote, hybrid and on-site labels show where the work is completed and whether attendance is required.</p></li>
@@ -200,7 +200,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt"><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Additional work often begins with a practical pressure.</h2><p class="lede">Everyday costs, the need for extra income and meaningful work were leading reasons reported by Canadian multiple jobholders in August 2023.</p></div>
+<div class="head reveal"><span class="eyebrow">Canadian context</span><h2>Additional work is often about everyday pressure—not only extra income.</h2><p class="lede">Statistics Canada data from August 2023 points to household costs, extra income and meaningful work as leading reasons for holding more than one job.</p></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share wanted money beyond the basics.</p></li>
@@ -210,7 +210,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Guides for each stage</span><h2>Answers for the decisions that slow a search down.</h2><p class="lede">The guides focus on common sticking points: unclear work labels, broad results, incomplete postings, résumé evidence and questions about pay or deductions.</p></div>
+<div class="head reveal"><span class="eyebrow">Guides and articles</span><h2>Focused reading for each part of the search.</h2><p class="lede">From work labels and labour-market figures to postings, résumés and pay, each guide addresses a specific decision.</p></div>
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>A single posting may describe the work as remote, online and flexible at the same time.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Job market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">Remote-work statistics and search filters</a></h3><p>Statistics on current workers do not measure the number of open remote positions.</p></article>
@@ -222,7 +222,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Contact</span><h2>Questions about a guide or source.</h2><p class="lede">Questions about a term, figure or linked source can be sent by email. The form opens a draft in an email application and does not submit information to the website.</p>
+<div><span class="eyebrow">Contact</span><h2>A question about a guide or source.</h2><p class="lede">Questions about a term, figure or linked source can be sent by email. The form opens a draft in an email application and does not submit information to the website.</p>
 <p class="notice">Do not include identification or banking information.</p></div>
 <div>
 <form id="contact-form" class="form" novalidate>
