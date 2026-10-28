@@ -73,7 +73,7 @@ NAV = [
     ("index.html", "Home"),
     ("reading.html", "Guides"),
     ("work-types.html", "Work types"),
-    ("services.html", "Why it matters"),
+    ("services.html", "Additional work"),
     ("about.html", "About"),
     ("contact.html", "Contact"),
 ]
@@ -109,7 +109,7 @@ def footer():
 </ul></div>
 <div><h4>Publisher</h4><ul>
 <li><a href="about.html">About</a></li>
-<li><a href="services.html">Why this work matters</a></li>
+<li><a href="services.html">Reasons for additional work</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li><a href="privacy.html">Privacy</a></li>
 <li><a href="disclaimer.html">Disclaimer</a></li>
@@ -725,7 +725,7 @@ PAGES["services.html"] = page(
     "Why people in Canada consider online, remote and flexible work, and how clear guidance can help them make informed choices.",
     "services.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Why it matters</span><h1>Why people look for extra work.</h1><p class="lede">Additional work can help with everyday costs, build experience or provide hours that fit around a main job, school or family responsibilities.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Reasons for additional work</span><h1>Why people look for extra work.</h1><p class="lede">Additional work can help with everyday costs, build experience or provide hours that fit around a main job, school or family responsibilities.</p></div></div>
 <section><div class="wrap">
 <div class="head reveal"><span class="eyebrow">Everyone has a reason</span><h2>Why people take on more work.</h2><p class="lede">In August 2023, Statistics Canada asked people with more than one job for their main reason. Income was the main reason for many respondents, but not for everyone.</p></div>
 <div class="tiles">
