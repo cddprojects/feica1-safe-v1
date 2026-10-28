@@ -104,7 +104,7 @@ def footer():
 <div><h4>Guides</h4><ul>
 <li><a href="reading.html">Browse all guides</a></li>
 <li><a href="work-types.html">Work types</a></li>
-<li><a href="path-check.html">Find the right guide</a></li>
+<li><a href="path-check.html">Which kind of work suits you?</a></li>
 <li><a href="glossary.html">Glossary</a></li>
 <li><a href="faq.html">FAQ</a></li>
 </ul></div>
@@ -529,7 +529,7 @@ PAGES["article-second-path.html"] = page(
 <p>Home is already a workplace for a minority of employed Canadians. In May 2026, 11.4 per cent worked only from home, and 9.8 per cent split the week between home and another place. That is the whole economy, not a promise that a posting with the word “remote” is waiting. It does show that working from home is a normal arrangement, not a slogan.</p>
 <h2>Match the reason to the search</h2>
 <p>If your goal is to cover essentials or add income, start with the hours you can realistically work and the type of pay you need. Regular employee earnings may be more predictable than contract income that varies from month to month. If you want to build experience in a field, begin with skills you can already demonstrate and read <a href="article-remote-cv.html">the resume guide</a>. If you need work to fit around school, care or health needs, read about <a href="flexible-work-canada.html">flexible hours</a> before applying to a full-time remote position.</p>
-<p>Then search in a specific place. <a href="article-where-to-look.html">Where to look</a> explains Job Bank’s remote and hours filters. <a href="path-check.html">Find the right guide</a> directs you to information that matches your reason. Nothing here is an offer of work or a forecast of earnings.</p>
+<p>Then search in a specific place. <a href="article-where-to-look.html">Where to look</a> explains Job Bank’s remote and hours filters. <a href="path-check.html">Which kind of work suits you?</a> directs you to information that matches your reason. Nothing here is an offer of work or a forecast of earnings.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www150.statcan.gc.ca/n1/pub/14-28-0001/2024001/article/00002-eng.htm" rel="noopener">Statistics Canada: Multiple jobholders, 2023</a></li>
@@ -642,11 +642,11 @@ PAGES["article-pay-and-province.html"] = page(
 
 PAGES["path-check.html"] = page(
     "path-check.html",
-    "Find the right guide | Job Compass",
+    "Which kind of work suits you? | Job Compass",
     "Choose why you want online, remote or flexible work in Canada, and open the Job Compass guide that matches.",
     "reading.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Find the right guide</span><h1>What do you want this work to do?</h1><p class="lede">Choose the reason closest to yours. Your selection stays in your browser and is not sent to Job Compass.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Which kind of work suits you?</span><h1>What do you want this work to do?</h1><p class="lede">Choose the reason closest to yours. Your selection stays in your browser and is not sent to Job Compass.</p></div></div>
 <section><div class="wrap" style="max-width:760px">
 <form id="path-check">
 <ul class="check">
@@ -708,7 +708,7 @@ PAGES["faq.html"] = page(
 <details><summary>Does Job Compass list jobs?</summary><p>No. We publish explanations of online, remote and flexible work, and how employers hire for that work. For current job postings, use Job Bank’s remote filter and employers’ own careers pages.</p></details>
 <details><summary>Are you a recruitment agency?</summary><p>No. We are an independent publisher. We are not a licensed employment agency. We do not screen, place or introduce candidates, and we do not charge job seekers.</p></details>
 <details><summary>Why only online, remote and flexible work?</summary><p>These arrangements may make it easier to fit a second job around a main job, school or family responsibilities. Job Compass focuses on work that can be completed online or away from an employer’s regular workplace, with part-time or flexible hours. On-site work is outside our scope.</p></details>
-<details><summary>Why would someone want this as a second job?</summary><p>In August 2023, people who already held more than one job most often named essentials (34.9 per cent), extra income (34.8 per cent) or work they were passionate about (14.5 per cent). <a href="article-second-path.html">The guide</a> explains those figures in more detail. <a href="path-check.html">Find the right guide</a> points you to relevant information.</p></details>
+<details><summary>Why would someone want this as a second job?</summary><p>In August 2023, people who already held more than one job most often named essentials (34.9 per cent), extra income (34.8 per cent) or work they were passionate about (14.5 per cent). <a href="article-second-path.html">The guide</a> explains those figures in more detail. <a href="path-check.html">Which kind of work suits you?</a> points you to relevant information.</p></details>
 <details><summary>Is remote work common in Canada?</summary><p>In May 2026, 11.4 per cent of employed people worked only from home, and 9.8 per cent had a hybrid week. On Job Bank, a remote filter is a much shorter list than every posting. Both are reasons to search with a title and a filter. <a href="article-where-to-look.html">Where to look</a>.</p></details>
 <details><summary>What is the difference between remote and online?</summary><p>Remote describes where you may work. Online describes how the work is completed or delivered. A job can be one, the other or both. <a href="article-three-arrangements.html">Compare the three arrangements</a>.</p></details>
 <details><summary>Will I be paid a set amount?</summary><p>Only if an employer offers you that amount in writing. Nothing on Job Compass is an offer or a forecast of earnings.</p></details>
@@ -760,7 +760,7 @@ PAGES["services.html"] = page(
 <li>Check the employer, work location, hours, pay and employment status.</li>
 <li>Use official sources when a legal, tax or employment rule affects you.</li>
 </ol>
-<div class="btn-row"><a class="btn btn-primary" href="path-check.html">Find the right guide</a><a class="btn btn-ghost" href="reading.html">Explore all guides</a></div></div>
+<div class="btn-row"><a class="btn btn-primary" href="path-check.html">Which kind of work suits you?</a><a class="btn btn-ghost" href="reading.html">Explore all guides</a></div></div>
 </div></section>
 """,
 )
