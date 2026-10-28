@@ -20,7 +20,7 @@ NAV = [
     ("index.html", "Home"),
     ("reading.html", "Guides"),
     ("work-types.html", "Work types"),
-    ("services.html", "What we publish"),
+    ("services.html", "Why it matters"),
     ("about.html", "About"),
     ("contact.html", "Contact"),
 ]
@@ -57,7 +57,7 @@ def footer():
 </ul></div>
 <div><h4>Publisher</h4><ul>
 <li><a href="about.html">About</a></li>
-<li><a href="services.html">What we publish</a></li>
+<li><a href="services.html">Why this work matters</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li><a href="privacy.html">Privacy</a></li>
 <li><a href="disclaimer.html">Disclaimer</a></li>
@@ -661,30 +661,45 @@ PAGES["faq.html"] = page(
 
 PAGES["services.html"] = page(
     "services.html",
-    "What we publish | North Desk",
-    "North Desk publishes free guides on online, remote and flexible work in Canada. We do not place candidates or charge readers.",
+    "Why online, remote and flexible work matters | North Desk",
+    "Why people in Canada consider online, remote and flexible work, and how clear guidance can help them make informed choices.",
     "services.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">What we publish</span><h1>A publisher, not an employment agency</h1><p class="lede">We explain why people in Canada take on online, remote and flexible work, and how to look for it. All guides are free, with no account or fee required.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Why it matters</span><h1>A second job can serve more than one purpose.</h1><p class="lede">It may help with everyday costs, create room to build experience or offer hours that fit around the life you already have. A useful search starts with knowing what you want the work to change.</p></div></div>
 <section><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Start with your reason</span><h2>There is no single reason to look for additional work.</h2><p class="lede">Statistics Canada asked people who already held more than one job about their main reason in August 2023. Their answers show that income matters, but it is not the whole story.</p></div>
 <div class="tiles">
-<article class="tile reveal"><h3>Why people take a second job</h3><p>Statistics Canada survey data on essentials, extra income and work people care about, based on people who already held two jobs.</p><a class="more" href="article-second-path.html">Read why</a></article>
-<article class="tile reveal"><h3>Where to look</h3><p>Job Bank’s remote filter, an hours filter, and a job alert. Then the employer’s own careers page.</p><a class="more" href="article-where-to-look.html">Start the search</a></article>
-<article class="tile reveal"><h3>Find the right guide</h3><p>Choose whether you want to cover essentials, add income, build experience or find hours that fit your schedule.</p><a class="more" href="path-check.html">Choose a reason</a></article>
-<article class="tile reveal"><h3>Glossary</h3><p>Remote, hybrid, NOC, EI, CPP, contractor, LMIA. Short definitions, with the official source left to the articles.</p><a class="more" href="glossary.html">Look up a word</a></article>
+<article class="tile reveal"><h3>Help with everyday costs</h3><p>34.9 per cent said their main reason was paying for essentials such as groceries or housing.</p></article>
+<article class="tile reveal"><h3>Add income</h3><p>34.8 per cent wanted income beyond what their main job provided.</p></article>
+<article class="tile reveal"><h3>Build experience</h3><p>14.5 per cent wanted to do work they were passionate about. A second job can also be a practical way to develop experience in a field.</p></article>
+<article class="tile reveal"><h3>Find hours that fit</h3><p>Part-time or flexible work may fit around a main job, studies, family responsibilities or health needs.</p></article>
 </div>
+<p class="src-note">These figures describe people aged 15 to 69 who already held more than one job. They do not predict what a new job search will provide.</p>
 </div></section>
 <section class="alt"><div class="wrap split">
-<div><h2>What we will not do</h2>
-<ul class="note-list">
-<li>Publish a job posting or invent a position with an employer and a wage.</li>
-<li>Ask you to pay for a placement, a lead, or a “priority application.”</li>
-<li>Take a social insurance number, a bank account, or copies of identification.</li>
-<li>Act as an intermediary between you and an employer.</li>
-</ul></div>
-<div><h2>Where to find job postings</h2>
-<p>Search <a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank</a> and use the remote filter. Check the employer’s own careers page before relying on a reposted listing. For more context, start with <a href="reading.html">our guides</a>.</p>
-<p><a class="btn btn-primary" href="contact.html">Send a correction</a></p></div>
+<div><span class="eyebrow">What these arrangements can change</span><h2>Place, access and time are different needs.</h2>
+<p><b>Remote work</b> can reduce or remove a commute, but a position may still require you to live in a particular province or work in a stated time zone.</p>
+<p><b>Online work</b> can make some tasks available from a computer, but online does not always mean remote or flexible.</p>
+<p><b>Flexible work</b> may offer a shorter schedule or some choice over hours. The posting should still explain who sets the schedule, how much work is available and how you will be paid.</p>
+<p><a href="work-types.html">Compare the three work types &rarr;</a></p></div>
+<div><span class="eyebrow">The idea behind North Desk</span><h2>Clear information before a job application.</h2>
+<p>Information about remote work is spread across job postings, Job Bank, Statistics Canada, the Canada Revenue Agency and provincial or territorial websites. It can be difficult to know which details matter to your situation.</p>
+<p>North Desk brings that information together in plain language. Our guides help you choose a work arrangement, narrow a search, read a job posting, prepare a resume and understand basic questions about pay and employment status.</p>
+<p>We provide independent guidance. We do not publish jobs, place candidates or promise a particular income.</p></div>
+</div></section>
+<section><div class="wrap split">
+<div><span class="eyebrow">A second dream</span><h2>Practical needs and personal goals can exist together.</h2>
+<p>A “second dream” does not have to mean leaving your main job or finding a perfect role. It can be a second job that supports a household need, a freelance project that builds experience or a flexible role that creates a better fit with your schedule.</p>
+<p>The goal is not to tell every reader that they need another job. It is to help people who are already considering one understand their options, limits and next steps.</p></div>
+<div><span class="eyebrow">What you can learn here</span><h2>Move from a broad idea to a focused search.</h2>
+<ol class="note-list">
+<li>Decide whether location, hours, income or experience matters most.</li>
+<li>Understand the difference between remote, online and flexible work.</li>
+<li>Search by occupation and use filters that match your needs.</li>
+<li>Check the employer, work location, hours, pay and employment status.</li>
+<li>Use official sources when a legal, tax or employment rule affects you.</li>
+</ol>
+<div class="btn-row"><a class="btn btn-primary" href="path-check.html">Find the right guide</a><a class="btn btn-ghost" href="reading.html">Explore all guides</a></div></div>
 </div></section>
 """,
 )
