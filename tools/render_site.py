@@ -772,7 +772,7 @@ PAGES["services.html"] = page(
 <li>Employer, location, hours, pay and employment status.</li>
 <li>Official sources for legal, tax and employment rules.</li>
 </ol>
-<div class="btn-row"><a class="btn btn-primary" href="path-check.html">Explore search goals</a><a class="btn btn-ghost" href="reading.html">Browse all guides</a></div></div>
+<div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse all guides</a></div></div>
 </div></section>
 """,
 )
