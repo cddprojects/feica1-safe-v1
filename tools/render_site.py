@@ -207,7 +207,7 @@ PAGES["index.html"] = page(
 
 <section class="route" id="recruitment"><div class="wrap">
 <div class="route-head reveal"><span class="eyebrow">Searching for work</span><h2>Finding suitable remote and online opportunities.</h2>
-<p class="lede">Relevant results depend on more than a “work from home” keyword. A focused search begins with an occupation, narrows results by work location and hours, and then checks each posting for the employer, pay and employment or contract status.</p></div>
+<p class="lede">A clear search starts with a job title, then narrows results by work location and hours. Each posting should state the employer, pay and whether the role is employment or independent contract work.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Reason for searching</h3><p>Extra income, experience, fewer hours or less travel.</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Available hours</h3><p>The number of hours that can fit around current commitments.</p></li>
