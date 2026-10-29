@@ -815,23 +815,26 @@ PAGES["contact.html"] = page(
 PAGES["privacy.html"] = page(
     "privacy.html",
     "Privacy | Job Compass",
-    "How Job Compass handles personal information submitted through inquiries and used on the site.",
+    "How Job Compass collects, uses, retains and protects personal information submitted through the site.",
     "contact.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">How information is handled when the site or contact form is used. Last updated 29 October 2026.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">This policy explains how personal information is handled when the site is used or an inquiry is submitted. Last updated 29 October 2026.</p></div></div>
 <section><div class="wrap article plain-copy">
-<p>Job Compass is an independent publisher. The site has no user accounts. This notice describes the limited personal information that may be involved when the site is used. It reflects the fair information principles in Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA). Provincial privacy laws, including Quebec’s, may also apply depending on the reader’s location and how a message is handled.</p>
-<h2>Contact inquiries</h2>
-<p>An inquiry may include a name, email address, province and question. This information is used to respond to the inquiry and improve the guides. It is not sold or added to a marketing list.</p>
-<p>Social insurance numbers, banking details, identification and passwords should not be included. Job Compass does not request them.</p>
-<h2>Information that stays on the device</h2>
-<p>The glossary search runs in the browser. Search terms are not transmitted to Job Compass by that tool.</p>
-<h2>Fonts and server logs</h2>
-<p>Pages request typefaces from Google Fonts. That request can expose the reader’s IP address to Google. The hosting provider may keep ordinary server logs, such as IP address, browser and page requested, for security. Job Compass does not add an analytics tracker to these pages.</p>
-<h2>How long a message is kept</h2>
-<p>Email is kept only as long as needed to reply, maintain a record or meet a legal obligation. It is then deleted or anonymised. A request to access, correct or delete a message can be sent to hello@jobcompass.ca. Verification may be required from the email account concerned.</p>
-<h2>Other sites</h2>
-<p>Articles link to government, labour-market and provincial websites. Those sites have separate privacy notices and are not controlled by Job Compass.</p>
+<p>Job Compass is an independent publisher. No account is required to read the site. Personal information is limited to what a visitor chooses to provide and the technical information needed to operate and protect the site.</p>
+<h2>Information collected</h2>
+<p>An inquiry may include a name, email address, province or territory, selected topic and message. Social insurance numbers, banking details, identification, passwords and other sensitive information should not be submitted. Job Compass does not request this information.</p>
+<p>The hosting provider may process technical information such as an IP address, browser type, date and time, and the page requested. This information may be used to deliver the site, maintain security and diagnose technical problems.</p>
+<h2>How information is used</h2>
+<p>Inquiry information is used to respond, maintain correspondence, review source corrections and improve the published guides. It is not sold, rented or added to a marketing list.</p>
+<h2>Local features and external services</h2>
+<p>The glossary search runs in the browser, and search terms are not submitted to Job Compass. Pages request typefaces from Google Fonts, which may receive technical information when a font is loaded. Google and the hosting provider handle information under their own privacy terms.</p>
+<h2>Retention and safeguards</h2>
+<p>Personal information is retained only for as long as reasonably necessary to respond, maintain an appropriate record or meet a legal requirement. It is then deleted or de-identified where appropriate.</p>
+<p>Reasonable administrative and technical safeguards are used to protect personal information. No method of transmission or storage can be guaranteed to be completely secure.</p>
+<h2>Access and correction</h2>
+<p>Requests to access or correct personal information, or questions about this policy, may be sent to <a href="mailto:hello@jobcompass.ca">hello@jobcompass.ca</a>. Identity may need to be confirmed before a request is completed. Requests are handled subject to applicable Canadian privacy law.</p>
+<h2>Links to other sites</h2>
+<p>Articles link to government, labour-market and provincial or territorial websites. Job Compass does not control their privacy practices, and each site has its own privacy terms.</p>
 </div></section>
 """,
 )
@@ -839,21 +842,26 @@ PAGES["privacy.html"] = page(
 PAGES["disclaimer.html"] = page(
     "disclaimer.html",
     "Disclaimer | Job Compass",
-    "Job Compass publishes general information on online, remote and flexible work in Canada. It does not hire candidates or guarantee employment or income.",
+    "Important limitations on the general job-market information published by Job Compass.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Scope and limitations</span><h1>Disclaimer</h1></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Scope and limitations</span><h1>Disclaimer</h1><p class="lede">Important limitations that apply when using information published on this site. Last updated 29 October 2026.</p></div></div>
 <section><div class="wrap article plain-copy">
-<h2>A publisher, not an agency</h2>
-<p>Job Compass publishes general information about online, remote and flexible work in Canada and how employers hire for that work. It is not a licensed employment agency and does not publish job postings, hire, screen, place or introduce candidates. Readers are not charged a fee.</p>
-<h2>No guarantee of employment or income</h2>
-<p>Nothing on this site is a job offer or a promise of earnings. Pay, hours and eligibility depend on the employer, where the rules apply and the terms of the job.</p>
-<h2>Not professional advice</h2>
-<p>The pages provide general information, not legal, tax, immigration or employment advice. Most employment standards are provincial or territorial. Federally regulated workplaces follow the Canada Labour Code. Quebec has distinct employment and workplace-language requirements. Advice for an individual situation should come from the responsible authority or a qualified adviser.</p>
-<h2>Figures go out of date</h2>
-<p>Statistics are dated and linked to their sources. Vacancy counts, minimum wages and posting rules can change after a guide is reviewed. Current figures remain available from the linked source, and possible errors can be reported through the <a href="contact.html">contact page</a>.</p>
-<h2>Other websites</h2>
-<p>Links to government and other websites provide access to original sources. Job Compass is not responsible for third-party content.</p>
+<h2>General information only</h2>
+<p>Job Compass publishes general information about online, remote and flexible work in Canada. The content is provided for informational purposes and does not take account of an individual reader’s circumstances.</p>
+<h2>No employment service or relationship</h2>
+<p>Job Compass is not an employer, job board or licensed employment agency. It does not publish job openings, receive applications, hire, screen, place or introduce candidates. Using the site or submitting an inquiry does not create an employment, recruitment, advisory or other professional relationship.</p>
+<h2>No professional advice</h2>
+<p>The content is not legal, tax, immigration, financial or employment advice. Laws and requirements vary by jurisdiction and circumstance. Information for a specific situation should be confirmed with the responsible government authority or a qualified professional.</p>
+<h2>No guarantee of results</h2>
+<p>Nothing on the site is a job offer, guarantee of employment or promise of income. Hiring decisions, eligibility, hours, pay and employment terms are determined by the employer or client and the applicable rules.</p>
+<h2>Accuracy and currency</h2>
+<p>Reasonable efforts are made to use reliable sources and identify review dates. Labour-market figures, wage rates, posting requirements and linked information can change. No representation or warranty is made that all content is complete, accurate or current. Information should be confirmed with the cited source before a decision is made.</p>
+<h2>External links</h2>
+<p>Links to government and other websites are provided for reference. A link does not imply endorsement, and Job Compass does not control or accept responsibility for third-party content, availability, privacy practices or services.</p>
+<h2>Limitation of liability</h2>
+<p>To the extent permitted by applicable law, Job Compass is not liable for loss or damage arising from use of the site, reliance on its content or use of a third-party website. Readers remain responsible for evaluating a posting, verifying its terms and deciding whether to act on the information provided.</p>
+<p>Possible errors or outdated sources may be reported through the <a href="contact.html">contact form</a>.</p>
 </div></section>
 """,
 )
