@@ -173,7 +173,7 @@ PAGES["index.html"] = page(
 <li><b>Posting details.</b> A posting should identify the employer, location, pay, hours and employment status.</li>
 <li><b>Pay and status.</b> Employment and independent contract work handle deductions, expenses and tax differently.</li>
 </ul>
-<div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="#contact">Find a starting guide</a></div>
+<div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="#contact">Ask a question</a></div>
 </div>
 <div class="hero-art">
 {HERO_ART}
