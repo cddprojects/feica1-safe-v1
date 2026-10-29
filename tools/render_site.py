@@ -110,7 +110,7 @@ def footer():
 <li><a href="disclaimer.html">Disclaimer</a></li>
 </ul></div>
 </div>
-<div class="legal"><p>Job Compass publishes general information and does not list jobs. Official sources set legal, tax, immigration and employment rules.</p>
+<div class="legal"><p>Job Compass is an independent information service and does not list jobs. Official sources set legal, tax, immigration and employment rules.</p>
 <p>&copy; 2026 Job Compass &middot; Canada &middot; <a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
 <p class="wordmark" aria-hidden="true">Job Compass</p>
 </div></footer>
@@ -174,7 +174,6 @@ PAGES["index.html"] = page(
 <li><b>Pay and status.</b> Employment and independent contract work handle deductions, expenses and tax differently.</li>
 </ul>
 <div class="btn-row"><a class="btn btn-primary" href="reading.html">Browse the guides</a><a class="btn btn-ghost" href="#contact">Find a starting guide</a></div>
-<p class="hero-note">Job Compass is an independent information service.</p>
 </div>
 <div class="hero-art">
 {HERO_ART}
