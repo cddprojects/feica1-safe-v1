@@ -806,7 +806,7 @@ PAGES["contact.html"] = page(
 <div>
 <h2>Email</h2>
 <ul class="contact-list"><li><b>Questions</b><a href="mailto:{EMAIL}">{EMAIL}</a></li></ul>
-<p class="notice">Submitted questions are reviewed after receipt. Replies are sent as soon as possible.</p>
+<p class="notice">Questions are reviewed, and replies are sent as soon as possible.</p>
 </div>
 </div></section>
 """,
