@@ -822,7 +822,6 @@ PAGES["contact.html"] = page(
 <div class="field"><label for="topic">Topic</label><select id="topic"><option>Work arrangements</option><option>Job searches and postings</option><option>Reading a job posting</option><option>Applications and résumés</option><option>Pay, deductions and employment status</option><option>Freelance or contract work</option><option>Guide feedback or source correction</option><option>Other question about the guides</option></select></div>
 <div class="field"><label for="msg">Your question</label><textarea id="msg" required></textarea><div class="err" aria-live="polite"></div></div>
 <button class="btn btn-primary" type="submit">Submit</button>
-<p class="notice">The form prepares a message in the device’s email application. Information entered here is not stored by this website.</p>
 </form>
 <div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email message is ready.</h3><p>Review it in your email app before sending.</p><p class="ok-sub">If the app did not open, email {EMAIL}.</p></div>
 </div>
