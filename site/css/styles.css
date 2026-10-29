@@ -258,6 +258,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .page-head::after{content:"";position:absolute;z-index:-1;right:min(38vw,470px);top:8.5rem;width:clamp(56px,7vw,92px);aspect-ratio:1;background:var(--lake);border-radius:50%}
 .page-head h1{font-size:clamp(2.5rem,5.6vw,4.4rem);max-width:17ch}
 .page-head .lede{margin-top:1.25rem}
+.page-head + section{padding-top:0}
 .jobhero{padding-bottom:clamp(3rem,6vw,5rem)}
 .jh-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
 @media(max-width:900px){.jh-grid{grid-template-columns:1fr}}

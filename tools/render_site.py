@@ -146,7 +146,7 @@ def page(filename, title, description, current, main, robots=""):
 
 def article(eyebrow, h1, lede, body, reviewed="October 2026"):
     return f"""<div class="page-head"><div class="wrap"><span class="eyebrow">{eyebrow}</span><h1>{h1}</h1></div></div>
-<section style="padding-top:2rem"><div class="wrap article">
+<section><div class="wrap article">
 <p class="byline">Job Compass &middot; Last reviewed {reviewed}</p>
 <p class="lede">{lede}</p>
 {body}
