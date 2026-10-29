@@ -797,7 +797,6 @@ PAGES["about.html"] = page(
 <p>Job Compass is an independent Canadian publisher. It is not connected to any federal, provincial or territorial government, is not a licensed employment agency and does not send reader information to employers.</p>
 </div>
 <div class="reveal">
-<h2>Editorial approach</h2>
 <div class="types">
 <div class="type" style="grid-template-columns:1fr"><div><h3>Defined scope</h3><p>Coverage focuses on remote, online, part-time and flexible arrangements. Fully on-site positions are outside the editorial scope.</p></div></div>
 <div class="type" style="grid-template-columns:1fr"><div><h3>Backed by sources</h3><p>Labour figures come from Statistics Canada, while pay and tax information comes from the Canada Revenue Agency and the appropriate provincial, territorial or federal authority.</p></div></div>
