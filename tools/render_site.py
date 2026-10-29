@@ -95,7 +95,7 @@ def footer():
     return f"""<footer class="site-footer"><div class="wrap">
 <div class="foot-grid">
 <div>{brand()}
-<p style="margin-top:1rem;max-width:36ch">Practical Canadian guides to remote, online and flexible work.</p></div>
+<p style="margin-top:1rem;max-width:36ch">Canadian guides to remote, online and flexible work.</p></div>
 <div><h4>Guides</h4><ul>
 <li><a href="reading.html">Browse all guides</a></li>
 <li><a href="work-types.html">Work types</a></li>
@@ -195,7 +195,7 @@ PAGES["index.html"] = page(
 <a class="mini reveal" href="article-second-path.html"><b>Freelance &amp; additional work</b><span>Project-based and additional work, including variable income.</span></a>
 </div>
 <div class="reason-panel">
-<div class="head reveal"><span class="eyebrow">Reasons for additional work</span><h2>What leads Canadians to hold more than one job.</h2><p class="lede">Income, experience and scheduling needs shape which work arrangements are practical.</p></div>
+<div class="head reveal"><span class="eyebrow">Reasons for additional work</span><h2>What leads Canadians to hold more than one job.</h2><p class="lede">Income, experience and scheduling needs shape which work arrangements may be suitable.</p></div>
 <ol class="shifts">
 <li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
 <li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share cited income beyond everyday essentials.</p></li>
@@ -207,7 +207,7 @@ PAGES["index.html"] = page(
 
 <section class="route" id="recruitment"><div class="wrap">
 <div class="route-head reveal"><span class="eyebrow">Searching for work</span><h2>Finding suitable remote and online opportunities.</h2>
-<p class="lede">Relevant results depend on more than a “work from home” keyword. A practical search begins with an occupation, narrows results by work location and hours, and then checks each posting for the employer, pay and employment or contract status.</p></div>
+<p class="lede">Relevant results depend on more than a “work from home” keyword. A focused search begins with an occupation, narrows results by work location and hours, and then checks each posting for the employer, pay and employment or contract status.</p></div>
 <ol class="stops">
 <li class="stop reveal"><span class="n">1</span><h3>Reason for searching</h3><p>Extra income, experience, fewer hours or less travel.</p></li>
 <li class="stop reveal"><span class="n">2</span><h3>Available hours</h3><p>The number of hours that can fit around current commitments.</p></li>
@@ -749,7 +749,7 @@ PAGES["services.html"] = page(
 <div class="tiles">
 <article class="tile reveal"><h3>Help with everyday costs</h3><p>Paying for essentials like groceries or housing was the top reason.</p></article>
 <article class="tile reveal"><h3>Add income</h3><p>Nearly as many wanted money beyond what their main job pays.</p></article>
-<article class="tile reveal"><h3>Build experience</h3><p>Some wanted to do work they care about, and a second job can be a practical way to get experience in a new field.</p></article>
+<article class="tile reveal"><h3>Build experience</h3><p>Some wanted to do work they care about, and a second job can help develop experience in a new field.</p></article>
 <article class="tile reveal"><h3>Find hours that fit</h3><p>Part-time or flexible work can fit around a main job, school, family or health needs.</p></article>
 </div>
 <p class="src-note">Source: Statistics Canada, August 2023, people aged 15 to 69 who already had more than one job. These results describe current multiple jobholders rather than the outcome of a new job search. <a href="article-second-path.html">See the full numbers</a>.</p>
@@ -766,7 +766,7 @@ PAGES["services.html"] = page(
 <p>Job Compass is an independent publisher. The <a href="about.html">About page</a> describes its editorial approach.</p></div>
 </div></section>
 <section><div class="wrap split">
-<div><span class="eyebrow">More than a paycheque</span><h2>Practical needs and personal goals both count.</h2>
+<div><span class="eyebrow">More than a paycheque</span><h2>Everyday needs and personal goals both count.</h2>
 <p>Additional work can take the form of a second job that supports household costs, a freelance project that builds experience or a flexible position that fits an existing schedule.</p>
 <p>The information is for people already considering additional work and reviewing their options.</p></div>
 <div><span class="eyebrow">Topics covered</span><h2>From work arrangements to pay.</h2>
@@ -788,7 +788,7 @@ PAGES["about.html"] = page(
     "Job Compass is an independent Canadian publisher covering online, remote and flexible work, and how employers hire for that work.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Independent publisher</span><h1>About Job Compass</h1><p class="lede">Canadian information on remote, online and flexible work, grounded in public sources and practical job-search needs.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Independent publisher</span><h1>About Job Compass</h1><p class="lede">Canadian information on remote, online and flexible work, grounded in public sources and common job-search needs.</p></div></div>
 <section><div class="wrap split">
 <div class="reveal">
 <h2>Who the guides are for</h2>
