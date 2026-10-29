@@ -828,7 +828,7 @@ PAGES["contact.html"] = page(
 <div>
 <h2>Email</h2>
 <ul class="contact-list"><li><b>Questions</b><a href="mailto:{EMAIL}">{EMAIL}</a></li></ul>
-<p class="notice">Replies provide general information and links to published guides or official sources. Job offers are not reviewed, and legal, tax or immigration advice is not provided. Social insurance numbers, banking information, identification and passwords should not be included.</p>
+<p class="notice">Submitted questions are reviewed after receipt. Replies are sent as soon as possible.</p>
 </div>
 </div></section>
 """,
