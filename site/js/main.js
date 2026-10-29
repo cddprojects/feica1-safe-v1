@@ -55,50 +55,6 @@
     });
   }
 
-  var pathForm = document.getElementById("path-check");
-  if (pathForm) {
-    var pathOut = document.getElementById("path-result");
-    var hopes = {
-      essentials: {
-        h: "Covering the essentials",
-        p: "In August 2023, 34.9% of Canadians with more than one job cited groceries, housing and other essentials as their main reason. Guides on part-time hours, work-location filters and pay are relevant to this goal.",
-        href: "article-pay-and-province.html",
-        link: "Pay and a second job"
-      },
-      extra: {
-        h: "Extra income without going full-time",
-        p: "Almost the same share, 34.8%, cited extra income. Part-time employment usually provides regular pay statements, while contract income can vary from month to month.",
-        href: "flexible-work-canada.html",
-        link: "Flexible hours"
-      },
-      craft: {
-        h: "Experience in a preferred field",
-        p: "Another 14.5% cited work they cared about. The résumé guide covers relevant skills and results, while the search guide explains why a job title is more precise than “work from home.”",
-        href: "article-remote-cv.html",
-        link: "Résumé guide"
-      },
-      hours: {
-        h: "Hours compatible with other commitments",
-        p: "School, family responsibilities, health needs and a preference for a shorter week are common reasons for part-time work. The flexible-work guide covers hours and schedules for online and remote jobs.",
-        href: "flexible-work-canada.html",
-        link: "Flexible hours"
-      }
-    };
-    pathForm.addEventListener("change", function () {
-      var picked = pathForm.querySelector("input:checked");
-      if (!picked || !hopes[picked.value]) { pathOut.hidden = true; return; }
-      var item = hopes[picked.value];
-      var next = document.getElementById("path-next");
-      pathOut.hidden = false;
-      pathOut.querySelector("h3").textContent = item.h;
-      pathOut.querySelector("p").textContent = item.p;
-      if (next) {
-        next.href = item.href;
-        next.textContent = item.link;
-      }
-    });
-  }
-
   var form = document.getElementById("contact-form");
   if (form) {
     form.addEventListener("submit", function (e) {

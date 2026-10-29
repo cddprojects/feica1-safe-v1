@@ -546,7 +546,7 @@ PAGES["article-second-path.html"] = page(
 <p>Home is already a workplace for a minority of employed Canadians. In May 2026, 11.4 per cent worked only from home, and 9.8 per cent split the week between home and another place. Those figures cover the whole economy rather than available remote jobs. They show that working from home is an established work arrangement in Canada.</p>
 <h2>Different goals lead to different searches</h2>
 <p>Household or extra-income goals usually begin with available hours and realistic pay expectations. Employee wages from a regular paycheque differ from self-employed or independent contract earnings, which can vary by month and client. Experience-focused searches emphasize demonstrated skills; résumé presentation is covered in <a href="article-remote-cv.html">Résumés for online and remote work</a>. When school, caregiving or health limits availability, part-time or flexible arrangements are a different search from full-time remote employment.</p>
-<p>The guide to <a href="article-where-to-look.html">searching for remote work</a> covers work-location and hours filters. The <a href="path-check.html">search goals page</a> groups guides by common reasons for seeking additional work.</p>
+<p>The guide to <a href="article-where-to-look.html">searching for remote work</a> covers work-location and hours filters.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www150.statcan.gc.ca/n1/pub/14-28-0001/2024001/article/00002-eng.htm" rel="noopener">Statistics Canada: Multiple jobholders, 2023</a></li>
@@ -657,28 +657,6 @@ PAGES["article-pay-and-province.html"] = page(
     ),
 )
 
-PAGES["path-check.html"] = page(
-    "path-check.html",
-    "Search goals for flexible work | Job Compass",
-    "Common reasons for considering additional work in Canada, with links to related Job Compass guides.",
-    "reading.html",
-    """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Search goals</span><h1>Reasons for considering additional work</h1><p class="lede">Four common goals link to different starting guides. The choice stays in the browser and is not sent to Job Compass.</p></div></div>
-<section><div class="wrap" style="max-width:760px">
-<form id="path-check">
-<ul class="check">
-<li><label><input type="radio" name="hope" value="essentials"> Income for essentials such as housing and groceries</label></li>
-<li><label><input type="radio" name="hope" value="extra"> Additional income without full-time hours</label></li>
-<li><label><input type="radio" name="hope" value="craft"> Experience in a preferred field</label></li>
-<li><label><input type="radio" name="hope" value="hours"> Hours that fit school, caregiving or health needs</label></li>
-</ul>
-</form>
-<div id="path-result" class="result" hidden><h3></h3><p></p><p><a id="path-next" href="article-second-path.html">Read the guide</a></p></div>
-<p class="notice" style="margin-top:1.5rem">The percentages come from Statistics Canada (August 2023) and describe people who already had more than one job. They do not predict earnings. For the full picture, read <a href="article-second-path.html">Why people take a second job</a>.</p>
-</div></section>
-""",
-)
-
 PAGES["glossary.html"] = page(
     "glossary.html",
     "Glossary | Job Compass",
@@ -724,7 +702,7 @@ PAGES["faq.html"] = page(
 <details><summary>Does Job Compass list jobs?</summary><p>No. Job Compass publishes guides to online, remote and flexible work and explains how hiring works. Current openings are available through Canadian job boards and employers’ career pages.</p></details>
 <details><summary>Is Job Compass a recruitment agency?</summary><p>No. Job Compass is an independent publisher, not a licensed employment agency. It does not screen, place or introduce candidates, and it does not charge readers.</p></details>
 <details><summary>Why only online, remote and flexible work?</summary><p>These arrangements can be easier to fit around a main job, school or family responsibilities. Job Compass covers work completed online or away from the employer’s office, including part-time and flexible arrangements.</p></details>
-<details><summary>Why do people take a second job?</summary><p>In August 2023, Canadians with more than one job most often cited essentials (34.9 per cent), extra income (34.8 per cent) or work they cared about (14.5 per cent). <a href="article-second-path.html">Why people take a second job</a> provides the full figures. The <a href="path-check.html">search goals page</a> groups related guides by reason.</p></details>
+<details><summary>Why do people take a second job?</summary><p>In August 2023, Canadians with more than one job most often cited essentials (34.9 per cent), extra income (34.8 per cent) or work they cared about (14.5 per cent). <a href="article-second-path.html">Why people take a second job</a> provides the full figures.</p></details>
 <details><summary>Is remote work common in Canada?</summary><p>In May 2026, 11.4 per cent of employed Canadians worked only from home and 9.8 per cent had a hybrid week. Remote positions represent a small share of Canadian job postings. Searches are generally more useful when they combine an occupation or job title with a work-location filter. <a href="article-where-to-look.html">Finding remote and online postings</a> explains the available sources.</p></details>
 <details><summary>What is the difference between remote and online?</summary><p>Remote describes where the work takes place. Online describes how the work is completed or delivered. A position can be one, the other or both. <a href="article-three-arrangements.html">Remote, online and flexible work</a> explains the distinctions.</p></details>
 <details><summary>Will I be paid a set amount?</summary><p>A set amount applies only when it forms part of an employment or contract offer. Nothing on Job Compass is a job offer or a promise of earnings.</p></details>
@@ -837,7 +815,7 @@ PAGES["contact.html"] = page(
 PAGES["privacy.html"] = page(
     "privacy.html",
     "Privacy | Job Compass",
-    "How Job Compass handles personal information. The contact form opens your email app. The path check and search run in your browser.",
+    "How Job Compass handles personal information. The contact form opens the reader’s email app, and the glossary search runs in the browser.",
     "contact.html",
     """
 <div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">How information is handled when the site or contact form is used. Last updated 28 October 2026.</p></div></div>
@@ -847,7 +825,7 @@ PAGES["privacy.html"] = page(
 <p>The contact form does not submit information to the site’s server. It opens the reader’s email application with a message addressed to hello@jobcompass.ca. A sent message may include a name, email address, province and question. This information is used to reply and improve the guides. It is not sold or added to a marketing list.</p>
 <p>Social insurance numbers, banking details, identification and passwords should not be included. Job Compass does not request them.</p>
 <h2>Information that stays on the device</h2>
-<p>The path check and glossary search run in the browser. Selections and search terms are not transmitted to Job Compass by those tools.</p>
+<p>The glossary search runs in the browser. Search terms are not transmitted to Job Compass by that tool.</p>
 <h2>Fonts and server logs</h2>
 <p>Pages request typefaces from Google Fonts. That request can expose the reader’s IP address to Google. The hosting provider may keep ordinary server logs, such as IP address, browser and page requested, for security. Job Compass does not add an analytics tracker to these pages.</p>
 <h2>How long a message is kept</h2>
