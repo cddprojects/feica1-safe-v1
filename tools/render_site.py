@@ -788,19 +788,15 @@ PAGES["about.html"] = page(
 <div class="reveal">
 <h2>Who the guides are for</h2>
 <p>These guides are for people in Canada deciding whether remote, online, part-time or flexible work suits their circumstances. They cover work location, hours, job postings, pay and employment status, including questions that arise when work must fit around another job, school, caregiving or health needs.</p>
-<h3>Mission</h3>
-<p>To make Canadian job-market information easier to understand, so readers can identify suitable work arrangements and recognize important terms before applying.</p>
-<h3>Vision</h3>
-<p>A job search in which people can distinguish work arrangements, assess postings with realistic expectations and know when an official source is needed.</p>
 <h3>Why this information matters</h3>
 <p>Work-arrangement labels can hide differences in location, hours, pay and employment status. Clear explanations give job seekers a stronger basis for deciding whether a posting suits their circumstances.</p>
 <p>Job Compass is an independent Canadian publisher. It is not connected to any federal, provincial or territorial government, is not a licensed employment agency and does not send reader information to employers.</p>
 </div>
 <div class="reveal">
 <div class="types">
-<div class="type" style="grid-template-columns:1fr"><div><h3>Defined scope</h3><p>Coverage focuses on remote, online, part-time and flexible arrangements. Fully on-site positions are outside the editorial scope.</p></div></div>
-<div class="type" style="grid-template-columns:1fr"><div><h3>Backed by sources</h3><p>Labour figures come from Statistics Canada, while pay and tax information comes from the Canada Revenue Agency and the appropriate provincial, territorial or federal authority.</p></div></div>
-<div class="type" style="grid-template-columns:1fr"><div><h3>Dated and reviewed</h3><p>Each guide shows when it was last reviewed, and wage and vacancy figures say which period they cover.</p></div></div>
+<div class="type" style="grid-template-columns:1fr"><div><h3>Mission</h3><p>Make Canadian job-market information easier to understand, so readers can identify suitable work arrangements and recognize important terms before applying.</p></div></div>
+<div class="type" style="grid-template-columns:1fr"><div><h3>Vision</h3><p>Job searches in which people can distinguish work arrangements, assess postings with realistic expectations and know when an official source is needed.</p></div></div>
+<div class="type" style="grid-template-columns:1fr"><div><h3>Value proposition</h3><p>Focused guides to work arrangements, job postings, pay and employment status, supported by dated Canadian sources and links to official information.</p></div></div>
 </div>
 </div>
 </div></section>
