@@ -166,7 +166,7 @@ PAGES["index.html"] = page(
 <div>
 <span class="eyebrow">Guides to flexible work in Canada</span>
 <h1>Remote, online and flexible work in <em>Canada.</em></h1>
-<p class="lede">Information on comparing work arrangements, finding paid opportunities and understanding hours, pay and employment status.</p>
+<p class="lede">Information on how work arrangements differ and how job postings describe hours, pay and employment status.</p>
 <ul class="hero-points">
 <li><b>Work location.</b> Remote, online and hybrid describe different arrangements.</li>
 <li><b>Job search.</b> Canadian job boards provide filters for occupation, work location and hours.</li>
@@ -187,7 +187,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section><div class="wrap">
-<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Compare remote, online and flexible work.</h2><p class="lede">Work location, online delivery and working hours are separate conditions. One position may combine more than one arrangement.</p></div>
+<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Understand remote, online and flexible work.</h2><p class="lede">Work location, online delivery and working hours are separate conditions. One position may combine more than one arrangement.</p></div>
 <div class="minis">
 <a class="mini reveal" href="remote-work-canada.html"><b>Remote &amp; hybrid</b><span>Work completed away from the employer’s workplace, with or without scheduled on-site days.</span></a>
 <a class="mini reveal" href="online-work-canada.html"><b>Online work</b><span>Jobs completed or delivered over the internet.</span></a>
@@ -234,7 +234,7 @@ PAGES["index.html"] = page(
 <div class="posts">
 <article class="post reveal"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Money is only part of it. Time, location and meaningful work matter too.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Occupation, work-location and hours filters provide more relevant search results.</p></article>
-<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">How remote, online and flexible work differ</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Résumés for online and remote work</a></h3><p>Relevant results, digital tools and communication experience for remote applications.</p></article>
 <article class="post reveal"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="article-pay-and-province.html">What a second paycheque changes</a></h3><p>Minimum wage by province, deductions and how employee and freelance pay differ.</p></article>
@@ -278,7 +278,7 @@ PAGES["reading.html"] = page(
 <div class="posts">
 <article class="post" data-cat="path"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="article-second-path.html">Why people take a second job</a></h3><p>Money is only part of it. Time, location and meaningful work matter too.</p></article>
 <article class="post" data-cat="path"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="article-where-to-look.html">How to search for remote work</a></h3><p>Occupation, work-location and hours filters provide more relevant search results.</p></article>
-<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">Remote, online and flexible work compared</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
+<article class="post" data-cat="hiring"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="article-three-arrangements.html">How remote, online and flexible work differ</a></h3><p>Remote refers to location, online to how the work is done, and flexible to the schedule.</p></article>
 <article class="post" data-cat="market"><div class="meta"><span class="cat">The market</span><span>6 min</span></div><h3><a href="article-what-vacancies-mean.html">What the remote job market looks like in Canada</a></h3><p>What the national numbers say about work-from-home jobs, and why a focused search works better.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="article-read-a-remote-ad.html">How to read a remote job posting</a></h3><p>Employer, location, pay and hours: what a good posting spells out.</p></article>
 <article class="post" data-cat="hiring"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="article-remote-cv.html">Résumés for online and remote work</a></h3><p>Relevant results, digital tools and communication experience for remote applications.</p></article>
@@ -397,7 +397,7 @@ PAGES["flexible-work-canada.html"] = page(
 <section><div class="wrap article">
 <h2>Why hours matter when you add a second job</h2>
 <p>Flexible work can mean fewer weekly hours, variable scheduling or deadline-based projects. Work location is covered in the <a href="remote-work-canada.html">remote-work guide</a>; this page focuses on hours and workload.</p>
-<p>For a second job, stated hours need to fit alongside existing employment or other commitments. In 2023, 89.9 per cent of multiple jobholders held at least one part-time job. People whose main job was part-time were more than twice as likely to hold another job as people whose main job was full-time (9.7 per cent compared with 4.7 per cent). Statistics Canada usually defines part-time as fewer than 30 hours per week at the main job; this statistical definition is separate from provincial overtime rules.</p>
+<p>For a second job, stated hours need to fit alongside existing employment or other commitments. In 2023, 89.9 per cent of multiple jobholders held at least one part-time job. People whose main job was part-time were more than twice as likely to hold another job as people whose main job was full-time (9.7 per cent versus 4.7 per cent). Statistics Canada usually defines part-time as fewer than 30 hours per week at the main job; this statistical definition is separate from provincial overtime rules.</p>
 <p>Part-time hours are common for school, caregiving, health needs or personal preference. Postings should state weekly hours or deadlines, time zone and who sets the schedule. The guide to <a href="article-read-a-remote-ad.html">reading a job posting</a> lists the other relevant fields.</p>
 <p>Self-employment, which includes a lot of flexible online contract work, was up 51,000 people (+1.9 per cent) in the year to September 2026, and down 23,000 in that month alone. Contract income may vary from month to month and is generally less predictable than regular employee pay.</p>
 <h2>Asking your employer for flexible hours</h2>
@@ -448,12 +448,12 @@ PAGES["article-read-a-remote-ad.html"] = page(
 
 PAGES["article-three-arrangements.html"] = page(
     "article-three-arrangements.html",
-    "Remote, online and flexible work compared | Job Compass",
+    "How remote, online and flexible work differ | Job Compass",
     "Why online, remote and flexible work in Canada describe where the work is done, how it is delivered and when it is done.",
     "reading.html",
     article(
         "Work types",
-        "Remote, online and flexible work compared",
+        "How remote, online and flexible work differ",
         "Remote, online and flexible often appear together in job postings, but each describes a different part of the arrangement.",
         """
 <div class="takeaways"><h2>The short version</h2><ul>
@@ -540,7 +540,7 @@ PAGES["article-second-path.html"] = page(
 <li>Hours and location decide whether a second job can fit beside the first.</li>
 </ul></div>
 <h2>How common is multiple jobholding?</h2>
-<p>In 2023, 5.6 per cent of employed Canadians held more than one job at the same time, about 1.1 million people. Women were more likely to do so than men (6.4 per cent, compared with 4.8 per cent). In 2025, Statistics Canada’s annual count of multiple jobholders was 1,178,600. For some, one job does not cover household costs. Others use a second job to pursue a different kind of work.</p>
+<p>In 2023, 5.6 per cent of employed Canadians held more than one job at the same time, about 1.1 million people. The rate was 6.4 per cent for women and 4.8 per cent for men. In 2025, Statistics Canada’s annual count of multiple jobholders was 1,178,600. For some, one job does not cover household costs. Others use a second job to pursue a different kind of work.</p>
 <p>Those August 2023 results come from a Statistics Canada Labour Force Survey supplement of workers aged 15 to 69 who already held more than one job.</p>
 <h2>Why online, remote and flexible work suit a second job</h2>
 <p>Most people who held two jobs in 2023 also held at least one part-time job: 89.9 per cent. A second commute can make schedules more difficult to combine. Remote work avoids that commute; flexible or part-time hours may fit around another shift, school or family, depending on the posting. Online delivery is common in customer support, writing, design, bookkeeping, tutoring and software development, though work location may still be remote, hybrid or on-site.</p>
@@ -727,7 +727,7 @@ PAGES["faq.html"] = page(
 <details><summary>Why only online, remote and flexible work?</summary><p>These arrangements can be easier to fit around a main job, school or family responsibilities. Job Compass covers work completed online or away from the employer’s office, including part-time and flexible arrangements.</p></details>
 <details><summary>Why do people take a second job?</summary><p>In August 2023, Canadians with more than one job most often cited essentials (34.9 per cent), extra income (34.8 per cent) or work they cared about (14.5 per cent). <a href="article-second-path.html">Why people take a second job</a> provides the full figures. The <a href="path-check.html">search goals page</a> groups related guides by reason.</p></details>
 <details><summary>Is remote work common in Canada?</summary><p>In May 2026, 11.4 per cent of employed Canadians worked only from home and 9.8 per cent had a hybrid week. Remote positions represent a small share of Canadian job postings. Searches are generally more useful when they combine an occupation or job title with a work-location filter. <a href="article-where-to-look.html">Finding remote and online postings</a> explains the available sources.</p></details>
-<details><summary>What is the difference between remote and online?</summary><p>Remote describes where the work takes place. Online describes how the work is completed or delivered. A position can be one, the other or both. <a href="article-three-arrangements.html">Remote, online and flexible work</a> compares the arrangements.</p></details>
+<details><summary>What is the difference between remote and online?</summary><p>Remote describes where the work takes place. Online describes how the work is completed or delivered. A position can be one, the other or both. <a href="article-three-arrangements.html">Remote, online and flexible work</a> explains the distinctions.</p></details>
 <details><summary>Will I be paid a set amount?</summary><p>A set amount applies only when it forms part of an employment or contract offer. Nothing on Job Compass is a job offer or a promise of earnings.</p></details>
 <details><summary>Which province’s rules apply if I work from home?</summary><p>It depends on where you work, where the employer operates, the type of business and your employment relationship. Federally regulated workplaces follow federal labour standards. <a href="article-pay-and-province.html">What a second paycheque changes</a> has more, with official links.</p></details>
 <details><summary>Can this work be done in addition to a current job?</summary><p>Additional work may be possible when the schedules are compatible and the existing employment agreement permits it. In 2023, 89.9 per cent of Canadians with two jobs had at least one part-time job. Employment agreements may also include conflict-of-interest requirements. The guides cover <a href="flexible-work-canada.html">flexible hours</a> and <a href="article-pay-and-province.html">pay for a second job</a>.</p></details>
@@ -759,7 +759,7 @@ PAGES["services.html"] = page(
 <p><b>Remote work</b> can reduce or remove the commute, though some positions still require residence in a particular province or availability in a particular time zone.</p>
 <p><b>Online work</b> is completed or delivered over the internet, but it is not necessarily remote or flexible.</p>
 <p><b>Flexible work</b> can mean a shorter week or more control over working hours. The employer or client, expected workload, schedule and method of payment determine how flexible the arrangement is in practice.</p>
-<p><a href="work-types.html">See how the three compare &rarr;</a></p></div>
+<p><a href="work-types.html">See how the three differ &rarr;</a></p></div>
 <div><span class="eyebrow">About Job Compass</span><h2>Canadian sources in one place.</h2>
 <p>Information about remote work is spread across job postings, federal labour-market data, the Canada Revenue Agency and provincial websites.</p>
 <p>Job Compass brings those sources together in guides on work arrangements, job searches, applications, pay and employment status.</p>
@@ -768,7 +768,7 @@ PAGES["services.html"] = page(
 <section><div class="wrap split">
 <div><span class="eyebrow">More than a paycheque</span><h2>Practical needs and personal goals both count.</h2>
 <p>Additional work can take the form of a second job that supports household costs, a freelance project that builds experience or a flexible position that fits an existing schedule.</p>
-<p>The information is for people already considering additional work and comparing their options.</p></div>
+<p>The information is for people already considering additional work and reviewing their options.</p></div>
 <div><span class="eyebrow">Topics covered</span><h2>From work arrangements to pay.</h2>
 <ol class="note-list">
 <li>Priorities such as location, hours, income and experience.</li>
