@@ -182,6 +182,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .post h3 a{color:var(--ink);text-decoration:none;background:linear-gradient(var(--butter),var(--butter)) 0 100%/0 .35em no-repeat;transition:background-size .4s var(--ease)}
 .post:hover h3 a,.post h3 a:focus-visible{background-size:100% .35em}
 .post p{grid-column:2;color:var(--ink-2);margin:0;max-width:44ch}
+.post .read-more{display:inline-block;margin-left:.2rem;color:var(--spruce);font-weight:700;white-space:nowrap}
 /* the lead story on the home page */
 .posts .post.reveal:first-child{grid-column:1/-1;margin:0 0 1rem;padding:clamp(1.75rem,4vw,3.25rem);background:var(--spruce);color:var(--paper);border-radius:4rem 9rem 4rem 4rem;overflow:hidden;isolation:isolate}
 .posts .post.reveal:first-child::after{content:"";position:absolute;right:-60px;bottom:-90px;width:300px;height:300px;border-radius:50%;background:var(--maple);opacity:.9;z-index:-1}
@@ -191,6 +192,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .posts .post.reveal:first-child .meta{color:color-mix(in srgb,var(--paper) 75%,transparent)}
 .posts .post.reveal:first-child .cat{background:var(--butter);color:var(--ink)}
 .posts .post.reveal:first-child p{color:color-mix(in srgb,var(--paper) 85%,transparent);font-size:1.15rem;max-width:40ch}
+.posts .post.reveal:first-child .read-more{color:var(--butter)}
 @media(max-width:800px){.posts{grid-template-columns:1fr;gap:2.25rem}.post:nth-child(even){margin-top:0}.post::before{font-size:2.8rem}.posts .post.reveal:first-child{border-radius:2.5rem 5rem 2.5rem 2.5rem}}
 
 /* home: pathway steps and quick links */
