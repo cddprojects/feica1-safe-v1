@@ -16,6 +16,8 @@
   --f-body:"Figtree",ui-sans-serif,system-ui,sans-serif;
   --max:1160px;
   --ease:cubic-bezier(.2,.8,.2,1);
+  --section-space:clamp(3rem,5vw,5rem);
+  --section-space-compact:clamp(2.25rem,3.5vw,3.5rem);
 }
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -77,7 +79,7 @@ p{margin:0 0 1em;text-wrap:pretty}
 .btn-row{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
 
 /* hero */
-.hero{position:relative;padding:clamp(1.5rem,4vw,3rem) 0 clamp(4rem,8vw,7rem)}
+.hero{position:relative;padding:clamp(1.5rem,3vw,2.5rem) 0 var(--section-space-compact)}
 .hero::before{content:"";position:absolute;z-index:-1;left:-12vw;top:6%;width:44vw;height:44vw;max-width:560px;max-height:560px;background:var(--blush);border-radius:58% 42% 61% 39%/46% 55% 45% 54%;opacity:.7;filter:blur(2px)}
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(2rem,5vw,5rem);align-items:center}
 .hero h1{margin-bottom:.4em;font-size:clamp(2.5rem,5.4vw,4.5rem);max-width:15ch}
@@ -142,7 +144,8 @@ p{margin:0 0 1em;text-wrap:pretty}
 }
 
 /* sections as soft sheets */
-section{padding:clamp(3.5rem,7vw,6.5rem) 0}
+section{padding:var(--section-space) 0}
+main > section:not(.alt) + section:not(.alt){padding-top:var(--section-space-compact)}
 .alt{position:relative;background:var(--sand);border-radius:clamp(2rem,6vw,5rem);margin-inline:clamp(.4rem,1.6vw,1.25rem)}
 #contact.alt{background:var(--moss)}
 .head{max-width:60ch;margin-bottom:3rem}
@@ -206,7 +209,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .mini:hover{transform:translateY(-5px) rotate(-1deg);color:var(--ink)}
 .mini b{display:block;font:500 1.35rem var(--f-head);margin-bottom:.15rem}
 .mini span{font-size:.95rem;color:var(--ink-2);line-height:1.4;display:block}
-.reason-panel{margin-top:clamp(3.5rem,7vw,6rem);padding:clamp(1.75rem,5vw,4rem);background:var(--sand);border-radius:clamp(2rem,5vw,4rem)}
+.reason-panel{margin-top:var(--section-space-compact);padding:clamp(1.75rem,5vw,4rem);background:var(--sand);border-radius:clamp(2rem,5vw,4rem)}
 .reason-panel .head{margin-bottom:2.5rem}
 
 /* homepage question sequence */
@@ -250,7 +253,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 @media(max-width:800px){.type{grid-template-columns:1fr;gap:.8rem}}
 
 /* page heads */
-.page-head{position:relative;padding:clamp(3rem,7vw,5.5rem) 0 clamp(2rem,4vw,3rem);isolation:isolate}
+.page-head{position:relative;padding:clamp(2rem,4vw,3.5rem) 0 clamp(1.75rem,3vw,2.5rem);isolation:isolate}
 .page-head::before{content:"";position:absolute;z-index:-1;right:-6vw;top:-14vw;width:min(46vw,520px);aspect-ratio:1;background:var(--butter);opacity:.55;border-radius:42% 58% 38% 62%/55% 40% 60% 45%}
 .page-head::after{content:"";position:absolute;z-index:-1;right:min(38vw,470px);top:8.5rem;width:clamp(56px,7vw,92px);aspect-ratio:1;background:var(--lake);border-radius:50%}
 .page-head h1{font-size:clamp(2.5rem,5.6vw,4.4rem);max-width:17ch}
@@ -335,7 +338,7 @@ details p{margin:.9rem 0 0;color:var(--ink-2);max-width:68ch}
 .contact-list b{display:block;font:italic 500 1.3rem var(--f-head)}
 
 /* footer */
-.site-footer{position:relative;overflow:hidden;background:var(--spruce-2);color:color-mix(in srgb,#fff 76%,transparent);padding:5rem 0 1.5rem;margin-top:clamp(2rem,5vw,4rem);border-radius:clamp(2rem,6vw,5rem) clamp(2rem,6vw,5rem) 0 0}
+.site-footer{position:relative;overflow:hidden;background:var(--spruce-2);color:color-mix(in srgb,#fff 76%,transparent);padding:var(--section-space) 0 1.5rem;margin-top:0;border-radius:clamp(2rem,6vw,5rem) clamp(2rem,6vw,5rem) 0 0}
 .site-footer a{color:#fff}
 .foot-grid{display:grid;grid-template-columns:1.5fr repeat(2,1fr);gap:2rem}
 @media(max-width:800px){.foot-grid{grid-template-columns:1fr 1fr}.foot-grid>div:first-child{grid-column:1/-1}}
