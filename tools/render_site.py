@@ -242,7 +242,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Get in touch</span><h2>Questions about remote and flexible work.</h2><p class="lede">Please use the form to send a question or share feedback.</p>
+<div><span class="eyebrow">Get in touch</span><h2>Questions about remote and flexible work.</h2><p class="lede">Send a question or share feedback with Job Compass.</p>
 </div>
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -790,7 +790,7 @@ PAGES["contact.html"] = page(
     "Questions about Canadian work arrangements, job searches, postings, applications, pay and employment status can be sent to Job Compass by email.",
     "contact.html",
     f"""
-<div class="page-head"><div class="wrap"><span class="eyebrow">Get in touch</span><h1>Questions about remote and flexible work.</h1><p class="lede">Please use the form to send a question or share feedback.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Get in touch</span><h1>Questions about remote and flexible work.</h1><p class="lede">Send a question or share feedback with Job Compass.</p></div></div>
 <section><div class="wrap split">
 <div>
 <form id="contact-form" class="form" novalidate>
