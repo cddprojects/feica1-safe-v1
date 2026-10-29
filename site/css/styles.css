@@ -150,6 +150,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .alt{position:relative;background:var(--sand);border-radius:clamp(2rem,6vw,5rem);margin-inline:clamp(.4rem,1.6vw,1.25rem)}
 #contact.alt{background:var(--moss)}
 .head{max-width:60ch;margin-bottom:3rem}
+.page-intro h1{font-size:clamp(2.7rem,5.6vw,4.4rem);max-width:17ch}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:start}
 @media(max-width:800px){.split{grid-template-columns:1fr}}
 
