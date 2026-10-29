@@ -61,7 +61,7 @@
     var hopes = {
       essentials: {
         h: "Covering the essentials",
-        p: "In August 2023, 34.9% of Canadians with more than one job cited groceries, housing and other essentials as their main reason. Guides on part-time hours, Job Bank filters and pay are relevant to this goal.",
+        p: "In August 2023, 34.9% of Canadians with more than one job cited groceries, housing and other essentials as their main reason. Guides on part-time hours, work-location filters and pay are relevant to this goal.",
         href: "article-pay-and-province.html",
         link: "Pay and a second job"
       },
