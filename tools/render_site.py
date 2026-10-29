@@ -819,7 +819,7 @@ PAGES["privacy.html"] = page(
     "contact.html",
     """
 <div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">How information is handled when the site or contact form is used. Last updated 29 October 2026.</p></div></div>
-<section><div class="wrap article">
+<section><div class="wrap article plain-copy">
 <p>Job Compass is an independent publisher. The site has no user accounts. This notice describes the limited personal information that may be involved when the site is used. It reflects the fair information principles in Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA). Provincial privacy laws, including Quebec’s, may also apply depending on the reader’s location and how a message is handled.</p>
 <h2>Contact inquiries</h2>
 <p>An inquiry may include a name, email address, province and question. This information is used to respond to the inquiry and improve the guides. It is not sold or added to a marketing list.</p>
@@ -843,7 +843,7 @@ PAGES["disclaimer.html"] = page(
     "about.html",
     """
 <div class="page-head"><div class="wrap"><span class="eyebrow">Scope and limitations</span><h1>Disclaimer</h1></div></div>
-<section><div class="wrap article">
+<section><div class="wrap article plain-copy">
 <h2>A publisher, not an agency</h2>
 <p>Job Compass publishes general information about online, remote and flexible work in Canada and how employers hire for that work. It is not a licensed employment agency and does not publish job postings, hire, screen, place or introduce candidates. Readers are not charged a fee.</p>
 <h2>No guarantee of employment or income</h2>

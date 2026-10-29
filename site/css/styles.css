@@ -278,7 +278,7 @@ section{padding:clamp(3.5rem,7vw,6.5rem) 0}
 .article .lede{font-size:clamp(1.3rem,2.2vw,1.65rem);max-width:none;color:var(--ink);font-style:italic}
 .article h2{font-size:clamp(1.7rem,3vw,2.3rem);margin-top:2.4em}
 .article > h2:first-child{margin-top:0}
-.article > p:not(.byline):not(.lede):not(.src-note):first-of-type::first-letter{font-family:var(--f-head);float:left;font-size:4.6rem;line-height:.82;padding:.35rem .6rem 0 0;color:var(--maple)}
+.article:not(.plain-copy) > p:not(.byline):not(.lede):not(.src-note):first-of-type::first-letter{font-family:var(--f-head);float:left;font-size:4.6rem;line-height:.82;padding:.35rem .6rem 0 0;color:var(--maple)}
 .article ul,.article ol{padding-left:1.2rem}
 .article li{margin-bottom:.55em}
 .article li::marker{color:var(--maple)}
