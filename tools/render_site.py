@@ -815,14 +815,14 @@ PAGES["contact.html"] = page(
 PAGES["privacy.html"] = page(
     "privacy.html",
     "Privacy | Job Compass",
-    "How Job Compass handles personal information. The contact form opens the reader’s email app, and the glossary search runs in the browser.",
+    "How Job Compass handles personal information submitted through inquiries and used on the site.",
     "contact.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">How information is handled when the site or contact form is used. Last updated 28 October 2026.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">How information is handled when the site or contact form is used. Last updated 29 October 2026.</p></div></div>
 <section><div class="wrap article">
 <p>Job Compass is an independent publisher. The site has no user accounts. This notice describes the limited personal information that may be involved when the site is used. It reflects the fair information principles in Canada’s Personal Information Protection and Electronic Documents Act (PIPEDA). Provincial privacy laws, including Quebec’s, may also apply depending on the reader’s location and how a message is handled.</p>
-<h2>Information sent by email</h2>
-<p>The contact form does not submit information to the site’s server. It opens the reader’s email application with a message addressed to hello@jobcompass.ca. A sent message may include a name, email address, province and question. This information is used to reply and improve the guides. It is not sold or added to a marketing list.</p>
+<h2>Contact inquiries</h2>
+<p>An inquiry may include a name, email address, province and question. This information is used to respond to the inquiry and improve the guides. It is not sold or added to a marketing list.</p>
 <p>Social insurance numbers, banking details, identification and passwords should not be included. Job Compass does not request them.</p>
 <h2>Information that stays on the device</h2>
 <p>The glossary search runs in the browser. Search terms are not transmitted to Job Compass by that tool.</p>
