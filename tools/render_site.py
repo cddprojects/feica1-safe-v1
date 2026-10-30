@@ -115,7 +115,7 @@ def footer():
 <p>&copy; 2026 Role Glide &middot; Canada &middot; <a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
 <p class="wordmark" aria-hidden="true">Role Glide</p>
 </div></footer>
-<script src="js/main.js"></script>"""
+<script src="main.js"></script>"""
 
 
 def page(filename, title, description, current, main, robots=""):
@@ -132,7 +132,7 @@ def page(filename, title, description, current, main, robots=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 {header(current)}
