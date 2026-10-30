@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Render the Job Compass static site."""
+"""Render the Role Glide site as index.php files in same-named folders."""
+import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1] / "site"
-EMAIL = "hello@jobcompass.ca"
+ROOT = Path(__file__).resolve().parents[1]
+EMAIL = "hello@roleglide.com"
 THEME = "#243552"
 
 LOGO = (
@@ -75,7 +76,7 @@ NAV = [
 
 
 def brand():
-    return f'<a class="brand" href="index.html">{LOGO}Job<em>Compass</em></a>'
+    return f'<a class="brand" href="index.html">{LOGO}Role<em>Glide</em></a>'
 
 
 def header(current):
@@ -110,9 +111,9 @@ def footer():
 <li><a href="disclaimer.html">Disclaimer</a></li>
 </ul></div>
 </div>
-<div class="legal"><p>Job Compass is an independent information service and does not list jobs. Official sources set legal, tax, immigration and employment rules.</p>
-<p>&copy; 2026 Job Compass &middot; Canada &middot; <a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
-<p class="wordmark" aria-hidden="true">Job Compass</p>
+<div class="legal"><p>Role Glide is an independent information service and does not list jobs. Official sources set legal, tax, immigration and employment rules.</p>
+<p>&copy; 2026 Role Glide &middot; Canada &middot; <a href="mailto:{EMAIL}">{EMAIL}</a></p></div>
+<p class="wordmark" aria-hidden="true">Role Glide</p>
 </div></footer>
 <script src="js/main.js"></script>"""
 
@@ -147,7 +148,7 @@ def page(filename, title, description, current, main, robots=""):
 def article(eyebrow, h1, lede, body, reviewed="October 2026"):
     return f"""<div class="page-head"><div class="wrap"><span class="eyebrow">{eyebrow}</span><h1>{h1}</h1></div></div>
 <section><div class="wrap article">
-<p class="byline">Job Compass &middot; Last reviewed {reviewed}</p>
+<p class="byline">Role Glide &middot; Last reviewed {reviewed}</p>
 <p class="lede">{lede}</p>
 {body}
 <p style="margin-top:2.5rem"><a href="reading.html">&larr; Back to all guides</a></p>
@@ -158,7 +159,7 @@ PAGES = {}
 
 PAGES["index.html"] = page(
     "index.html",
-    "Remote, online and flexible work in Canada | Job Compass",
+    "Remote, online and flexible work in Canada | Role Glide",
     "Canadian guides to remote, online, part-time, flexible and independent contract work, including job search and pay information.",
     "index.html",
     f"""
@@ -242,7 +243,7 @@ PAGES["index.html"] = page(
 </div></section>
 
 <section class="alt" id="contact"><div class="wrap split">
-<div><span class="eyebrow">Get in touch</span><h2>Questions about remote and flexible work.</h2><p class="lede">Send a question or share feedback with Job Compass.</p>
+<div><span class="eyebrow">Get in touch</span><h2>Questions about remote and flexible work.</h2><p class="lede">Send a question or share feedback with Role Glide.</p>
 </div>
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -261,7 +262,7 @@ PAGES["index.html"] = page(
 
 PAGES["reading.html"] = page(
     "reading.html",
-    "Guides | Job Compass",
+    "Guides | Role Glide",
     "Canadian guides to remote work, online work, part-time and flexible hours, freelance work and second jobs.",
     "reading.html",
     """
@@ -289,7 +290,7 @@ PAGES["reading.html"] = page(
 
 PAGES["work-types.html"] = page(
     "work-types.html",
-    "Online, remote and flexible work | Job Compass",
+    "Online, remote and flexible work | Role Glide",
     "How remote work, online work and flexible hours differ in Canadian job postings.",
     "work-types.html",
     """
@@ -307,7 +308,7 @@ PAGES["work-types.html"] = page(
 
 PAGES["remote-work-canada.html"] = page(
     "remote-work-canada.html",
-    "Remote work in Canada | Job Compass",
+    "Remote work in Canada | Role Glide",
     "What remote work means in Canada, including location, province, hybrid arrangements and how employers hire for remote positions.",
     "work-types.html",
     """
@@ -347,7 +348,7 @@ PAGES["remote-work-canada.html"] = page(
 
 PAGES["online-work-canada.html"] = page(
     "online-work-canada.html",
-    "Online work in Canada | Job Compass",
+    "Online work in Canada | Role Glide",
     "What online work means in Canada, including common tasks, employee and contractor arrangements, and platform-based work.",
     "work-types.html",
     """
@@ -380,7 +381,7 @@ PAGES["online-work-canada.html"] = page(
 
 PAGES["flexible-work-canada.html"] = page(
     "flexible-work-canada.html",
-    "Flexible online and remote work in Canada | Job Compass",
+    "Flexible online and remote work in Canada | Role Glide",
     "Flexible hours and workloads for online and remote work in Canada, including what part-time means in the Labour Force Survey.",
     "work-types.html",
     """
@@ -412,7 +413,7 @@ PAGES["flexible-work-canada.html"] = page(
 
 PAGES["article-read-a-remote-ad.html"] = page(
     "article-read-a-remote-ad.html",
-    "How to read a remote job posting in Canada | Job Compass",
+    "How to read a remote job posting in Canada | Role Glide",
     "How to review Canadian remote, online and flexible job postings, including pay transparency in Ontario and British Columbia.",
     "reading.html",
     article(
@@ -447,7 +448,7 @@ PAGES["article-read-a-remote-ad.html"] = page(
 
 PAGES["article-three-arrangements.html"] = page(
     "article-three-arrangements.html",
-    "How remote, online and flexible work differ | Job Compass",
+    "How remote, online and flexible work differ | Role Glide",
     "Why online, remote and flexible work in Canada describe where the work is done, how it is delivered and when it is done.",
     "reading.html",
     article(
@@ -475,7 +476,7 @@ PAGES["article-three-arrangements.html"] = page(
 
 PAGES["article-what-vacancies-mean.html"] = page(
     "article-what-vacancies-mean.html",
-    "What the remote job market looks like in Canada | Job Compass",
+    "What the remote job market looks like in Canada | Role Glide",
     "How Canada’s vacancy figures relate to online, remote and flexible job searches.",
     "reading.html",
     article(
@@ -524,7 +525,7 @@ PAGES["article-what-vacancies-mean.html"] = page(
 
 PAGES["article-second-path.html"] = page(
     "article-second-path.html",
-    "Why people take a second job | Job Compass",
+    "Why people take a second job | Role Glide",
     "Why people in Canada add online, remote or flexible work beside a main job, family or studies, using Statistics Canada’s reasons for holding more than one job.",
     "reading.html",
     article(
@@ -560,7 +561,7 @@ PAGES["article-second-path.html"] = page(
 
 PAGES["article-where-to-look.html"] = page(
     "article-where-to-look.html",
-    "How to search for remote work in Canada | Job Compass",
+    "How to search for remote work in Canada | Role Glide",
     "How to search Canadian job boards for remote and part-time work, and how work-location filters differ from the words work from home.",
     "reading.html",
     article(
@@ -596,7 +597,7 @@ PAGES["article-where-to-look.html"] = page(
 
 PAGES["article-remote-cv.html"] = page(
     "article-remote-cv.html",
-    "Résumés for online and remote work | Job Compass",
+    "Résumés for online and remote work | Role Glide",
     "Résumé information for online and remote work, including results, communication, tools and location.",
     "reading.html",
     article(
@@ -622,7 +623,7 @@ PAGES["article-remote-cv.html"] = page(
 
 PAGES["article-pay-and-province.html"] = page(
     "article-pay-and-province.html",
-    "What a second paycheque changes | Job Compass",
+    "What a second paycheque changes | Role Glide",
     "Which pay rules to check for online and remote work in Canada, and what changes when the work is a second job.",
     "reading.html",
     article(
@@ -659,7 +660,7 @@ PAGES["article-pay-and-province.html"] = page(
 
 PAGES["glossary.html"] = page(
     "glossary.html",
-    "Glossary | Job Compass",
+    "Glossary | Role Glide",
     "Definitions for remote, hybrid, online, flexible, NOC, EI, CPP, LMIA and other terms used in Canadian job postings.",
     "reading.html",
     """
@@ -693,19 +694,19 @@ PAGES["glossary.html"] = page(
 
 PAGES["faq.html"] = page(
     "faq.html",
-    "FAQ | Job Compass",
-    "Answers about Job Compass and about online, remote and flexible work in Canada.",
+    "FAQ | Role Glide",
+    "Answers about Role Glide and about online, remote and flexible work in Canada.",
     "reading.html",
     """
 <div class="page-head"><div class="wrap"><span class="eyebrow">FAQ</span><h1>Questions about remote and flexible work</h1></div></div>
 <section><div class="wrap" style="max-width:820px">
-<details><summary>Does Job Compass list jobs?</summary><p>No. Job Compass publishes guides to online, remote and flexible work and explains how hiring works. Current openings are available through Canadian job boards and employers’ career pages.</p></details>
-<details><summary>Is Job Compass a recruitment agency?</summary><p>No. Job Compass is an independent publisher, not a licensed employment agency. It does not screen, place or introduce candidates, and it does not charge readers.</p></details>
-<details><summary>Why only online, remote and flexible work?</summary><p>These arrangements can be easier to fit around a main job, school or family responsibilities. Job Compass covers work completed online or away from the employer’s office, including part-time and flexible arrangements.</p></details>
+<details><summary>Does Role Glide list jobs?</summary><p>No. Role Glide publishes guides to online, remote and flexible work and explains how hiring works. Current openings are available through Canadian job boards and employers’ career pages.</p></details>
+<details><summary>Is Role Glide a recruitment agency?</summary><p>No. Role Glide is an independent publisher, not a licensed employment agency. It does not screen, place or introduce candidates, and it does not charge readers.</p></details>
+<details><summary>Why only online, remote and flexible work?</summary><p>These arrangements can be easier to fit around a main job, school or family responsibilities. Role Glide covers work completed online or away from the employer’s office, including part-time and flexible arrangements.</p></details>
 <details><summary>Why do people take a second job?</summary><p>In August 2023, Canadians with more than one job most often cited essentials (34.9 per cent), extra income (34.8 per cent) or work they cared about (14.5 per cent). <a href="article-second-path.html">Why people take a second job</a> provides the full figures.</p></details>
 <details><summary>Is remote work common in Canada?</summary><p>In May 2026, 11.4 per cent of employed Canadians worked only from home and 9.8 per cent had a hybrid week. Remote positions represent a small share of Canadian job postings. Searches are generally more useful when they combine an occupation or job title with a work-location filter. <a href="article-where-to-look.html">Finding remote and online postings</a> explains the available sources.</p></details>
 <details><summary>What is the difference between remote and online?</summary><p>Remote describes where the work takes place. Online describes how the work is completed or delivered. A position can be one, the other or both. <a href="article-three-arrangements.html">Remote, online and flexible work</a> explains the distinctions.</p></details>
-<details><summary>Will I be paid a set amount?</summary><p>A set amount applies only when it forms part of an employment or contract offer. Nothing on Job Compass is a job offer or a promise of earnings.</p></details>
+<details><summary>Will I be paid a set amount?</summary><p>A set amount applies only when it forms part of an employment or contract offer. Nothing on Role Glide is a job offer or a promise of earnings.</p></details>
 <details><summary>Which province’s rules apply if I work from home?</summary><p>It depends on where you work, where the employer operates, the type of business and your employment relationship. Federally regulated workplaces follow federal labour standards. <a href="article-pay-and-province.html">What a second paycheque changes</a> has more, with official links.</p></details>
 <details><summary>Can this work be done in addition to a current job?</summary><p>Additional work may be possible when the schedules are compatible and the existing employment agreement permits it. In 2023, 89.9 per cent of Canadians with two jobs had at least one part-time job. Employment agreements may also include conflict-of-interest requirements. The guides cover <a href="flexible-work-canada.html">flexible hours</a> and <a href="article-pay-and-province.html">pay for a second job</a>.</p></details>
 <details><summary>Is French content available for Quebec?</summary><p>Not yet. These pages are in English. In Quebec, employment standards are handled by the CNESST, while workplace language requirements fall under the Charter of the French Language and the OQLF. Current information is available from those organizations.</p></details>
@@ -716,7 +717,7 @@ PAGES["faq.html"] = page(
 
 PAGES["services.html"] = page(
     "services.html",
-    "Why people look for extra work | Job Compass",
+    "Why people look for extra work | Role Glide",
     "Why people in Canada consider online, remote and flexible work, and how clear guidance can help them make informed choices.",
     "services.html",
     """
@@ -757,18 +758,18 @@ PAGES["services.html"] = page(
 
 PAGES["about.html"] = page(
     "about.html",
-    "About | Job Compass",
-    "Job Compass is an independent Canadian publisher covering online, remote and flexible work, and how employers hire for that work.",
+    "About | Role Glide",
+    "Role Glide is an independent Canadian publisher covering online, remote and flexible work, and how employers hire for that work.",
     "about.html",
     """
-<div class="page-head"><div class="wrap"><span class="eyebrow">Independent publisher</span><h1>About Job Compass</h1><p class="lede">Canadian information on remote, online and flexible work, grounded in public sources and common job-search needs.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Independent publisher</span><h1>About Role Glide</h1><p class="lede">Canadian information on remote, online and flexible work, grounded in public sources and common job-search needs.</p></div></div>
 <section><div class="wrap split">
 <div class="reveal">
 <h2>Who the guides are for</h2>
 <p>These guides are for people in Canada deciding whether remote, online, part-time or flexible work suits their circumstances. They cover work location, hours, job postings, pay and employment status, including questions that arise when work must fit around another job, school, caregiving or health needs.</p>
 <h3>Why this information matters</h3>
 <p>Work-arrangement labels can hide differences in location, hours, pay and employment status. Clear explanations give job seekers a stronger basis for deciding whether a posting suits their circumstances.</p>
-<p>Job Compass is an independent Canadian publisher. It is not connected to any federal, provincial or territorial government, is not a licensed employment agency and does not send reader information to employers.</p>
+<p>Role Glide is an independent Canadian publisher. It is not connected to any federal, provincial or territorial government, is not a licensed employment agency and does not send reader information to employers.</p>
 </div>
 <div class="reveal">
 <div class="types">
@@ -779,18 +780,18 @@ PAGES["about.html"] = page(
 </div>
 </div></section>
 <section class="alt"><div class="wrap">
-<p class="notice" style="max-width:70ch">Job Compass publishes general information rather than legal, tax or employment advice. Contact: hello@jobcompass.ca. Job Compass operates online and has no public office.</p>
+<p class="notice" style="max-width:70ch">Role Glide publishes general information rather than legal, tax or employment advice. Contact: hello@roleglide.com. Role Glide operates online and has no public office.</p>
 </div></section>
 """,
 )
 
 PAGES["contact.html"] = page(
     "contact.html",
-    "Contact | Job Compass",
-    "Questions about Canadian work arrangements, job searches, postings, applications, pay and employment status can be sent to Job Compass by email.",
+    "Contact | Role Glide",
+    "Questions about Canadian work arrangements, job searches, postings, applications, pay and employment status can be sent to Role Glide by email.",
     "contact.html",
     f"""
-<div class="page-head"><div class="wrap"><span class="eyebrow">Get in touch</span><h1>Questions about remote and flexible work.</h1><p class="lede">Send a question or share feedback with Job Compass.</p></div></div>
+<div class="page-head"><div class="wrap"><span class="eyebrow">Get in touch</span><h1>Questions about remote and flexible work.</h1><p class="lede">Send a question or share feedback with Role Glide.</p></div></div>
 <section><div class="wrap split">
 <div>
 <form id="contact-form" class="form" novalidate>
@@ -814,43 +815,43 @@ PAGES["contact.html"] = page(
 
 PAGES["privacy.html"] = page(
     "privacy.html",
-    "Privacy | Job Compass",
-    "How Job Compass collects, uses, retains and protects personal information submitted through the site.",
+    "Privacy | Role Glide",
+    "How Role Glide collects, uses, retains and protects personal information submitted through the site.",
     "contact.html",
     """
 <div class="page-head"><div class="wrap"><span class="eyebrow">Personal information</span><h1>Privacy</h1><p class="lede">This policy explains how personal information is handled when the site is used or an inquiry is submitted. Last updated 29 October 2026.</p></div></div>
 <section><div class="wrap article plain-copy">
-<p>Job Compass is an independent publisher. No account is required to read the site. Personal information is limited to what a visitor chooses to provide and the technical information needed to operate and protect the site.</p>
+<p>Role Glide is an independent publisher. No account is required to read the site. Personal information is limited to what a visitor chooses to provide and the technical information needed to operate and protect the site.</p>
 <h2>Information collected</h2>
-<p>An inquiry may include a name, email address, province or territory, selected topic and message. Social insurance numbers, banking details, identification, passwords and other sensitive information should not be submitted. Job Compass does not request this information.</p>
+<p>An inquiry may include a name, email address, province or territory, selected topic and message. Social insurance numbers, banking details, identification, passwords and other sensitive information should not be submitted. Role Glide does not request this information.</p>
 <p>The hosting provider may process technical information such as an IP address, browser type, date and time, and the page requested. This information may be used to deliver the site, maintain security and diagnose technical problems.</p>
 <h2>How information is used</h2>
 <p>Inquiry information is used to respond, maintain correspondence, review source corrections and improve the published guides. It is not sold, rented or added to a marketing list.</p>
 <h2>Local features and external services</h2>
-<p>The glossary search runs in the browser, and search terms are not submitted to Job Compass. Pages request typefaces from Google Fonts, which may receive technical information when a font is loaded. Google and the hosting provider handle information under their own privacy terms.</p>
+<p>The glossary search runs in the browser, and search terms are not submitted to Role Glide. Pages request typefaces from Google Fonts, which may receive technical information when a font is loaded. Google and the hosting provider handle information under their own privacy terms.</p>
 <h2>Retention and safeguards</h2>
 <p>Personal information is retained only for as long as reasonably necessary to respond, maintain an appropriate record or meet a legal requirement. It is then deleted or de-identified where appropriate.</p>
 <p>Reasonable administrative and technical safeguards are used to protect personal information. No method of transmission or storage can be guaranteed to be completely secure.</p>
 <h2>Access and correction</h2>
-<p>Requests to access or correct personal information, or questions about this policy, may be sent to <a href="mailto:hello@jobcompass.ca">hello@jobcompass.ca</a>. Identity may need to be confirmed before a request is completed. Requests are handled subject to applicable Canadian privacy law.</p>
+<p>Requests to access or correct personal information, or questions about this policy, may be sent to <a href="mailto:hello@roleglide.com">hello@roleglide.com</a>. Identity may need to be confirmed before a request is completed. Requests are handled subject to applicable Canadian privacy law.</p>
 <h2>Links to other sites</h2>
-<p>Articles link to government, labour-market and provincial or territorial websites. Job Compass does not control their privacy practices, and each site has its own privacy terms.</p>
+<p>Articles link to government, labour-market and provincial or territorial websites. Role Glide does not control their privacy practices, and each site has its own privacy terms.</p>
 </div></section>
 """,
 )
 
 PAGES["disclaimer.html"] = page(
     "disclaimer.html",
-    "Disclaimer | Job Compass",
-    "Important limitations on the general job-market information published by Job Compass.",
+    "Disclaimer | Role Glide",
+    "Important limitations on the general job-market information published by Role Glide.",
     "about.html",
     """
 <div class="page-head"><div class="wrap"><span class="eyebrow">Scope and limitations</span><h1>Disclaimer</h1><p class="lede">Important limitations that apply when using information published on this site. Last updated 29 October 2026.</p></div></div>
 <section><div class="wrap article plain-copy">
 <h2>General information only</h2>
-<p>Job Compass publishes general information about online, remote and flexible work in Canada. The content is provided for informational purposes and does not take account of an individual reader’s circumstances.</p>
+<p>Role Glide publishes general information about online, remote and flexible work in Canada. The content is provided for informational purposes and does not take account of an individual reader’s circumstances.</p>
 <h2>No employment service or relationship</h2>
-<p>Job Compass is not an employer, job board or licensed employment agency. It does not publish job openings, receive applications, hire, screen, place or introduce candidates. Using the site or submitting an inquiry does not create an employment, recruitment, advisory or other professional relationship.</p>
+<p>Role Glide is not an employer, job board or licensed employment agency. It does not publish job openings, receive applications, hire, screen, place or introduce candidates. Using the site or submitting an inquiry does not create an employment, recruitment, advisory or other professional relationship.</p>
 <h2>No professional advice</h2>
 <p>The content is not legal, tax, immigration, financial or employment advice. Laws and requirements vary by jurisdiction and circumstance. Information for a specific situation should be confirmed with the responsible government authority or a qualified professional.</p>
 <h2>No guarantee of results</h2>
@@ -858,21 +859,51 @@ PAGES["disclaimer.html"] = page(
 <h2>Accuracy and currency</h2>
 <p>Reasonable efforts are made to use reliable sources and identify review dates. Labour-market figures, wage rates, posting requirements and linked information can change. No representation or warranty is made that all content is complete, accurate or current. Information should be confirmed with the cited source before a decision is made.</p>
 <h2>External links</h2>
-<p>Links to government and other websites are provided for reference. A link does not imply endorsement, and Job Compass does not control or accept responsibility for third-party content, availability, privacy practices or services.</p>
+<p>Links to government and other websites are provided for reference. A link does not imply endorsement, and Role Glide does not control or accept responsibility for third-party content, availability, privacy practices or services.</p>
 <h2>Limitation of liability</h2>
-<p>To the extent permitted by applicable law, Job Compass is not liable for loss or damage arising from use of the site, reliance on its content or use of a third-party website. Readers remain responsible for evaluating a posting, verifying its terms and deciding whether to act on the information provided.</p>
+<p>To the extent permitted by applicable law, Role Glide is not liable for loss or damage arising from use of the site, reliance on its content or use of a third-party website. Readers remain responsible for evaluating a posting, verifying its terms and deciding whether to act on the information provided.</p>
 <p>Possible errors or outdated sources may be reported through the <a href="contact.html">contact form</a>.</p>
 </div></section>
 """,
 )
 
 
+def clean_url(url):
+    if not url or url.startswith(("#", "mailto:", "http://", "https://", "//", "data:")):
+        return url
+    path, hash_sep, fragment = url.partition("#")
+    suffix = f"#{fragment}" if hash_sep else ""
+    if path in ("index.html", "index.php"):
+        return f"/{suffix}" if suffix else "/"
+    if path.endswith(".html") and "/" not in path:
+        return f"/{path[:-5]}/{suffix}"
+    if path.startswith("/"):
+        return url
+    return f"/{path}{suffix}"
+
+
+def rewrite_links(html):
+    def repl(match):
+        attr, quote, url = match.group(1), match.group(2), match.group(3)
+        return f"{attr}={quote}{clean_url(url)}{quote}"
+
+    return re.sub(r"\b(href|src)=(\"|')([^\"']*)\2", repl, html)
+
+
 def main():
     ROOT.mkdir(parents=True, exist_ok=True)
     for name, html in PAGES.items():
-        path = ROOT / name
+        html = rewrite_links(html)
+        if name == "index.html":
+            path = ROOT / "index.php"
+        else:
+            path = ROOT / Path(name).stem / "index.php"
+            path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(html, encoding="utf-8")
-        print(name, path.stat().st_size)
+        old = ROOT / name
+        if old.is_file():
+            old.unlink()
+        print(path.relative_to(ROOT), path.stat().st_size)
 
 
 if __name__ == "__main__":

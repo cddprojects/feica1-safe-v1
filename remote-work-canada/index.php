@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Remote work in Canada | Role Glide</title>
+<meta name="description" content="What remote work means in Canada, including location, province, hybrid arrangements and how employers hire for remote positions.">
+<meta name="theme-color" content="#243552">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap nav">
+<a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="8"/><g transform="rotate(38 50 50)"><path d="M50 18 64 50H36z" fill="currentColor"/><path d="M50 82 64 50H36z" fill="currentColor" opacity=".38"/></g><circle cx="50" cy="50" r="5" fill="#faf5ea"/></svg>Role<em>Glide</em></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu"><span class="bars" aria-hidden="true"></span></button>
+<ul id="nav-list"><li><a href="/">Home</a></li><li><a href="/reading/">Guides</a></li><li><a href="/work-types/" aria-current="page">Work types</a></li><li><a href="/services/">Additional work</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul>
+</div></header>
+<main id="main">
+
+<div class="page-head jobhero jh1"><div class="wrap jh-grid">
+<div><span class="eyebrow">Location</span><h1>Remote work in Canada</h1><p class="lede">Remote work is performed away from the employer’s usual workplace. Some positions require residence in a specific province or availability in a stated Canadian time zone.</p></div>
+<aside class="qf"><h2>At a glance</h2><dl>
+<dt>Location</dt><dd>Away from the employer’s usual workplace. Hybrid jobs include some days on-site.</dd>
+<dt>Hours</dt><dd>Often full-time. Statistics Canada counts part-time as under 30 hours a week.</dd>
+<dt>Applying</dt><dd>Applications are submitted through a job board or the employer’s website after confirming hours and work location.</dd>
+<dt>Where to look</dt><dd>Canadian job boards and the employer’s careers page.</dd>
+</dl><p class="rv">Last reviewed October 2026.</p></aside>
+</div></div>
+<section><div class="wrap article">
+<h2>What remote work means</h2>
+<p>Canadian job boards may mark a posting as on-site, hybrid or remote. Hybrid combines work at a stated workplace with remote days. Remote means the worker is not normally required to report to the employer’s workplace. A keyword search for “work from home” can also return on-site positions that mention a home.</p>
+<p>Indeed’s employer guidance reserves “Canada” or “nationwide” for work that can be performed anywhere in the country. Some remote jobs still require residence in a particular province or availability in a Canadian time zone. Location requirements should be confirmed before applying.</p>
+<h2>How employers hire for remote positions</h2>
+<p>Most employers post the job, review applications and arrange interviews, much like any other hire. A written offer normally sets out the pay, hours, employer and permitted work location. For a second job, stated hours must fit alongside existing employment or other commitments.</p>
+<p>Current openings are listed on Canadian job boards and employers’ careers pages.</p>
+<h2>Details to confirm in an offer</h2>
+<ul>
+<li>Permitted provinces or territories and any relocation conditions</li>
+<li>Required on-site days in a hybrid arrangement</li>
+<li>Employer name and whether pay is hourly, salaried or per project</li>
+<li>Time zone for meetings and required availability</li>
+<li>Responsibility for computer equipment and software</li>
+</ul>
+<p>The guides on <a href="/article-pay-and-province/">pay for additional work</a> and <a href="/article-read-a-remote-ad/">remote job postings</a> cover province, employer, pay and hours in more detail.</p>
+<h2>Sources</h2>
+<ul class="sources">
+<li><a href="https://www.jobbank.gc.ca/findajob" rel="noopener">Job Bank: find a job</a></li>
+<li><a href="https://ca.indeed.com/" rel="noopener">Indeed Canada</a></li>
+</ul>
+</div></section>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="8"/><g transform="rotate(38 50 50)"><path d="M50 18 64 50H36z" fill="currentColor"/><path d="M50 82 64 50H36z" fill="currentColor" opacity=".38"/></g><circle cx="50" cy="50" r="5" fill="#faf5ea"/></svg>Role<em>Glide</em></a>
+<p style="margin-top:1rem;max-width:36ch">Canadian guides to remote, online and flexible work.</p></div>
+<div><h4>Guides</h4><ul>
+<li><a href="/reading/">Browse all guides</a></li>
+<li><a href="/work-types/">Work types</a></li>
+<li><a href="/glossary/">Glossary</a></li>
+<li><a href="/faq/">FAQ</a></li>
+</ul></div>
+<div><h4>Publisher</h4><ul>
+<li><a href="/about/">About</a></li>
+<li><a href="/services/">Additional work</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/privacy/">Privacy</a></li>
+<li><a href="/disclaimer/">Disclaimer</a></li>
+</ul></div>
+</div>
+<div class="legal"><p>Role Glide is an independent information service and does not list jobs. Official sources set legal, tax, immigration and employment rules.</p>
+<p>&copy; 2026 Role Glide &middot; Canada &middot; <a href="mailto:hello@roleglide.com">hello@roleglide.com</a></p></div>
+<p class="wordmark" aria-hidden="true">Role Glide</p>
+</div></footer>
+<script src="/js/main.js"></script>
+</body>
+</html>

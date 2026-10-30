@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Remote, online and flexible work in Canada | Role Glide</title>
+<meta name="description" content="Canadian guides to remote, online, part-time, flexible and independent contract work, including job search and pay information.">
+<meta name="theme-color" content="#243552">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap nav">
+<a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="8"/><g transform="rotate(38 50 50)"><path d="M50 18 64 50H36z" fill="currentColor"/><path d="M50 82 64 50H36z" fill="currentColor" opacity=".38"/></g><circle cx="50" cy="50" r="5" fill="#faf5ea"/></svg>Role<em>Glide</em></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu"><span class="bars" aria-hidden="true"></span></button>
+<ul id="nav-list"><li><a href="/" aria-current="page">Home</a></li><li><a href="/reading/">Guides</a></li><li><a href="/work-types/">Work types</a></li><li><a href="/services/">Additional work</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul>
+</div></header>
+<main id="main">
+
+<section class="hero"><div class="wrap hero-grid">
+<div>
+<span class="eyebrow">Guides to flexible work in Canada</span>
+<h1>Remote, online and flexible work in <em>Canada.</em></h1>
+<p class="lede">Information on how work arrangements differ and how job postings describe hours, pay and employment status.</p>
+<ul class="hero-points">
+<li><b>Work location.</b> Remote, online and hybrid describe different arrangements.</li>
+<li><b>Job search.</b> Canadian job boards provide filters for occupation, work location and hours.</li>
+<li><b>Posting details.</b> A posting should identify the employer, location, pay, hours and employment status.</li>
+<li><b>Pay and status.</b> Employment and independent contract work handle deductions, expenses and tax differently.</li>
+</ul>
+<div class="btn-row"><a class="btn btn-primary" href="/reading/">Browse the guides</a><a class="btn btn-ghost" href="#contact">Ask a question</a></div>
+</div>
+<div class="hero-art">
+<svg class="art" viewBox="-14 -34 524 600" role="img" aria-label="Illustration of a laptop showing a job posting checklist for employer, work location, pay and hours"><defs><clipPath id="arch"><path d="M0 516V240a240 240 0 0 1 480 0v276a44 44 0 0 1-44 44H44a44 44 0 0 1-44-44z"/></clipPath><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d3e6ec"/><stop offset="1" stop-color="#f7dccb"/></linearGradient></defs><g clip-path="url(#arch)"><rect width="480" height="560" fill="url(#sky)"/><circle cx="380" cy="110" r="64" fill="#f7d77b" opacity=".85"/><circle cx="90" cy="96" r="26" fill="#fff" opacity=".55"/><rect x="0" y="392" width="480" height="168" fill="#23402f"/><rect x="0" y="392" width="480" height="10" fill="#183024"/><rect x="94" y="164" width="292" height="222" rx="20" fill="#1f2a24"/><rect x="106" y="176" width="268" height="198" rx="10" fill="#faf5ea"/><text x="124" y="206" font-family="Figtree,sans-serif" font-size="15" font-weight="700" fill="#23402f">Job posting checklist</text><rect x="124" y="220" width="64" height="22" rx="11" fill="#d3e6ec"/><text x="156" y="235" text-anchor="middle" font-family="Figtree,sans-serif" font-size="11.5" font-weight="700" fill="#1f2a24">Remote</text><rect x="196" y="220" width="78" height="22" rx="11" fill="#f7d77b"/><text x="235" y="235" text-anchor="middle" font-family="Figtree,sans-serif" font-size="11.5" font-weight="700" fill="#1f2a24">Part-time</text><rect x="282" y="220" width="64" height="22" rx="11" fill="#dfe9d3"/><text x="314" y="235" text-anchor="middle" font-family="Figtree,sans-serif" font-size="11.5" font-weight="700" fill="#1f2a24">Hourly</text><circle cx="132" cy="272" r="11" fill="#c4442f"/><path d="M126 272l4.5 4.5 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="154" y="277" font-family="Figtree,sans-serif" font-size="15" font-weight="600" fill="#1f2a24">Employer</text><rect x="276" y="268" width="78" height="8" rx="4" fill="#e8dfcc"/><circle cx="132" cy="306" r="11" fill="#c4442f"/><path d="M126 306l4.5 4.5 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="154" y="311" font-family="Figtree,sans-serif" font-size="15" font-weight="600" fill="#1f2a24">Location</text><rect x="276" y="302" width="78" height="8" rx="4" fill="#e8dfcc"/><circle cx="132" cy="340" r="11" fill="#c4442f"/><path d="M126 340l4.5 4.5 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="154" y="345" font-family="Figtree,sans-serif" font-size="15" font-weight="600" fill="#1f2a24">Pay & hours</text><rect x="276" y="336" width="78" height="8" rx="4" fill="#e8dfcc"/><path d="M50 386H430l-14 18a10 10 0 0 1-8 4H72a10 10 0 0 1-8-4z" fill="#d9dfd2"/><rect x="196" y="390" width="88" height="6" rx="3" fill="#b8c2b3"/><g><rect x="424" y="352" width="40" height="42" rx="9" fill="#f7d77b"/><path d="M464 362h6a9 9 0 0 1 0 20h-6" fill="none" stroke="#f7d77b" stroke-width="6"/><path d="M434 344c0-8 8-8 8-16M446 344c0-8 8-8 8-16" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".7"/></g><g><path d="M14 394h40l-5 -42H19z" fill="#c4442f"/><path d="M34 352C22 330 14 322 10 306c14 2 24 12 24 46zM34 352c2-26 10-40 26-48 2 20-8 38-26 48zM34 352c-2-18-1-30 8-46 10 12 6 30-8 46z" fill="#7fa58f"/></g><path d="M0 500Q120 480 240 496T480 488V560H0z" fill="#183024"/></g><path d="M-6 560V240a246 246 0 0 1 492 0v320" fill="none" stroke="#c4442f" stroke-width="3" transform="translate(16 -14)" opacity=".85"/></svg>
+<div class="modes">
+<h2 class="sr">Three types of flexible work</h2>
+<a class="mode" href="/remote-work-canada/"><span class="dot"></span><span><b>Remote work</b><small>Work completed away from the employer’s usual workplace.</small></span><span class="tag">Where</span></a>
+<a class="mode" href="/online-work-canada/"><span class="dot"></span><span><b>Online work</b><small>Work completed or delivered over the internet.</small></span><span class="tag">How</span></a>
+<a class="mode" href="/flexible-work-canada/"><span class="dot"></span><span><b>Part-time &amp; flexible</b><small>Hours or workloads arranged around other commitments.</small></span><span class="tag">When</span></a>
+</div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Work arrangements</span><h2>Understand remote, online and flexible work.</h2><p class="lede">Work location, online delivery and working hours are separate conditions. One position may combine more than one arrangement.</p></div>
+<div class="minis">
+<a class="mini reveal" href="/remote-work-canada/"><b>Remote &amp; hybrid</b><span>Work completed away from the employer’s workplace, with or without scheduled on-site days.</span></a>
+<a class="mini reveal" href="/online-work-canada/"><b>Online work</b><span>Jobs completed or delivered over the internet.</span></a>
+<a class="mini reveal" href="/flexible-work-canada/"><b>Part-time &amp; flexible</b><span>Part-time and flexible hours alongside other commitments.</span></a>
+<a class="mini reveal" href="/article-second-path/"><b>Freelance &amp; additional work</b><span>Project-based and additional work, including variable income.</span></a>
+</div>
+<div class="reason-panel">
+<div class="head reveal"><span class="eyebrow">Reasons for additional work</span><h2>What leads Canadians to hold more than one job.</h2><p class="lede">Income, experience and scheduling needs shape which work arrangements may be suitable.</p></div>
+<ol class="shifts">
+<li class="reveal"><span class="no">34.9%</span><h3>Everyday needs</h3><p>Rent, groceries and other everyday costs.</p></li>
+<li class="reveal"><span class="no">34.8%</span><h3>Extra income</h3><p>Almost the same share cited income beyond everyday essentials.</p></li>
+<li class="reveal"><span class="no">14.5%</span><h3>Meaningful work</h3><p>Another share cited work in a field they were passionate about.</p></li>
+</ol>
+<p class="src-note">Source: Statistics Canada survey of multiple jobholders aged 15 to 69, August 2023.</p>
+</div>
+</div></section>
+
+<section class="route" id="recruitment"><div class="wrap">
+<div class="route-head reveal"><span class="eyebrow">Searching for work</span><h2>Finding suitable remote and online opportunities.</h2>
+<p class="lede">A clear search starts with a job title, then narrows results by work location and hours. Each posting should state the employer, pay and whether the role is employment or independent contract work.</p></div>
+<ol class="stops">
+<li class="stop reveal"><span class="n">1</span><h3>Reason for searching</h3><p>Extra income, experience, fewer hours or less travel.</p></li>
+<li class="stop reveal"><span class="n">2</span><h3>Available hours</h3><p>The number of hours that can fit around current commitments.</p></li>
+<li class="stop reveal"><span class="n">3</span><h3>Work location</h3><p>Fully remote work and hybrid work lead to different results.</p></li>
+<li class="stop reveal"><span class="n">4</span><h3>Occupation</h3><p>Canadian job boards can filter an occupation by work location and hours.</p></li>
+<li class="stop reveal"><span class="n">5</span><h3>Posting details</h3><p>The employer, pay, province and employment or contract status.</p></li>
+</ol>
+<p class="route-cta reveal"><a class="btn btn-primary" href="/article-where-to-look/">How to search for remote work</a></p>
+</div></section>
+
+<section class="alt" id="market"><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Canadian job market</span><h2>Remote and flexible work in Canada’s job market.</h2><p class="lede">Remote openings form a small share of the market. Suitable opportunities depend on occupation, province, experience, available hours and the terms of the posting.</p></div>
+<div class="answer-grid three">
+<article class="answer-card reveal"><span class="answer-kicker">Roles and employers</span><h3>Occupation and arrangement are separate details</h3><p>Customer support, administration, software, writing, design and specialist services may be delivered online, depending on the employer and the work involved.</p></article>
+<article class="answer-card reveal"><span class="answer-kicker">Timing and sources</span><h3>Postings change throughout the search</h3><p>Saved alerts identify new matches. Employer career pages confirm current vacancies, while federal and provincial labour-market data provides regional context.</p></article>
+<article class="answer-card reveal"><span class="answer-kicker">Requirements and competition</span><h3>Role requirements still apply</h3><p>Qualifications, location, communication, tools and time-zone availability still matter. Response times vary with each employer’s process.</p></article>
+</div>
+<p class="src-note">In October 2026, remote positions represented a small share of postings on Canada’s federal job board. Counts change as employers add and close postings.</p>
+<div class="btn-row"><a class="btn btn-primary" href="/article-what-vacancies-mean/">Canadian job-market guide</a></div>
+</div></section>
+
+<section><div class="wrap">
+<div class="head reveal"><span class="eyebrow">Guides and articles</span><h2>Job-search, application and pay guides.</h2><p class="lede">Detailed Canadian information on work arrangements, job postings, applications and employment terms.</p></div>
+<div class="posts">
+<article class="post reveal"><div class="meta"><span class="cat">Second jobs</span><span>7 min</span></div><h3><a href="/article-second-path/">Why people take a second job</a></h3><p>Additional work may support household costs, build experience in a preferred field or fit around study, caregiving and other commitments, depending on hours and pay… <a class="read-more" href="/article-second-path/">Read more</a></p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Where to look</span><span>6 min</span></div><h3><a href="/article-where-to-look/">How to search for remote work</a></h3><p>Remote searches work best when a job title, location, work arrangement and available hours are used together instead of relying on broad work-from-home keywords alone… <a class="read-more" href="/article-where-to-look/">Read more</a></p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Work types</span><span>6 min</span></div><h3><a href="/article-three-arrangements/">How remote, online and flexible work differ</a></h3><p>Remote describes location, online describes how work is delivered, and flexible describes hours or workload. These distinctions help narrow suitable postings before applying for work… <a class="read-more" href="/article-three-arrangements/">Read more</a></p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Before you apply</span><span>7 min</span></div><h3><a href="/article-read-a-remote-ad/">How to read a remote job posting</a></h3><p>A clear remote posting identifies the employer, permitted work location, hours, pay and employment status, helping applicants assess the position before applying or sharing information… <a class="read-more" href="/article-read-a-remote-ad/">Read more</a></p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Application</span><span>5 min</span></div><h3><a href="/article-remote-cv/">Résumés for online and remote work</a></h3><p>Remote employers often assess relevant results, written communication, digital tools and the ability to work with limited on-site supervision. A focused résumé surfaces these details… <a class="read-more" href="/article-remote-cv/">Read more</a></p></article>
+<article class="post reveal"><div class="meta"><span class="cat">Pay</span><span>7 min</span></div><h3><a href="/article-pay-and-province/">What a second paycheque changes</a></h3><p>A second paycheque can change payroll deductions and tax withholding. Minimum wage, employment status and the employer’s province also affect how pay is handled overall… <a class="read-more" href="/article-pay-and-province/">Read more</a></p></article>
+</div>
+</div></section>
+
+<section class="alt" id="contact"><div class="wrap split">
+<div><span class="eyebrow">Get in touch</span><h2>Questions about remote and flexible work.</h2><p class="lede">Send a question or share feedback with Role Glide.</p>
+</div>
+<div>
+<form id="contact-form" class="form" novalidate>
+<div class="field"><label for="name">Name</label><input id="name" required autocomplete="name"><div class="err" aria-live="polite"></div></div>
+<div class="field"><label for="email">Email</label><input id="email" type="email" required autocomplete="email"><div class="err" aria-live="polite"></div></div>
+<div class="field"><label for="province">Province or territory</label><select id="province"><option value="">Prefer not to say</option><option>Alberta</option><option>British Columbia</option><option>Manitoba</option><option>New Brunswick</option><option>Newfoundland and Labrador</option><option>Northwest Territories</option><option>Nova Scotia</option><option>Nunavut</option><option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option><option>Saskatchewan</option><option>Yukon</option><option>Outside Canada</option></select></div>
+<div class="field"><label for="topic">Topic</label><select id="topic"><option>Work arrangements</option><option>Job searches and postings</option><option>Reading a job posting</option><option>Applications and résumés</option><option>Pay, deductions and employment status</option><option>Freelance or contract work</option><option>Guide feedback or source correction</option><option>Other question about the guides</option></select></div>
+<div class="field"><label for="msg">Question</label><textarea id="msg" required></textarea><div class="err" aria-live="polite"></div></div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+<div id="form-ok" class="ok" hidden tabindex="-1" role="status"><h3>Your email message is ready.</h3><p>Review it in your email app before sending.</p><p class="ok-sub">If the app did not open, email hello@roleglide.com.</p></div>
+</div>
+</div></section>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="/"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="8"/><g transform="rotate(38 50 50)"><path d="M50 18 64 50H36z" fill="currentColor"/><path d="M50 82 64 50H36z" fill="currentColor" opacity=".38"/></g><circle cx="50" cy="50" r="5" fill="#faf5ea"/></svg>Role<em>Glide</em></a>
+<p style="margin-top:1rem;max-width:36ch">Canadian guides to remote, online and flexible work.</p></div>
+<div><h4>Guides</h4><ul>
+<li><a href="/reading/">Browse all guides</a></li>
+<li><a href="/work-types/">Work types</a></li>
+<li><a href="/glossary/">Glossary</a></li>
+<li><a href="/faq/">FAQ</a></li>
+</ul></div>
+<div><h4>Publisher</h4><ul>
+<li><a href="/about/">About</a></li>
+<li><a href="/services/">Additional work</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/privacy/">Privacy</a></li>
+<li><a href="/disclaimer/">Disclaimer</a></li>
+</ul></div>
+</div>
+<div class="legal"><p>Role Glide is an independent information service and does not list jobs. Official sources set legal, tax, immigration and employment rules.</p>
+<p>&copy; 2026 Role Glide &middot; Canada &middot; <a href="mailto:hello@roleglide.com">hello@roleglide.com</a></p></div>
+<p class="wordmark" aria-hidden="true">Role Glide</p>
+</div></footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
